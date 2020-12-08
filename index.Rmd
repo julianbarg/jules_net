@@ -2,4 +2,7 @@
 title: "Jules website"
 site: distill::distill_website
 listing: posts
+output:
+  distill::distill_article:
+    self_contained: false
 ---
