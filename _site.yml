@@ -1,0 +1,14 @@
+name: "jules_net"
+title: "Jules website"
+description: |
+  Jule's website
+output_dir: "docs"
+navbar:
+  logo:
+    image: images/earth_fire.png
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Cover letter"
+      href: about.html
+output: distill::distill_article

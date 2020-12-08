@@ -1,0 +1,11 @@
+---
+title: "Julian Barg"
+description: |
+  He is a person!
+---
+
+Logo: earth fire by emilegraphics from the Noun Project
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

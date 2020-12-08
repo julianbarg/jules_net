@@ -1,0 +1,20 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Julian Barg",
+      "description": "He is a person!",
+      "author": [],
+      "contents": "\nLogo: earth fire by emilegraphics from the Noun Project\n\n\n\n",
+      "last_modified": "2020-12-08T11:25:04-05:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Jules website",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2020-12-08T11:25:04-05:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
