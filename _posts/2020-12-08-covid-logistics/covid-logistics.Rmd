@@ -1,0 +1,21 @@
+---
+title: Vaccine logistics
+author:
+  - name: Julian Barg 
+    url: https://jbarg.net
+    affiliation: Ivey Business School
+    affiliation_url: https://www.ivey.uwo.ca/phd/students/julian-barg/
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    self_contained: false
+draft: true
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic.](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/) Shipping a few vials is fine, shipping literally millions is gonna be quite the challenge.
+

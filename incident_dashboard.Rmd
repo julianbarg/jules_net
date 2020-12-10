@@ -1,0 +1,21 @@
+---
+title: "Pipeline incidents dashboard"
+description: |
+  Overview over pipeline spills in the US 2000-2019
+author:
+  - name: Julian Barg 
+    url: https://jbarg.net
+    affiliation: Ivey Business School
+    affiliation_url: https://www.ivey.uwo.ca/phd/students/julian-barg/  
+date: "`r Sys.Date()`"
+output: distill::distill_article
+# runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+test
+
+<iframe height="800" width="100%" frameborder="no" src="https://julianbarg.shinyapps.io/incident_dashboard/"> </iframe>
