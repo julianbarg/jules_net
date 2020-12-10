@@ -1,5 +1,7 @@
 ---
 title: Vaccine logistics
+description: Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/). Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.
+
 author:
   - name: Julian Barg 
     url: https://jbarg.net
@@ -9,7 +11,7 @@ date: "`r Sys.Date()`"
 output:
   distill::distill_article:
     self_contained: false
-draft: true
+draft: false
 ---
 
 
@@ -17,5 +19,5 @@ draft: true
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic.](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/) Shipping a few vials is fine, shipping literally millions is gonna be quite the challenge.
+Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic.](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/) Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.
 

@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2020-12-08-covid-logistics/",
+    "title": "Vaccine logistics",
+    "description": "Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/). Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2020-12-10",
+    "categories": [],
+    "contents": "\nWhy do countries need logistics partners to distribute the new vaccines? Bloomberg has a pretty cool infographic. Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-12-10T11:06:52-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/welcome/",
     "title": "Welcome to Jules website",
     "description": "Welcome to my website.",
