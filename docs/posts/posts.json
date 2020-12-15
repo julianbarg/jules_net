@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2020-12-15-using-new-software/",
+    "title": "Using new software",
+    "description": "The last couple of days I have started experimenting with distill, and began integrating it into my workflow--this blog is a result of that effort. The problem with using new software is that a lot of the features I desire are not there yet. In this case, I got a little bit too impatient maybe and went on github to report issues, and make feature requests. Since resources are limited, a lot of my reports have not been picked up yet, but one was. Being an early adapter is always a challenge, and reporting issues is part of that. On the one hand, I don't want to ask too much from open source developers. On the other hand, feedback from early adapters is what open source developers need in order to know in what direction to go. So it's some neat feedback for me to see that one of my reported issues became part of the (milestone 1.2 for R distill)[https://github.com/rstudio/distill/milestone/2]. I hope as a user I am contributing by reporting issues, and not just being a pain for the developers.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2020-12-15",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-12-15T11:01:18-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-12-14-fierce-resistance-cannot-prevent-pipeline-project/",
     "title": "Fierce resistance cannot prevent pipeline project",
     "description": "[Interesting report in the Boston Globe about the construction of a compressor station](https://www.bostonglobe.com/2020/12/12/metro/was-it-ever-fair-fight/). Massachusetts governor Charlie Baker was determined to approve the project, it seems. This story raises the question of what factors determine whether a pipeline project is approved. Since their 1999 policy revision, [FERC has approved 400 applications for pipeline projects, and has rejected only 2](https://www.analysisgroup.com/uploadedfiles/content/insights/publishing/ag_ferc_natural_gas_pipeline_certification.pdf). There are public input opportunities built into the certification process, but in practice these only serve to \"inform\" the public of a decision that has already been made.",
