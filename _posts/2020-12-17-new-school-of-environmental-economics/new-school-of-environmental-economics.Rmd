@@ -1,0 +1,24 @@
+---
+title: "A new school of environmental economics?"
+description: |
+  Not entirely by chance did I come across this interesting discourse in economics about gas emissions. @Shapiro2018a have disaggregated CO, NO<sub>2</sub>, PM10, PM2.5, SO<sub>2</sub>, NO<sub>x</sub>, VOCs, and CO<sub2></sub> emission in the US from 1990-2008 by industry, location, facility, and product. They find that during that time period, emission reductions are driven not by technological change or trade, but by more stringent regulations. The cost of complying with these regulations in 2008 amounted to an implicit pollution tax equal to ~1.1% of total production cost--double the value in the year 1990.
+author:
+  - name: Julian Barg 
+    url: https://jbarg.net
+    affiliation: Ivey Business School
+    affiliation_url: https://www.ivey.uwo.ca/phd/students/julian-barg/
+date: 12-17-2020
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Not entirely by chance did I come across this interesting discourse in economics about gas emissions. @Shapiro2018a have disaggregated CO, NO<sub>2</sub>, PM10, PM2.5, SO<sub>2</sub>, NO<sub>x</sub>, VOCs, and CO<sub2></sub> emission in the US from 1990-2008 by industry, location, facility, and product. They find that during that time period, emission reductions are driven not by technological change or trade, but by more stringent regulations. The cost of complying with these regulations in 2008 amounted to an implicit pollution tax equal to ~1.1% of total production cost--double the value in the year 1990.
+
+Other works in this discourse include @Keiser2019, @Isen2017, @Deschenes2017, @Shapiro2016a, and @Fabra2014. (1) @Keiser2019 finds that cost of clean water legislation amounts to ~0.8% of GDP per year, but that these legislations have effectively improved water quality in the US. They also criticize the lack of research on water pollution in the economics literature. (2) @Isen2017 determine through a quasi-experiment (regression discontinuity) that lower levels of air pollution in the early childhood improve labor market performance in adults. (3) @Deschenes2017 uses an instrumental variable design. Some counties have no power plants which emit NO<sub>X</sub>--and hence exhibit no NO<sub>X</sub> pollution in summer. They find that reducing NO<sub>X</sub> emissions by one million tons per year will save about \$0.5 billion in medication expenditures, and prevent 3,100 premature summertime deaths (which economists value at $2.1 billion...). (4) @Fabra2014 finds that power companies fully pass through the cost associated cap-and-trade programs to consumers via electricity prices in the absense of proper market design. All of these works are impressive and change the way we think about pollution. @Shapiro2018a represents the most extensive work in this discourse, definitely a path-breaking paper.
