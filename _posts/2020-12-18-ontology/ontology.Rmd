@@ -1,0 +1,19 @@
+---
+title: "Ontology"
+description: |
+  If you are like me, or everybody I know, you mix up ontology and epistemology on a regular basis. Well, legendary Aussie psychadelic rock band King Gizzard and the Lizzard Wizzard decided to chima in and write a song about [Ontology](https://youtu.be/D5q5OEho8II). So you can listen to that and still not understand what ontology is about, isn't that great?
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 12-18-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
