@@ -16,6 +16,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-test
-
-<iframe height="800" width="100%" frameborder="no" src="https://julianbarg.shinyapps.io/incident_dashboard/"> </iframe>
+```{r dashboard, layout="l-screen-inset shaded"}
+knitr::include_app("https://julianbarg.shinyapps.io/incident_dashboard/", 
+                   height = "800px")
+```
