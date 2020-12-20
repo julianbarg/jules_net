@@ -1,0 +1,17 @@
+---
+title: "Responsible research Vision 2030 position paper"
+description: |
+  For anybody who has not come across the [Vision 2030 position paper by Anne Tsui, Jerry Davis, etc.](https://rrbm.network/wp-content/uploads/2020/04/Position-Paper_revised_8April2020.pdf) yet, read it! In brief, they advocate for reproducible research on relevant issues, in service of society.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: "`r Sys.Date()`"
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

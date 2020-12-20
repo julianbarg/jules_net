@@ -17,6 +17,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/2020-12-20-responsible-research-vision-2030-position-paper/",
+    "title": "Responsible research Vision 2030 position paper",
+    "description": "For anybody who has not come across the [Vision 2030 position paper by Anne Tsui, Jerry Davis, etc.](https://rrbm.network/wp-content/uploads/2020/04/Position-Paper_revised_8April2020.pdf) yet, read it! In brief, they advocate for reproducible research on relevant issues, in service of society.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2020-12-20",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-12-20T17:55:18-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-12-19-recycling/",
     "title": "Recycling",
     "description": "If you haven't seen this [video](https://youtu.be/PJnJ8mK3Q3g) on the issues with recycling, you should probably watch it right now. In a similar vain, [this article](https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled) by NPR on the topic. In short, the plastics industry created an identifier logo for different plastics that looks very similar to the public domain recycling logo, and then lobbied for legislation to make that logo mandatory on all public products. The result: the public beliefs that our plastics are recycled, when really only 10% of them are (at least in the US).",
