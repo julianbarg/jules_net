@@ -1,0 +1,20 @@
+---
+title: "Evidence-based surgery?"
+description: |
+  An [interesting talk by Ian Harris of the University of Sydney](https://youtu.be/jF3d059QBkM) that explains why the scientific method does not always drive whether we receive surgery or not. An interesting example of an area I would have expected to be completely evidence based that is sometimes much more grounded in tradition.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 12-20-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+

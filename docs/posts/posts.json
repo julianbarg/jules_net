@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2020-12-20-evidence-based-surgery/",
+    "title": "Evidence-based surgery?",
+    "description": "An [interesting talk by Ian Harris of the University of Sydney](https://youtu.be/jF3d059QBkM) that explains why the scientific method does not always drive whether we receive surgery or not. An interesting example of an area I would have expected to be completely evidence based that is sometimes much more grounded in tradition.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2020-12-20",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-12-20T17:35:49-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-12-19-recycling/",
     "title": "Recycling",
     "description": "If you haven't seen this [video](https://youtu.be/PJnJ8mK3Q3g) on the issues with recycling, you should probably watch it right now. In a similar vain, [this article](https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled) by NPR on the topic. In short, the plastics industry created an identifier logo for different plastics that looks very similar to the public domain recycling logo, and then lobbied for legislation to make that logo mandatory on all public products. The result: the public beliefs that our plastics are recycled, when really only 10% of them are (at least in the US).",
