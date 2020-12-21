@@ -6,7 +6,7 @@
       "description": "He is a person!",
       "author": [],
       "contents": "\nLogo: earth fire by emilegraphics from the Noun Project\n\n\n\n",
-      "last_modified": "2020-12-20T17:55:26-05:00"
+      "last_modified": "2020-12-21T09:01:03-05:00"
     },
     {
       "path": "incident_dashboard.html",
@@ -20,20 +20,48 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2020-12-20T17:55:26-05:00"
+      "last_modified": "2020-12-21T09:01:04-05:00"
     },
     {
       "path": "index.html",
       "title": "Jules website",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2020-12-20T17:55:27-05:00"
+      "last_modified": "2020-12-21T09:01:04-05:00"
+    },
+    {
+      "path": "organic_vineyards.html",
+      "title": "Organic and biodynamic vineyards in California",
+      "description": "Location, attributes, and density.\n",
+      "author": [
+        {
+          "name": "Julian Barg",
+          "url": "https://jbarg.net"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\n\n\n\n\n\n\n\n",
+      "last_modified": "2020-12-21T09:01:04-05:00"
+    },
+    {
+      "path": "pipelines_dashboard.html",
+      "title": "Pipelines dashboard",
+      "description": "Visualize pipeline operator attributes and safety performance.\n",
+      "author": [
+        {
+          "name": "Julian Barg",
+          "url": "https://jbarg.net"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\n\n\n\n\n\n\n\n",
+      "last_modified": "2020-12-21T09:01:05-05:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\njules_net\n\n\n",
-      "last_modified": "2020-12-20T17:55:27-05:00"
+      "last_modified": "2020-12-21T09:01:05-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
