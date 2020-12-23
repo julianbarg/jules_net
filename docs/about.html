@@ -447,6 +447,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     top: 0;
   }
   
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+  
   </style>
   
   <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -562,7 +568,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
           },
           templates: {
             suggestion: function(suggestion) {
-              var img = Object.keys(suggestion.preview).length > 0
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
                 ? `<img src="${offsetURL(suggestion.preview)}"</img>`
                 : '';
               var html = `

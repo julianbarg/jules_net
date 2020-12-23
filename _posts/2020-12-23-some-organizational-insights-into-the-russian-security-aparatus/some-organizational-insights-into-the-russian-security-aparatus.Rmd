@@ -1,0 +1,17 @@
+---
+title: "Some organizational insights into the Russian security aparatus"
+description: |
+  With everything happening in the US, it's easy for what happens in the rest of the world to get burried. So I am glad that I did not skip over [this video by Alexei Navalny where he calls the FSB agents that just a few weeks ago attempted to murder him--and one of them actually answers](https://youtu.be/ibqiet6Bg38). Some interesting insights into how Russian security is organized.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 12-23-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
