@@ -3,10 +3,10 @@
     {
       "path": "about.html",
       "title": "Julian Barg",
-      "description": "Julian Barg studies use of natural resources, in particulat environmental emissions of and environmental pollution by organizations. He loves finding understudied quantitative data but will use whatever methods are the best to get an answer to the research question. Prior to joining Ivey Business School for a PhD in Sustainability, he moved from Germany to China to obtain a Master in Management Science at Peking University HSBC Business School. Living in different parts of the world and learning Chinese had a large impact on Julian that he does not often talk about. In his spare time, Julian does rock climbing and listens to a lot of music, ranging from classical music to experimental music, rock, metal, and every crossover between those.",
+      "description": "Julian Barg studies use of natural resources, in particulat environmental emissions of and environmental pollution by organizations. He loves finding understudied quantitative data but will use whatever methods are the best to get an answer to the research question. His idea of fun includes R, Python, Linux, shiny dashboards, NLP, neural networks, Jupyter Notebooks, web scraping, and the tidyverse. Prior to joining Ivey Business School for a PhD in Sustainability, he moved from Germany to China to obtain a Master in Management Science at Peking University HSBC Business School. Living in different parts of the world and learning Chinese had a large impact on Julian that he does not often talk about. In his spare time, Julian does rock climbing and listens to a lot of music, ranging from classical music to experimental music, rock, metal, and every crossover between those.",
       "author": [],
       "contents": "\nLogo: earth fire by emilegraphics from the Noun Project\n\n\n\n",
-      "last_modified": "2020-12-25T10:59:40-05:00"
+      "last_modified": "2020-12-25T11:04:00-05:00"
     },
     {
       "path": "incident_dashboard.html",
@@ -61,7 +61,7 @@
       "path": "README.html",
       "author": [],
       "contents": "\njules_net\n\n\n",
-      "last_modified": "2020-12-25T10:59:42-05:00"
+      "last_modified": "2020-12-25T11:04:00-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
