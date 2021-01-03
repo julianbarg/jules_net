@@ -560,7 +560,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
             var results = fuse.search(query, searchOptions);
             callback(results
               .map(function(result) { return result.item; })
-              .filter(function(item) { return !!item.description; })
             );
           },
           templates: {
@@ -572,7 +571,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
                 <div class="search-item">
                   <h3>${suggestion.title}</h3>
                   <div class="search-item-description">
-                    ${suggestion.description}
+                    ${suggestion.description || ''}
                   </div>
                   <div class="search-item-preview">
                     ${img}
@@ -677,6 +676,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
   
   .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
     margin-block-start: 0;
     margin-block-end: 5px;
   }
@@ -904,6 +904,11 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     text-decoration: underline;
   }
   
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+  
   @media(min-width: 768px) {
   
   d-article pre,
@@ -1058,6 +1063,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   
   div.hanging-indent{
     margin-left: 1em; text-indent: -1em;
+  }
+  
+  /* Citation hover box */
+  
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+  
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
   }
   
   
@@ -1725,7 +1741,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       var layout = $(this).attr('data-layout');
   
       // apply layout to markdown level block elements
-      var elements = $(this).children().not('div.sourceCode, pre, script');
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
       elements.each(function(i, el) {
         var layout_div = $('<div class="' + layout + '"></div>');
         if (layout_div.hasClass('shaded')) {
@@ -1840,6 +1856,20 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
       // move appendix-bottom entries to the bottom
       $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
       $('.appendix-bottom').remove();
+  
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
   
       // clear polling timer
       clearInterval(tid);
@@ -2000,6 +2030,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
   
   <!--/radix_placeholder_distill-->
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
   <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
   <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
@@ -2200,7 +2234,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Who are climate change deniers?</h2>
 <div class="dt-tags"></div>
-<p>[Interesting video by CNBC on climate change deniers](https://youtu.be/f1rxv1yPQrc). On the one hand, the video highlights some of the money flows to climate change denying think tanks. On the other hand Jerry Taylor of the Niskanen Center says in the video: "[...] everyone that I knew back when I was a climate skeptic were honestly persuaded that climate change was a wildly overblown concern that is being used by the left to destroy Western capitalism. This [...] explains more of the right's hostility to climate action than a naked story of enjoying checks being cut by the American Petroleum Institute" ([time stamp: 5:54](https://youtu.be/f1rxv1yPQrc?t=354)). For context, Jerry Taylor started his career about three decades ago at the American Legislative Exchange Council (ALEC), which today has gained infamy for [shopping around anti-protest legislation](https://www.propublica.org/article/how-louisiana-lawmakers-stop-residents-efforts-to-fight-big-oil-and-gas), [with great success](https://www.icnl.org/usprotestlawtracker/)! Jerry Taylor spent 23 years at the Koch-funded Cato Institute before joining the other side of the aisle and founding the Niskanen Center to lobby for a market-based solution of climate change.</p>
+<p><p><a href="https://youtu.be/f1rxv1yPQrc">Interesting video by CNBC on climate change deniers</a>. On the one hand, the video highlights some of the money flows to climate change denying think tanks. On the other hand Jerry Taylor of the Niskanen Center says in the video: &ldquo;[&hellip;] everyone that I knew back when I was a climate skeptic were honestly persuaded that climate change was a wildly overblown concern that is being used by the left to destroy Western capitalism. This [&hellip;] explains more of the right&#39;s hostility to climate action than a naked story of enjoying checks being cut by the American Petroleum Institute&rdquo; (<a href="https://youtu.be/f1rxv1yPQrc?t=354">time stamp: 5:54</a>). For context, Jerry Taylor started his career about three decades ago at the American Legislative Exchange Council (ALEC), which today has gained infamy for <a href="https://www.propublica.org/article/how-louisiana-lawmakers-stop-residents-efforts-to-fight-big-oil-and-gas">shopping around anti-protest legislation</a>, <a href="https://www.icnl.org/usprotestlawtracker/">with great success</a>! Jerry Taylor spent 23 years at the Koch-funded Cato Institute before joining the other side of the aisle and founding the Niskanen Center to lobby for a market-based solution of climate change.</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-23-some-organizational-insights-into-the-russian-security-aparatus/" class="post-preview">
@@ -2217,7 +2252,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Some organizational insights into the Russian security aparatus</h2>
 <div class="dt-tags"></div>
-<p>With everything happening in the US, it's easy for what happens in the rest of the world to get burried. So I am glad that I did not skip over [this video by Alexei Navalny where he calls the FSB agents that just a few weeks ago attempted to murder him--and one of them actually answers](https://youtu.be/ibqiet6Bg38). Some interesting insights into how Russian security is organized.</p>
+<p><p>With everything happening in the US, it&#39;s easy for what happens in the rest of the world to get burried. So I am glad that I did not skip over <a href="https://youtu.be/ibqiet6Bg38">this video by Alexei Navalny where he calls the FSB agents that just a few weeks ago attempted to murder him&ndash;and one of them actually answers</a>. Some interesting insights into how Russian security is organized.</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-20-evidence-based-surgery/" class="post-preview">
@@ -2234,7 +2270,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Evidence-based surgery?</h2>
 <div class="dt-tags"></div>
-<p>An [interesting talk by Ian Harris of the University of Sydney](https://youtu.be/jF3d059QBkM) that explains why the scientific method does not always drive whether we receive surgery or not. An interesting example of an area I would have expected to be completely evidence based that is sometimes much more grounded in tradition.</p>
+<p><p>An <a href="https://youtu.be/jF3d059QBkM">interesting talk by Ian Harris of the University of Sydney</a> that explains why the scientific method does not always drive whether we receive surgery or not. An interesting example of an area I would have expected to be completely evidence based that is sometimes much more grounded in tradition.</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-20-responsible-research-vision-2030-position-paper/" class="post-preview">
@@ -2251,7 +2288,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Responsible research Vision 2030 position paper</h2>
 <div class="dt-tags"></div>
-<p>For anybody who has not come across the [Vision 2030 position paper by Anne Tsui, Jerry Davis, etc.](https://rrbm.network/wp-content/uploads/2020/04/Position-Paper_revised_8April2020.pdf) yet, read it! In brief, they advocate for reproducible research on relevant issues, in service of society.</p>
+<p><p>For anybody who has not come across the <a href="https://rrbm.network/wp-content/uploads/2020/04/Position-Paper_revised_8April2020.pdf">Vision 2030 position paper by Anne Tsui, Jerry Davis, etc.</a> yet, read it! In brief, they advocate for reproducible research on relevant issues, in service of society.</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-19-recycling/" class="post-preview">
@@ -2268,7 +2306,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Recycling</h2>
 <div class="dt-tags"></div>
-<p>If you haven't seen this [video](https://youtu.be/PJnJ8mK3Q3g) on the issues with recycling, you should probably watch it right now. In a similar vain, [this article](https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled) by NPR on the topic. In short, the plastics industry created an identifier logo for different plastics that looks very similar to the public domain recycling logo, and then lobbied for legislation to make that logo mandatory on all public products. The result: the public beliefs that our plastics are recycled, when really only 10% of them are (at least in the US).</p>
+<p><p>If you haven&#39;t seen this <a href="https://youtu.be/PJnJ8mK3Q3g">video</a> on the issues with recycling, you should probably watch it right now. In a similar vain, <a href="https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled">this article</a> by NPR on the topic. In short, the plastics industry created an identifier logo for different plastics that looks very similar to the public domain recycling logo, and then lobbied for legislation to make that logo mandatory on all public products. The result: the public beliefs that our plastics are recycled, when really only 10% of them are (at least in the US).</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-18-global-warming-experiment/" class="post-preview">
@@ -2285,7 +2324,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Global warming experiment</h2>
 <div class="dt-tags"></div>
-<p>I was looking around for practical experiments that demonstrate global warming, and found [this wonderful short experiment by NASA](https://web.archive.org/web/20161118141122/https://glory.gsfc.nasa.gov/globalwarmingexperiment.html).</p>
+<p><p>I was looking around for practical experiments that demonstrate global warming, and found <a href="https://web.archive.org/web/20161118141122/https://glory.gsfc.nasa.gov/globalwarmingexperiment.html">this wonderful short experiment by NASA</a>.</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-18-ontology/" class="post-preview">
@@ -2302,7 +2342,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Ontology</h2>
 <div class="dt-tags"></div>
-<p>If you are like me, or everybody I know, you mix up ontology and epistemology on a regular basis. Well, legendary Aussie psychadelic rock band King Gizzard and the Lizzard Wizzard decided to chima in and write a song about [Ontology](https://youtu.be/D5q5OEho8II). So you can listen to that and still not understand what ontology is about, isn't that great?</p>
+<p><p>If you are like me, or everybody I know, you mix up ontology and epistemology on a regular basis. Well, legendary Aussie psychadelic rock band King Gizzard and the Lizzard Wizzard decided to chima in and write a song about <a href="https://youtu.be/D5q5OEho8II">Ontology</a>. So you can listen to that and still not understand what ontology is about, isn&#39;t that great?</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-17-new-school-of-environmental-economics/" class="post-preview">
@@ -2319,7 +2360,8 @@ function init_posts_list() {
 <div class="description">
 <h2>A new school of environmental economics?</h2>
 <div class="dt-tags"></div>
-<p>Not entirely by chance did I come across this interesting discourse in economics about gas emissions. @Shapiro2018a have disaggregated CO, NO&lt;sub&gt;2&lt;/sub&gt;, PM10, PM2.5, SO&lt;sub&gt;2&lt;/sub&gt;, NO&lt;sub&gt;x&lt;/sub&gt;, VOCs, and CO&lt;sub2&gt;&lt;/sub&gt; emission in the US from 1990-2008 by industry, location, facility, and product. They find that during that time period, emission reductions are driven not by technological change or trade, but by more stringent regulations. The cost of complying with these regulations in 2008 amounted to an implicit pollution tax equal to ~1.1% of total production cost--double the value in the year 1990. (cont.)</p>
+<p><p>Not entirely by chance did I come across this interesting discourse in economics about gas emissions. @Shapiro2018a have disaggregated CO, NO<sub>2</sub>, PM10, PM2.5, SO<sub>2</sub>, NO<sub>x</sub>, VOCs, and CO<sub2></sub> emission in the US from 1990-2008 by industry, location, facility, and product. They find that during that time period, emission reductions are driven not by technological change or trade, but by more stringent regulations. The cost of complying with these regulations in 2008 amounted to an implicit pollution tax equal to ~1.1% of total production cost&ndash;double the value in the year 1990. (cont.)</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-15-using-new-software/" class="post-preview">
@@ -2336,7 +2378,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Using new software</h2>
 <div class="dt-tags"></div>
-<p>The last couple of days I have started experimenting with distill, and began integrating it into my workflow--this blog is a result of that effort. The problem with using new software is that a lot of the features I desire are not there yet. In this case, I got a little bit too impatient maybe and went on github to report issues, and make feature requests. Since resources are limited, a lot of my reports have not been picked up yet, but one was. Being an early adapter is always a challenge, and reporting issues is part of that. On the one hand, I don't want to ask too much from open source developers. On the other hand, feedback from early adapters is what open source developers need in order to know in what direction to go. So it's some neat feedback for me to see that one of my reported issues became part of the (milestone 1.2 for R distill)[https://github.com/rstudio/distill/milestone/2]. I hope as a user I am contributing by reporting issues, and not just being a pain for the developers.</p>
+<p><p>The last couple of days I have started experimenting with distill, and began integrating it into my workflow&ndash;this blog is a result of that effort. The problem with using new software is that a lot of the features I desire are not there yet. In this case, I got a little bit too impatient maybe and went on github to report issues, and make feature requests. Since resources are limited, a lot of my reports have not been picked up yet, but one was. Being an early adapter is always a challenge, and reporting issues is part of that. On the one hand, I don&#39;t want to ask too much from open source developers. On the other hand, feedback from early adapters is what open source developers need in order to know in what direction to go. So it&#39;s some neat feedback for me to see that one of my reported issues became part of the (milestone 1.2 for R distill)[<a href="https://github.com/rstudio/distill/milestone/2">https://github.com/rstudio/distill/milestone/2</a>]. I hope as a user I am contributing by reporting issues, and not just being a pain for the developers.</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-14-fierce-resistance-cannot-prevent-pipeline-project/" class="post-preview">
@@ -2353,7 +2396,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Fierce resistance cannot prevent pipeline project</h2>
 <div class="dt-tags"></div>
-<p>[Interesting report in the Boston Globe about the construction of a compressor station](https://www.bostonglobe.com/2020/12/12/metro/was-it-ever-fair-fight/). Massachusetts governor Charlie Baker was determined to approve the project, it seems. This story raises the question of what factors determine whether a pipeline project is approved. Since their 1999 policy revision, [FERC has approved 400 applications for pipeline projects, and has rejected only 2](https://www.analysisgroup.com/uploadedfiles/content/insights/publishing/ag_ferc_natural_gas_pipeline_certification.pdf). There are public input opportunities built into the certification process, but in practice these only serve to "inform" the public of a decision that has already been made.</p>
+<p><p><a href="https://www.bostonglobe.com/2020/12/12/metro/was-it-ever-fair-fight/">Interesting report in the Boston Globe about the construction of a compressor station</a>. Massachusetts governor Charlie Baker was determined to approve the project, it seems. This story raises the question of what factors determine whether a pipeline project is approved. Since their 1999 policy revision, <a href="https://www.analysisgroup.com/uploadedfiles/content/insights/publishing/ag_ferc_natural_gas_pipeline_certification.pdf">FERC has approved 400 applications for pipeline projects, and has rejected only 2</a>. There are public input opportunities built into the certification process, but in practice these only serve to &ldquo;inform&rdquo; the public of a decision that has already been made.</p>
+</p>
 </div>
 </a>
 <a href="posts/2020-12-08-covid-logistics/" class="post-preview">
@@ -2370,7 +2414,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Vaccine logistics</h2>
 <div class="dt-tags"></div>
-<p>Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/). Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.</p>
+<p><p>Why do countries need logistics partners to distribute the new vaccines? <a href="https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/">Bloomberg has a pretty cool infographic</a>. Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.</p>
+</p>
 </div>
 </a>
 <a href="posts/welcome/" class="post-preview">
@@ -2387,7 +2432,8 @@ function init_posts_list() {
 <div class="description">
 <h2>Welcome to Jules website</h2>
 <div class="dt-tags"></div>
-<p>Welcome to my website.</p>
+<p><p>Welcome to my website.</p>
+</p>
 </div>
 </a>
 </div>
