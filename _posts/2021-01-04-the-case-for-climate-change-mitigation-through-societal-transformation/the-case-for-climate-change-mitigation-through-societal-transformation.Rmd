@@ -1,0 +1,23 @@
+---
+title: "The case for climate change mitigation through societal transformation"
+description: |
+  [The Heinrich Böll foundation makes the case for tackling climate change by our society adopting a different lifestyle, e.g., by relying less on cars, eating less meat, and traveling by train rather than plane.](https://konzeptwerk-neue-oekonomie.org/wp-content/uploads/2020/12/A%20Societal%20Transformation%20Scenario.pdf) I believe that quality of life is determined more by how we spend our time and whether we create meaningful memories, rather than a high GDP, big cars, and big houses, so this report certainly strikes a nerve with me. The most important point though is certainly that we should not assume or hope that technological change will in the future make our current lifestyle more sustainable. I do not see the value in trying to preserve everything *as-is*.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-04-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Distill is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Distill at <https://rstudio.github.io/distill>.
+
+
