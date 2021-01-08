@@ -17,6 +17,8 @@ navbar:
           href: pipelines_dashboard.html
         - text: Organic vineyards
           href: organic_vineyards.html
+    - text: "Wiki"
+      href: http://www.wiki.jbarg.net
     - text: "Cover letter"
       href: about.html
 output: distill::distill_article
