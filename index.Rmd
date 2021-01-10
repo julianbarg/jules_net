@@ -1,5 +1,6 @@
 ---
-title: "Jules website"
+title: |
+  Julian Barg's blog. Stuff I came across recently.
 site: distill::distill_website
 listing: posts
 output:

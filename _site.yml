@@ -1,7 +1,7 @@
 name: "jules_net"
-title: "Jules website"
+title: "Julian Barg"
 description: |
-  Jule's website
+  Julian Barg's website. See what I am up to. Also, exposition of my past work.
 output_dir: "docs"
 navbar:
   logo:
