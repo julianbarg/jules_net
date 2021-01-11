@@ -1,0 +1,19 @@
+---
+title: "Solar 'cheapest electricity in history'"
+description: |
+  Quick announcement by the IEA--[solar energy is now the cheapest energy in history](https://www.weforum.org/agenda/2020/10/solar-cheap-energy-coal-gas-renewables-climate-change-environment-sustainability). The announcement certainly marks a significant turn for the IEA. But it will probably not come as a surprise to those of you who have watched solar power mature. I think the trajectory was there for a number of years. I remember the resistance against renewable energy veiling itself in a dress of economics, but in retrospect it seems incredible how little forward looking that resistance was, even in economic terms.
+  
+  
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-10-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
