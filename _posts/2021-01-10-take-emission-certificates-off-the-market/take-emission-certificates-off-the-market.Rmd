@@ -1,0 +1,18 @@
+---
+title: "Take emission certificates off the market"
+description: |
+  Today I was thinking to myself 'emission certificates on the EU ETS seem pretty cheap, we could just buy those in heaps to force the prices to go up'. So I did a little bit of digging around and found [the great _Compensators*_ project](https://www.compensators.org/en/compensate-2/) by the even more amazing _Potsdam Institute for Climate Impact Research_ (PIK). Their website makes it pretty easy to buy emission certificates, either by unit or by price, any fraction possible. At currently 41.52€, still a steal. Although I still remember prices being in the 20s. Well, prices going up is a good thing in this case I suppose.
+  
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-10-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

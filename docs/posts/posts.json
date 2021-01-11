@@ -17,6 +17,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-01-10-take-emission-certificates-off-the-market/",
+    "title": "Take emission certificates off the market",
+    "description": "Today I was thinking to myself 'emission certificates on the EU ETS seem pretty cheap, we could just buy those in heaps to force the prices to go up'. So I did a little bit of digging around and found [the great _Compensators*_ project](https://www.compensators.org/en/compensate-2/) by the even more amazing _Potsdam Institute for Climate Impact Research_ (PIK). Their website makes it pretty easy to buy emission certificates, either by unit or by price, any fraction possible. At currently 41.52€, still a steal. Although I still remember prices being in the 20s. Well, prices going up is a good thing in this case I suppose.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2021-01-10",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-01-10T20:49:16-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-01-04-the-case-for-climate-change-mitigation-through-societal-transformation/",
     "title": "The case for climate change mitigation through societal transformation",
     "description": "[The Heinrich Böll foundation makes the case for tackling climate change by our society adopting a different lifestyle, e.g., by relying less on cars, eating less meat, and traveling by train rather than plane.](https://konzeptwerk-neue-oekonomie.org/wp-content/uploads/2020/12/A%20Societal%20Transformation%20Scenario.pdf) I believe that quality of life is determined more by how we spend our time and whether we create meaningful memories, rather than a high GDP, big cars, and big houses, so this report certainly strikes a nerve with me. The most important point though is certainly that we should not assume or hope that technological change will in the future make our current lifestyle more sustainable. I do not see the value in trying to preserve everything *as-is*.",
