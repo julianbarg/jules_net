@@ -1,0 +1,18 @@
+---
+title: "The tragedy of renewable energy"
+description: |
+  Renewable energy is as close to "infinite energy" as we will ever get. Why aren't we building a utopia already?
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-16-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I was just reading some older works on ecology and something interesting occurred to me. At the time, running out of resources was one of the most pressing concerns "[T]he dramatic rise in the cost of energy, which contributes to inflation and is diverting huge amounts of capital away from other sectors of the economy, is due to the ineluctable fact that petroleum is being depleted"  (@Catton1980: 29--of course, some of those concerns still exist today with regard to fertilizers). Energy security is not a concern at all anymore today, thanks to the fact that solar energy is the cheapest source of energy in history [https://www.jbarg.net/posts/2021-01-10-solar-cheapest-electricity-in-history/](as I posted before here)--that has made energy a buyer's market! In terms of technology, we are pretty damn close to living in a utopia. So the fact that we are not widely applying that technology, but instead pushing back against it (at least in North America) is even more dramatic than I thought before.

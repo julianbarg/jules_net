@@ -34,6 +34,23 @@
     "input_file": {}
   },
   {
+    "path": "posts/2021-01-16-the-tragedy-of-renewable-energy/",
+    "title": "The tragedy of renewable energy",
+    "description": "Renewable energy is as close to \"infinite energy\" as we will ever get. Why aren't we building a utopia already?",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2021-01-16",
+    "categories": [],
+    "contents": "\nI was just reading some older works on ecology and something interesting occurred to me. At the time, running out of resources was one of the most pressing concerns “[T]he dramatic rise in the cost of energy, which contributes to inflation and is diverting huge amounts of capital away from other sectors of the economy, is due to the ineluctable fact that petroleum is being depleted” (@Catton1980: 29–of course, some of those concerns still exist today with regard to fertilizers). Energy security is not a concern at all anymore today, thanks to the fact that solar energy is the cheapest source of energy in history https://www.jbarg.net/posts/2021-01-10-solar-cheapest-electricity-in-history/–that has made energy a buyer’s market! In terms of technology, we are pretty damn close to living in a utopia. So the fact that we are not widely applying that technology, but instead pushing back against it (at least in North America) is even more dramatic than I thought before.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-01-16T11:20:25-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-01-10-solar-cheapest-electricity-in-history/",
     "title": "Solar 'cheapest electricity in history'",
     "description": "Quick announcement by the IEA--[solar energy is now the cheapest energy in history](https://www.weforum.org/agenda/2020/10/solar-cheap-energy-coal-gas-renewables-climate-change-environment-sustainability). The announcement certainly marks a significant turn for the IEA. But it will probably not come as a surprise to those of you who have watched solar power mature. I think the trajectory was there for a number of years. I remember the resistance against renewable energy veiling itself in a dress of economics, but in retrospect it seems incredible how little forward looking that resistance was, even in economic terms.",
