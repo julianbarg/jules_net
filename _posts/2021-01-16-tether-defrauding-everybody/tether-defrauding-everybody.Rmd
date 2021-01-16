@@ -1,0 +1,17 @@
+---
+title: "Tether defrauding everybody"
+description: |
+  [This is genius and I love it](https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3) (inasmuch much as you can love fraud). How to defraud crypto investors these days? Create a currency that you claim is pegged to the dollar (but never actually show you hold the assets). Then use it to buy as much cryptocurrency as you like. Step 3: profit!!! :)
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-16-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
