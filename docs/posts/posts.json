@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-01-16-how-is-brexit-going/",
+    "title": "How is Brexit going?",
+    "description": "[Very level-headed and comprehensive article of the Irish Raidió Teilifís Éireann on Brexit.](https://www.rte.ie/news/2021/0115/1190108-brexit-analysis-and-comment/) Refreshing after two weeks of \"Netherlands stole my sandwich\" type journalism.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2021-01-16",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-01-16T09:35:58-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-01-10-solar-cheapest-electricity-in-history/",
     "title": "Solar 'cheapest electricity in history'",
     "description": "Quick announcement by the IEA--[solar energy is now the cheapest energy in history](https://www.weforum.org/agenda/2020/10/solar-cheap-energy-coal-gas-renewables-climate-change-environment-sustainability). The announcement certainly marks a significant turn for the IEA. But it will probably not come as a surprise to those of you who have watched solar power mature. I think the trajectory was there for a number of years. I remember the resistance against renewable energy veiling itself in a dress of economics, but in retrospect it seems incredible how little forward looking that resistance was, even in economic terms.",

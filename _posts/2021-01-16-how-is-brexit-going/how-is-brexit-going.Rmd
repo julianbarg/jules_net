@@ -1,0 +1,19 @@
+---
+title: "How is Brexit going?"
+description: |
+  [Very level-headed and comprehensive article of the Irish Raidió Teilifís Éireann on Brexit.](https://www.rte.ie/news/2021/0115/1190108-brexit-analysis-and-comment/) Refreshing after two weeks of "Netherlands stole my sandwich" type journalism.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-16-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
