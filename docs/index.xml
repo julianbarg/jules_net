@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Julian Barg</title>
+    <link>https://www.jbarg.net/</link>
+    <atom:link href="https://www.jbarg.net/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Julian Barg's website. See what I am up to. Also, exposition of my past work.
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Tue, 19 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Keystone XL</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-19-keystone-xl</link>
+      <description>[So it looks like Biden is planning to scrap Keystone XL on day one](https://www.politico.com/news/2021/01/17/biden-yank-keystone-pipeline-permit-460142). One the one hand obviously great news. On the other hand, it shows again what the whole ordeal had already proven so far. Whether or not a pipeline is constructed is not a process that is decided by scientific considerations. It depends mostly on political will. A funny side note is that TC Energy tried to preempt that move by announcing on Sunday that the pipeline would achieve net-zero emissions "across operations". Well, the emissions of **operating** a pipeline is not what we are concerned about...</description>
+      <guid>https://www.jbarg.net/posts/2021-01-19-keystone-xl</guid>
+      <pubDate>Tue, 19 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flaws in legal theory</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-16-flaws-in-legal-theory</link>
+      <description>[The tether story](https://www.jbarg.net/posts/2021-01-16-tether-defrauding-everybody/) reminded me a bit of Trump's legal strategy. The goal is not to win, but to gain more time. In the meantime, Trump could collect donations to "challenge the vote" (pay off campaign debts), or he could implement policy that--even if later reverted--could have a long-lasting impact. I think this strategy poses an enormous challenge to legal theory: justice will not be done if bad faith actors game the court system. Maybe in the end they lose a legal fight--in the meantim they have already "created facts". How does this relate to my work? The natural environment is truly the most vulnerable actor in this game. Who cares whether you lose the legal fight on the building permit if you have already built the pipeline? The damage to the natural environment cannot be undone.</description>
+      <guid>https://www.jbarg.net/posts/2021-01-16-flaws-in-legal-theory</guid>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How is Brexit going?</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-16-how-is-brexit-going</link>
+      <description>[Very level-headed and comprehensive article of the Irish Raidió Teilifís Éireann on Brexit.](https://www.rte.ie/news/2021/0115/1190108-brexit-analysis-and-comment/) Refreshing after two weeks of "Netherlands stole my sandwich" type journalism.</description>
+      <guid>https://www.jbarg.net/posts/2021-01-16-how-is-brexit-going</guid>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tether defrauding everybody</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-16-tether-defrauding-everybody</link>
+      <description>[This is genius and I love it](https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3) (inasmuch much as you can love fraud). How to defraud crypto investors these days? Create a currency that you claim is pegged to the dollar (but never actually show you hold the assets). Then use it to buy as much cryptocurrency as you like. Step 3: profit!!! :)
+
+**Edit**: it is basically a ponzi scheme that would make Madoff proud.</description>
+      <guid>https://www.jbarg.net/posts/2021-01-16-tether-defrauding-everybody</guid>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The tragedy of renewable energy</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-16-the-tragedy-of-renewable-energy</link>
+      <description>Renewable energy is as close to "infinite energy" as we will ever get. Why aren't we building a utopia already?</description>
+      <guid>https://www.jbarg.net/posts/2021-01-16-the-tragedy-of-renewable-energy</guid>
+      <pubDate>Sat, 16 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solar 'cheapest electricity in history'</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-10-solar-cheapest-electricity-in-history</link>
+      <description>Quick announcement by the IEA--[solar energy is now the cheapest energy in history](https://www.weforum.org/agenda/2020/10/solar-cheap-energy-coal-gas-renewables-climate-change-environment-sustainability). The announcement certainly marks a significant turn for the IEA. But it will probably not come as a surprise to those of you who have watched solar power mature. I think the trajectory was there for a number of years. I remember the resistance against renewable energy veiling itself in a dress of economics, but in retrospect it seems incredible how little forward looking that resistance was, even in economic terms.</description>
+      <guid>https://www.jbarg.net/posts/2021-01-10-solar-cheapest-electricity-in-history</guid>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Take emission certificates off the market</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-10-take-emission-certificates-off-the-market</link>
+      <description>Today I was thinking to myself 'emission certificates on the EU ETS seem pretty cheap, we could just buy those in heaps to force the prices to go up'. So I did a little bit of digging around and found [the great _Compensators*_ project](https://www.compensators.org/en/compensate-2/) by the even more amazing _Potsdam Institute for Climate Impact Research_ (PIK). Their website makes it pretty easy to buy emission certificates, either by unit or by price, any fraction possible. At currently 41.52€, still a steal. Although I still remember prices being in the 20s. Well, prices going up is a good thing in this case I suppose.</description>
+      <guid>https://www.jbarg.net/posts/2021-01-10-take-emission-certificates-off-the-market</guid>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The case for climate change mitigation through societal transformation</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-01-04-the-case-for-climate-change-mitigation-through-societal-transformation</link>
+      <description>[The Heinrich Böll foundation makes the case for tackling climate change by our society adopting a different lifestyle, e.g., by relying less on cars, eating less meat, and traveling by train rather than plane.](https://konzeptwerk-neue-oekonomie.org/wp-content/uploads/2020/12/A%20Societal%20Transformation%20Scenario.pdf) I believe that quality of life is determined more by how we spend our time and whether we create meaningful memories, rather than a high GDP, big cars, and big houses, so this report certainly strikes a nerve with me. The most important point though is certainly that we should not assume or hope that technological change will in the future make our current lifestyle more sustainable. I do not see the value in trying to preserve everything *as-is*.</description>
+      <guid>https://www.jbarg.net/posts/2021-01-04-the-case-for-climate-change-mitigation-through-societal-transformation</guid>
+      <pubDate>Mon, 04 Jan 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who are climate change deniers?</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-27-who-are-climate-change-deniers</link>
+      <description>[Interesting video by CNBC on climate change deniers](https://youtu.be/f1rxv1yPQrc). On the one hand, the video highlights some of the money flows to climate change denying think tanks. On the other hand Jerry Taylor of the Niskanen Center says in the video: "[...] everyone that I knew back when I was a climate skeptic were honestly persuaded that climate change was a wildly overblown concern that is being used by the left to destroy Western capitalism. This [...] explains more of the right's hostility to climate action than a naked story of enjoying checks being cut by the American Petroleum Institute" ([time stamp: 5:54](https://youtu.be/f1rxv1yPQrc?t=354)). For context, Jerry Taylor started his career about three decades ago at the American Legislative Exchange Council (ALEC), which today has gained infamy for [shopping around anti-protest legislation](https://www.propublica.org/article/how-louisiana-lawmakers-stop-residents-efforts-to-fight-big-oil-and-gas), [with great success](https://www.icnl.org/usprotestlawtracker/)! Jerry Taylor spent 23 years at the Koch-funded Cato Institute before joining the other side of the aisle and founding the Niskanen Center to lobby for a market-based solution of climate change.</description>
+      <guid>https://www.jbarg.net/posts/2020-12-27-who-are-climate-change-deniers</guid>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some organizational insights into the Russian security aparatus</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-23-some-organizational-insights-into-the-russian-security-aparatus</link>
+      <description>With everything happening in the US, it's easy for what happens in the rest of the world to get burried. So I am glad that I did not skip over [this video by Alexei Navalny where he calls the FSB agents that just a few weeks ago attempted to murder him--and one of them actually answers](https://youtu.be/ibqiet6Bg38). Some interesting insights into how Russian security is organized.</description>
+      <guid>https://www.jbarg.net/posts/2020-12-23-some-organizational-insights-into-the-russian-security-aparatus</guid>
+      <pubDate>Wed, 23 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evidence-based surgery?</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-20-evidence-based-surgery</link>
+      <description>An [interesting talk by Ian Harris of the University of Sydney](https://youtu.be/jF3d059QBkM) that explains why the scientific method does not always drive whether we receive surgery or not. An interesting example of an area I would have expected to be completely evidence based that is sometimes much more grounded in tradition.</description>
+      <guid>https://www.jbarg.net/posts/2020-12-20-evidence-based-surgery</guid>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Responsible research Vision 2030 position paper</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-20-responsible-research-vision-2030-position-paper</link>
+      <description>For anybody who has not come across the [Vision 2030 position paper by Anne Tsui, Jerry Davis, etc.](https://rrbm.network/wp-content/uploads/2020/04/Position-Paper_revised_8April2020.pdf) yet, read it! In brief, they advocate for reproducible research on relevant issues, in service of society.</description>
+      <guid>https://www.jbarg.net/posts/2020-12-20-responsible-research-vision-2030-position-paper</guid>
+      <pubDate>Sun, 20 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recycling</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-19-recycling</link>
+      <description>If you haven't seen this [video](https://youtu.be/PJnJ8mK3Q3g) on the issues with recycling, you should probably watch it right now. In a similar vain, [this article](https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled) by NPR on the topic. In short, the plastics industry created an identifier logo for different plastics that looks very similar to the public domain recycling logo, and then lobbied for legislation to make that logo mandatory on all public products. The result: the public beliefs that our plastics are recycled, when really only 10% of them are (at least in the US).</description>
+      <guid>https://www.jbarg.net/posts/2020-12-19-recycling</guid>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Global warming experiment</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-18-global-warming-experiment</link>
+      <description>I was looking around for practical experiments that demonstrate global warming, and found [this wonderful short experiment by NASA](https://web.archive.org/web/20161118141122/https://glory.gsfc.nasa.gov/globalwarmingexperiment.html).</description>
+      <guid>https://www.jbarg.net/posts/2020-12-18-global-warming-experiment</guid>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ontology</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-18-ontology</link>
+      <description>If you are like me, or everybody I know, you mix up ontology and epistemology on a regular basis. Well, legendary Aussie psychadelic rock band King Gizzard and the Lizzard Wizzard decided to chima in and write a song about [Ontology](https://youtu.be/D5q5OEho8II). So you can listen to that and still not understand what ontology is about, isn't that great?</description>
+      <guid>https://www.jbarg.net/posts/2020-12-18-ontology</guid>
+      <pubDate>Fri, 18 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A new school of environmental economics?</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-17-new-school-of-environmental-economics</link>
+      <description>Not entirely by chance did I come across this interesting discourse in economics about gas emissions. @Shapiro2018a have disaggregated CO, NO&lt;sub&gt;2&lt;/sub&gt;, PM10, PM2.5, SO&lt;sub&gt;2&lt;/sub&gt;, NO&lt;sub&gt;x&lt;/sub&gt;, VOCs, and CO&lt;sub2&gt;&lt;/sub&gt; emission in the US from 1990-2008 by industry, location, facility, and product. They find that during that time period, emission reductions are driven not by technological change or trade, but by more stringent regulations. The cost of complying with these regulations in 2008 amounted to an implicit pollution tax equal to ~1.1% of total production cost--double the value in the year 1990. (cont.)</description>
+      <guid>https://www.jbarg.net/posts/2020-12-17-new-school-of-environmental-economics</guid>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using new software</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-15-using-new-software</link>
+      <description>The last couple of days I have started experimenting with distill, and began integrating it into my workflow--this blog is a result of that effort. The problem with using new software is that a lot of the features I desire are not there yet. In this case, I got a little bit too impatient maybe and went on github to report issues, and make feature requests. Since resources are limited, a lot of my reports have not been picked up yet, but one was. Being an early adapter is always a challenge, and reporting issues is part of that. On the one hand, I don't want to ask too much from open source developers. On the other hand, feedback from early adapters is what open source developers need in order to know in what direction to go. So it's some neat feedback for me to see that one of my reported issues became part of the (milestone 1.2 for R distill)[https://github.com/rstudio/distill/milestone/2]. I hope as a user I am contributing by reporting issues, and not just being a pain for the developers.</description>
+      <guid>https://www.jbarg.net/posts/2020-12-15-using-new-software</guid>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fierce resistance cannot prevent pipeline project</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-14-fierce-resistance-cannot-prevent-pipeline-project</link>
+      <description>[Interesting report in the Boston Globe about the construction of a compressor station](https://www.bostonglobe.com/2020/12/12/metro/was-it-ever-fair-fight/). Massachusetts governor Charlie Baker was determined to approve the project, it seems. This story raises the question of what factors determine whether a pipeline project is approved. Since their 1999 policy revision, [FERC has approved 400 applications for pipeline projects, and has rejected only 2](https://www.analysisgroup.com/uploadedfiles/content/insights/publishing/ag_ferc_natural_gas_pipeline_certification.pdf). There are public input opportunities built into the certification process, but in practice these only serve to "inform" the public of a decision that has already been made.</description>
+      <guid>https://www.jbarg.net/posts/2020-12-14-fierce-resistance-cannot-prevent-pipeline-project</guid>
+      <pubDate>Mon, 14 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vaccine logistics</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2020-12-08-covid-logistics</link>
+      <description>Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/). Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.</description>
+      <guid>https://www.jbarg.net/posts/2020-12-08-covid-logistics</guid>
+      <pubDate>Thu, 10 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Jules website</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/welcome</link>
+      <description>Welcome to my website.</description>
+      <guid>https://www.jbarg.net/posts/welcome</guid>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

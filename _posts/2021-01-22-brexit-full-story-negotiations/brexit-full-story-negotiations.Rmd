@@ -1,0 +1,19 @@
+---
+title: "Brexit full story negotiations"
+description: |
+  A short description of the post.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-22-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+https://www.ft.com/content/cc6b0d9a-d8cc-4ddb-8c57-726df018c10e   
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+

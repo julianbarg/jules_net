@@ -1,5 +1,7 @@
 name: "jules_net"
 title: "Julian Barg"
+base_url: https://www.jbarg.net/
+google_analytics: "UA-188080844-1"
 description: |
   Julian Barg's website. See what I am up to. Also, exposition of my past work.
 output_dir: "docs"
