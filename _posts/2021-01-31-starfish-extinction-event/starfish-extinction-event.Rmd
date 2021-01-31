@@ -1,0 +1,17 @@
+---
+title: "Starfish extinction event"
+description: |
+  Not exactly on top of the news, but still important: [There was/is a starfish mass extinction event going on since 2013, with starfishes seemingly "dissolving".](https://www.nytimes.com/2018/06/18/science/sea-stars-genes.html) Now [researchers](https://www.frontiersin.org/articles/10.3389/fmicb.2020.610009) have found a likely explanation: [microbial activity under conditions of overfertilization](https://www.spektrum.de/news/bakterien-und-ueberduengung-lassen-seesterne-zu-schleim-werden/1822031). It wouldn't be the first case of fertilizer runoff causing terrifying events. [I hope everybody remembers the toxic algea bloom off the coast of Florida.](https://www.tampabay.com/news/environment/2020/06/08/why-floridas-toxic-algae-crisis-is-worse-than-people-realize/)
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 01-31-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
