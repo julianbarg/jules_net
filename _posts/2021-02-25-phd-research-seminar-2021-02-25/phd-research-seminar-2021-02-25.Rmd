@@ -1,0 +1,21 @@
+---
+title: "PhD Research Seminar 2021-02-25"
+description: |
+  
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 02-25-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<!-- Last year, at the PhD Research Seminar I presented on learning in the pipeline industry.  -->
+One of the most common follow-up questions I receive on my work on pipelines is "who learns and why?". I did a review of the broader sustainability literature, including on the pipeline industry. Through this review process I developed some insights into why a corporation would or would not engage in sustainable development. The literature provides two divergent responses: (a) agentic organizations engage in sustainable development because they see the benefit in sustainable development. (b) Our economic system by and large is not sustainable, and individual (organizational) divergence is not significant--in other words, a negation of sustainable development. The aggregated pipeline data draws an alternative picture of existing, but not encompassing clean-up of an industry. Knowledge has been created on preventing pipeline spills, but it is either incomplete or not shared across all actors. Depending on one's inclination, this observation could be seen as aligning with either side (a) or (b) on the sustainable development debate.
+<!-- The approach I take could be applied to other specific environmental threats from specific industries to move from a debate on sustainable development based on higher-level concepts to a debate on specific -->
