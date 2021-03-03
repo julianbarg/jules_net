@@ -1,0 +1,24 @@
+---
+title: "PhD Seminar Presentation 2021-03-02"
+description: |
+  **Learning to be sustainable (?)**
+author:
+  - name: Julian Barg 
+    url: https://jbarg.net
+    affiliation: Ivey Business School
+    affiliation_url: https://www.ivey.uwo.ca/phd/students/julian-barg/  
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r dashboard, layout="l-screen-inset shaded"}
+knitr::include_url(
+  "https://julianbarg.github.io/presentations_public/2021/phd_seminar_2021-03-02.pdf", 
+  height = "800px")
+```
+
+How does learning relate to sustainability? One could argue that if an organization continually learns and improves processes and products, we (humanity) could expect it to eventually become sustainable. Or one could think of environmental pollution as a systemic problem and view individual (organizational) action as necessarily insufficient or even misleading. Quantitative data from the shows that the pipeline industry on aggregate reduces the number and volume of spill over time. This reduction is not equivalent to an elimination of concerning environmental pollution. The literature provides two diverging positions on this finding: (a) organizations engage in environmental management because they see the benefits of sustainable development. If enough companies were to jump on the bandwagon, their cumulative efforts could mitigate the environmental impacts of oil pipelines (or other industries). Alternatively, based on trajectories, (b) system-wide emissions are and will in the foreseeable future remain at a level that threatens vital ecosystems and resources such as essential aquifers. Without more encompassing change at a meta-organizational level, we cannot reduce our environmental emission and pollution to a level that ensures their conversation. The aggregated pipeline data offers a picture of significant aggregate improvements without an entire negation of potentially disastrous environmental impacts such as the Kalamazoo River oil spill. Any pipeline crossing an essential ecosystem or river can not be assumed to be safe. Depending on one's inclination, this observation could be seen as aligning with either side (a) that organizational action can make a significant difference or (b) that a change of the overall system needs to be initiated. More importantly, the analysis has implications for specific ecosystems and pipelines, and suggests a mode of research that should be applied to other industries and ecosystems.
