@@ -14,15 +14,15 @@ navbar:
     - text: "Dashboards"
       menu:
         - text: Pipeline spills
-          href: dashboards/incident_dashboard.html
+          href: incident_dashboard.html
         - text: Pipeline operators
-          href: dashboards/pipelines_dashboard.html
+          href: pipelines_dashboard.html
         - text: Organic vineyards
-          href: dashboards/organic_vineyards.html
+          href: organic_vineyards.html
     - text: "Presentations"
       menu:
         - text: PhD Seminar 2021
-          href: presentations/phd_seminar_2021.html
+          href: phd_seminar_2021.html
     - text: "Wiki"
       href: http://wiki.jbarg.net
     - text: "Cover letter"

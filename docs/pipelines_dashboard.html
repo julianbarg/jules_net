@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
   <meta name="generator" content="distill" />
-  <link rel="alternate" type="application/rss+xml" href="https://www.jbarg.net/index.xml" />
 
   <style type="text/css">
   /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
@@ -87,27 +86,33 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Julian Barg: Julian Barg's blog. Stuff I came across recently.
-  </title>
+  <title>Julian Barg: Pipelines dashboard</title>
+  
+  <meta property="description" itemprop="description" content="Visualize pipeline operator attributes and safety performance."/>
   
   
-  
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2021-03-03"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-03-03"/>
+  <meta name="article:author" content="Julian Barg"/>
   
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Julian Barg: Julian Barg&#39;s blog. Stuff I came across recently.&#10;"/>
+  <meta property="og:title" content="Julian Barg: Pipelines dashboard"/>
   <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Visualize pipeline operator attributes and safety performance."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Julian Barg"/>
   
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Julian Barg: Julian Barg&#39;s blog. Stuff I came across recently.&#10;"/>
+  <meta property="twitter:title" content="Julian Barg: Pipelines dashboard"/>
+  <meta property="twitter:description" content="Visualize pipeline operator attributes and safety performance."/>
   
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","listing","output"]}},"value":[{"type":"character","attributes":{},"value":["Julian Barg's blog. Stuff I came across recently.\n"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["posts"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Pipelines dashboard"]},{"type":"character","attributes":{},"value":["Visualize pipeline operator attributes and safety performance.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Julian Barg"]},{"type":"character","attributes":{},"value":["https://jbarg.net"]}]}]},{"type":"character","attributes":{},"value":["2021-03-03"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2053,12 +2058,12 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 </head>
 
-<body class="layout-listing">
+<body>
 
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Julian Barg's blog. Stuff I came across recently.\n","authors":[]}
+{"title":"Pipelines dashboard","description":"Visualize pipeline operator attributes and safety performance.","authors":[{"author":"Julian Barg","authorURL":"https://jbarg.net","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-03-03T00:00:00.000-05:00","citationText":"Barg, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2105,534 +2110,25 @@ Presentations
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
-<!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).load(function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
-
-<div class="posts-container posts-apply-limit l-page">
-<div class="posts-list">
-<h1 class="posts-list-caption" data-caption="Julian Barg&#39;s blog. Stuff I came across recently.&#10;">Julian Barg's blog. Stuff I came across recently.
-</h1>
-<a href="posts/2021-01-31-starfish-extinction-event/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 31, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Starfish extinction event</h2>
-<div class="dt-tags"></div>
-<p>Not exactly on top of the news, but still important: [There was/is a starfish mass extinction event going on since 2013, with starfishes seemingly "dissolving".](https://www.nytimes.com/2018/06/18/science/sea-stars-genes.html) Now [researchers](https://www.frontiersin.org/articles/10.3389/fmicb.2020.610009) have found a likely explanation: [microbial activity under conditions of overfertilization](https://www.spektrum.de/news/bakterien-und-ueberduengung-lassen-seesterne-zu-schleim-werden/1822031). It wouldn't be the first case of fertilizer runoff causing terrifying events. [I hope everybody remembers the toxic algea bloom off the coast of Florida.](https://www.tampabay.com/news/environment/2020/06/08/why-floridas-toxic-algae-crisis-is-worse-than-people-realize/)</p>
-</div>
-</a>
-<a href="posts/2021-01-22-brexit-full-story-negotiations/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 22, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Brexit negotiations--the full story</h2>
-<div class="dt-tags"></div>
-<p>[The FT has written a big tell-all about the Brexit negotiations.](https://www.ft.com/content/cc6b0d9a-d8cc-4ddb-8c57-726df018c10e) It's getting quite clear that Boris Johnson has traded everything--EVERYTHING!--he had on the table for sovereignty. Sovereignty as the highest priority. Higher than anything else. "The process just wasn’t driven by thinking about what the UK really wanted from a deal, but to justify the claims to sovereignty. It was quite astonishing" says one government official. (cont.)</p>
-</div>
-</a>
-<a href="posts/2021-01-19-keystone-xl/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 19, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Keystone XL</h2>
-<div class="dt-tags"></div>
-<p>[So it looks like Biden is planning to scrap Keystone XL on day one](https://www.politico.com/news/2021/01/17/biden-yank-keystone-pipeline-permit-460142). One the one hand obviously great news. On the other hand, it shows again what the whole ordeal had already proven so far. Whether or not a pipeline is constructed is not a process that is decided by scientific considerations. It depends mostly on political will. A funny side note is that TC Energy tried to preempt that move by announcing on Sunday that the pipeline would achieve net-zero emissions "across operations". Well, the emissions of **operating** a pipeline is not what we are concerned about...</p>
-</div>
-</a>
-<a href="posts/2021-01-16-flaws-in-legal-theory/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 16, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Flaws in legal theory</h2>
-<div class="dt-tags"></div>
-<p>[The tether story](https://www.jbarg.net/posts/2021-01-16-tether-defrauding-everybody/) reminded me a bit of Trump's legal strategy. The goal is not to win, but to gain more time. In the meantime, Trump could collect donations to "challenge the vote" (pay off campaign debts), or he could implement policy that--even if later reverted--could have a long-lasting impact. I think this strategy poses an enormous challenge to legal theory: justice will not be done if bad faith actors game the court system. Maybe in the end they lose a legal fight--in the meantim they have already "created facts". How does this relate to my work? The natural environment is truly the most vulnerable actor in this game. Who cares whether you lose the legal fight on the building permit if you have already built the pipeline? The damage to the natural environment cannot be undone.</p>
-</div>
-</a>
-<a href="posts/2021-01-16-how-is-brexit-going/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 16, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>How is Brexit going?</h2>
-<div class="dt-tags"></div>
-<p>[Very level-headed and comprehensive article of the Irish Raidió Teilifís Éireann on Brexit.](https://www.rte.ie/news/2021/0115/1190108-brexit-analysis-and-comment/) Refreshing after two weeks of "Netherlands stole my sandwich" type journalism.</p>
-</div>
-</a>
-<a href="posts/2021-01-16-tether-defrauding-everybody/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 16, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Tether defrauding everybody</h2>
-<div class="dt-tags"></div>
-<p>[This is genius and I love it](https://crypto-anonymous-2021.medium.com/the-bit-short-inside-cryptos-doomsday-machine-f8dcf78a64d3) (inasmuch much as you can love fraud). How to defraud crypto investors these days? Create a currency that you claim is pegged to the dollar (but never actually show you hold the assets). Then use it to buy as much cryptocurrency as you like. Step 3: profit!!! :)
-
-**Edit**: it is basically a ponzi scheme that would make Madoff proud.</p>
-</div>
-</a>
-<a href="posts/2021-01-16-the-tragedy-of-renewable-energy/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 16, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>The tragedy of renewable energy</h2>
-<div class="dt-tags"></div>
-<p>Renewable energy is as close to "infinite energy" as we will ever get. Why aren't we building a utopia already?</p>
-</div>
-</a>
-<a href="posts/2021-01-10-solar-cheapest-electricity-in-history/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 10, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Solar 'cheapest electricity in history'</h2>
-<div class="dt-tags"></div>
-<p>Quick announcement by the IEA--[solar energy is now the cheapest energy in history](https://www.weforum.org/agenda/2020/10/solar-cheap-energy-coal-gas-renewables-climate-change-environment-sustainability). The announcement certainly marks a significant turn for the IEA. But it will probably not come as a surprise to those of you who have watched solar power mature. I think the trajectory was there for a number of years. I remember the resistance against renewable energy veiling itself in a dress of economics, but in retrospect it seems incredible how little forward looking that resistance was, even in economic terms.</p>
-</div>
-</a>
-<a href="posts/2021-01-10-take-emission-certificates-off-the-market/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 10, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Take emission certificates off the market</h2>
-<div class="dt-tags"></div>
-<p>Today I was thinking to myself 'emission certificates on the EU ETS seem pretty cheap, we could just buy those in heaps to force the prices to go up'. So I did a little bit of digging around and found [the great _Compensators*_ project](https://www.compensators.org/en/compensate-2/) by the even more amazing _Potsdam Institute for Climate Impact Research_ (PIK). Their website makes it pretty easy to buy emission certificates, either by unit or by price, any fraction possible. At currently 41.52€, still a steal. Although I still remember prices being in the 20s. Well, prices going up is a good thing in this case I suppose.</p>
-</div>
-</a>
-<a href="posts/2021-01-04-the-case-for-climate-change-mitigation-through-societal-transformation/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Jan. 4, 2021</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>The case for climate change mitigation through societal transformation</h2>
-<div class="dt-tags"></div>
-<p>[The Heinrich Böll foundation makes the case for tackling climate change by our society adopting a different lifestyle, e.g., by relying less on cars, eating less meat, and traveling by train rather than plane.](https://konzeptwerk-neue-oekonomie.org/wp-content/uploads/2020/12/A%20Societal%20Transformation%20Scenario.pdf) I believe that quality of life is determined more by how we spend our time and whether we create meaningful memories, rather than a high GDP, big cars, and big houses, so this report certainly strikes a nerve with me. The most important point though is certainly that we should not assume or hope that technological change will in the future make our current lifestyle more sustainable. I do not see the value in trying to preserve everything *as-is*.</p>
-</div>
-</a>
-<a href="posts/2020-12-27-who-are-climate-change-deniers/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 27, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Who are climate change deniers?</h2>
-<div class="dt-tags"></div>
-<p>[Interesting video by CNBC on climate change deniers](https://youtu.be/f1rxv1yPQrc). On the one hand, the video highlights some of the money flows to climate change denying think tanks. On the other hand Jerry Taylor of the Niskanen Center says in the video: "[...] everyone that I knew back when I was a climate skeptic were honestly persuaded that climate change was a wildly overblown concern that is being used by the left to destroy Western capitalism. This [...] explains more of the right's hostility to climate action than a naked story of enjoying checks being cut by the American Petroleum Institute" ([time stamp: 5:54](https://youtu.be/f1rxv1yPQrc?t=354)). For context, Jerry Taylor started his career about three decades ago at the American Legislative Exchange Council (ALEC), which today has gained infamy for [shopping around anti-protest legislation](https://www.propublica.org/article/how-louisiana-lawmakers-stop-residents-efforts-to-fight-big-oil-and-gas), [with great success](https://www.icnl.org/usprotestlawtracker/)! Jerry Taylor spent 23 years at the Koch-funded Cato Institute before joining the other side of the aisle and founding the Niskanen Center to lobby for a market-based solution of climate change.</p>
-</div>
-</a>
-<a href="posts/2020-12-23-some-organizational-insights-into-the-russian-security-aparatus/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 23, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Some organizational insights into the Russian security aparatus</h2>
-<div class="dt-tags"></div>
-<p>With everything happening in the US, it's easy for what happens in the rest of the world to get burried. So I am glad that I did not skip over [this video by Alexei Navalny where he calls the FSB agents that just a few weeks ago attempted to murder him--and one of them actually answers](https://youtu.be/ibqiet6Bg38). Some interesting insights into how Russian security is organized.</p>
-</div>
-</a>
-<a href="posts/2020-12-20-evidence-based-surgery/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 20, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Evidence-based surgery?</h2>
-<div class="dt-tags"></div>
-<p>An [interesting talk by Ian Harris of the University of Sydney](https://youtu.be/jF3d059QBkM) that explains why the scientific method does not always drive whether we receive surgery or not. An interesting example of an area I would have expected to be completely evidence based that is sometimes much more grounded in tradition.</p>
-</div>
-</a>
-<a href="posts/2020-12-20-responsible-research-vision-2030-position-paper/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 20, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Responsible research Vision 2030 position paper</h2>
-<div class="dt-tags"></div>
-<p>For anybody who has not come across the [Vision 2030 position paper by Anne Tsui, Jerry Davis, etc.](https://rrbm.network/wp-content/uploads/2020/04/Position-Paper_revised_8April2020.pdf) yet, read it! In brief, they advocate for reproducible research on relevant issues, in service of society.</p>
-</div>
-</a>
-<a href="posts/2020-12-19-recycling/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 19, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Recycling</h2>
-<div class="dt-tags"></div>
-<p>If you haven't seen this [video](https://youtu.be/PJnJ8mK3Q3g) on the issues with recycling, you should probably watch it right now. In a similar vain, [this article](https://www.npr.org/2020/09/11/897692090/how-big-oil-misled-the-public-into-believing-plastic-would-be-recycled) by NPR on the topic. In short, the plastics industry created an identifier logo for different plastics that looks very similar to the public domain recycling logo, and then lobbied for legislation to make that logo mandatory on all public products. The result: the public beliefs that our plastics are recycled, when really only 10% of them are (at least in the US).</p>
-</div>
-</a>
-<a href="posts/2020-12-18-global-warming-experiment/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 18, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Global warming experiment</h2>
-<div class="dt-tags"></div>
-<p>I was looking around for practical experiments that demonstrate global warming, and found [this wonderful short experiment by NASA](https://web.archive.org/web/20161118141122/https://glory.gsfc.nasa.gov/globalwarmingexperiment.html).</p>
-</div>
-</a>
-<a href="posts/2020-12-18-ontology/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 18, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Ontology</h2>
-<div class="dt-tags"></div>
-<p>If you are like me, or everybody I know, you mix up ontology and epistemology on a regular basis. Well, legendary Aussie psychadelic rock band King Gizzard and the Lizzard Wizzard decided to chima in and write a song about [Ontology](https://youtu.be/D5q5OEho8II). So you can listen to that and still not understand what ontology is about, isn't that great?</p>
-</div>
-</a>
-<a href="posts/2020-12-17-new-school-of-environmental-economics/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 17, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>A new school of environmental economics?</h2>
-<div class="dt-tags"></div>
-<p>Not entirely by chance did I come across this interesting discourse in economics about gas emissions. @Shapiro2018a have disaggregated CO, NO&lt;sub&gt;2&lt;/sub&gt;, PM10, PM2.5, SO&lt;sub&gt;2&lt;/sub&gt;, NO&lt;sub&gt;x&lt;/sub&gt;, VOCs, and CO&lt;sub2&gt;&lt;/sub&gt; emission in the US from 1990-2008 by industry, location, facility, and product. They find that during that time period, emission reductions are driven not by technological change or trade, but by more stringent regulations. The cost of complying with these regulations in 2008 amounted to an implicit pollution tax equal to ~1.1% of total production cost--double the value in the year 1990. (cont.)</p>
-</div>
-</a>
-<a href="posts/2020-12-15-using-new-software/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 15, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Using new software</h2>
-<div class="dt-tags"></div>
-<p>The last couple of days I have started experimenting with distill, and began integrating it into my workflow--this blog is a result of that effort. The problem with using new software is that a lot of the features I desire are not there yet. In this case, I got a little bit too impatient maybe and went on github to report issues, and make feature requests. Since resources are limited, a lot of my reports have not been picked up yet, but one was. Being an early adapter is always a challenge, and reporting issues is part of that. On the one hand, I don't want to ask too much from open source developers. On the other hand, feedback from early adapters is what open source developers need in order to know in what direction to go. So it's some neat feedback for me to see that one of my reported issues became part of the (milestone 1.2 for R distill)[https://github.com/rstudio/distill/milestone/2]. I hope as a user I am contributing by reporting issues, and not just being a pain for the developers.</p>
-</div>
-</a>
-<a href="posts/2020-12-14-fierce-resistance-cannot-prevent-pipeline-project/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 14, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Fierce resistance cannot prevent pipeline project</h2>
-<div class="dt-tags"></div>
-<p>[Interesting report in the Boston Globe about the construction of a compressor station](https://www.bostonglobe.com/2020/12/12/metro/was-it-ever-fair-fight/). Massachusetts governor Charlie Baker was determined to approve the project, it seems. This story raises the question of what factors determine whether a pipeline project is approved. Since their 1999 policy revision, [FERC has approved 400 applications for pipeline projects, and has rejected only 2](https://www.analysisgroup.com/uploadedfiles/content/insights/publishing/ag_ferc_natural_gas_pipeline_certification.pdf). There are public input opportunities built into the certification process, but in practice these only serve to "inform" the public of a decision that has already been made.</p>
-</div>
-</a>
-<a href="posts/2020-12-08-covid-logistics/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 10, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Vaccine logistics</h2>
-<div class="dt-tags"></div>
-<p>Why do countries need logistics partners to distribute the new vaccines? [Bloomberg has a pretty cool infographic](https://www.bloomberg.com/graphics/2020-uk-vaccine-logistics/). Shipping a few vials is fine, shipping literally millions is going to be quite the challenge.</p>
-</div>
-</a>
-<a href="posts/welcome/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":[]}</script>
-<div class="metadata">
-<div class="publishedDate">Dec. 7, 2020</div>
-<div class="dt-authors">
-<div class="dt-author">Julian Barg</div>
-</div>
-</div>
-<div class="thumbnail">
-<img/>
-</div>
-<div class="description">
-<h2>Welcome to Jules website</h2>
-<div class="dt-tags"></div>
-<p>Welcome to my website.</p>
-</div>
-</a>
-</div>
-<div class="posts-more">
-<a href="#">More articles &raquo;</a>
-</div>
-</div>
-<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
-<h1>Julian Barg’s blog. Stuff I came across recently.</h1>
+<h1>Pipelines dashboard</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-
+<p><p>Visualize pipeline operator attributes and safety performance.</p></p>
 </div>
 
+<div class="d-byline">
+  Julian Barg <a href="https://jbarg.net" class="uri">https://jbarg.net</a> 
+  
+<br/>2021-03-03
+</div>
 
 <div class="d-article">
+<div class="layout-chunk" data-layout="l-screen-inset shaded">
+<iframe src="https://julianbarg.shinyapps.io/pipelines_dashboard/?showcase=0" width="624" height="800px">
+</iframe>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
