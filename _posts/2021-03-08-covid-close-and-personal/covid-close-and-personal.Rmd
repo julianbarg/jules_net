@@ -1,0 +1,17 @@
+---
+title: "Covid close and personal"
+description: |
+  I think one reason for the American schism on covid is the lack of "human-interest stories" on covid, for the lack of a better term. I saw a lot of reports on the lockdown, people "suffering" from the mask mandate, etc. But relatively little on people suffering from covid, the doctors, nurses, etc. There is one new relevant documentary from the times accessible [here](https://www.youtube.com/watch?v=M5BhuzqeDRU). It's probably not easy getting into a covid wing like that with your camera, so I appreciate the effort. And I also appreciate the perspective of what its like to battle covid in a less affluent community. Great stuff!
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-08-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

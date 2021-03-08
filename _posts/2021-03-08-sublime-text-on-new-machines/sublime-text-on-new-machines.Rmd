@@ -1,0 +1,17 @@
+---
+title: "Sublime text on new machines"
+description: |
+  As you may know, I do have a bit of an obsession with IDEs, especially free and/or open source software. I have ignored sublime text for a couple of years but finally came around to it. And now I have finally discovered my favorite feature of it. To install packages in sublime--and the packages are really the killer feature--you first need to install thepackage manager. Turns out, [if you place the package manager file in the sublime folder, sublime will install the package manager automatically on startup.](https://stackoverflow.com/a/19531651/8963109) And then you can also place a file with your installed packages in the settings folder, and sublime will install these for you too. Why this matters? It means you can set up a new machine with something like ansible, for instance installing sublime with apt, and then a simply get all your options with curl, and your machine is ready to go, but also has everything installed from scratch.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-08-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

@@ -1,0 +1,17 @@
+---
+title: "Gulf stream"
+description: |
+  A weakening gulf stream has been a convern in Europe for a number of years, one that is not talked about a lot in American media. The gulf stream is what makes for such mild weather in Europe, so it's kind of a big deal. [Now we see new negative records.](https://www.livescience.com/gulf-stream-slowing-climate-change.html) That's more than a  bit concerning. Not only would it mean colder winters in Europe, but also more extreme weather on both sides of the Atlantic (think hurricane season).
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-08-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
