@@ -1,0 +1,17 @@
+---
+title: "Climat change is cancelled!"
+description: |
+  Cancel culture? How about [Donald Trump trying to cancel climate change data](https://www.theverge.com/22313763/scientists-climate-change-data-rescue-donald-trump).
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-08-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
