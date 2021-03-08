@@ -1,0 +1,22 @@
+---
+title: "Texas blackout"
+description: |
+  [Great video at Climate Town last week](https://www.youtube.com/watch?v=PmYvkCXXI4E). Texas experienced power outages, related to extreme weather. The power grid, all sorts of power plants, all struggling, but that is apparently not what Fox told its viewers--they blamed it on renewables. Anyways, the Texas blackout was an interesting episode of climate change. As a reminder: climate change means that our climate does not just become warmer on average, but the variance of our weather also increases. In this case, something about the [polar vortex having become unstable or "wobbly" and leaving its semi-permanent home, the arctic](https://www.scientificamerican.com/article/texas-power-outage-underscores-looming-climate-tests/).
+  (cont.)
+  
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+[Great video at Climate Town last week](https://www.youtube.com/watch?v=PmYvkCXXI4E). Texas experienced power outages, related to extreme weather. The power grid, all sorts of power plants, all struggling, but that is apparently not what Fox told its viewers--they blamed it on renewables. Anyways, the Texas blackout was an interesting episode of climate change. As a reminder: climate change means that our climate does not just become warmer on average, but the variance of our weather also increases. In this case, something about the [polar vortex having become unstable or "wobbly" and leaving its semi-permanent home, the arctic](https://www.scientificamerican.com/article/texas-power-outage-underscores-looming-climate-tests/).
+
+But back to the Texas power grid. The fact that Texas could not import electricity is the result of [Texas seceding from the national power grid](https://www.washingtonpost.com/outlook/2021/02/17/texas-power-winter-storm/) with the aim of evading federal rules-- to "deregulate". That's probably also why state regulations do not require operators to prepare for extreme weather. The system does apparently also include a sizable share of renewable energy (at least for American standards), but of course wind turbines were not winterized, just like the rest of the system. Texas previously experienced a similar weather-related outage in 2011 and I suspect since Tucker Carlson somehow managed to blame everything on renewables, nobody will feel compelled to make any changes and we will see similar outages again in the future.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

@@ -1,0 +1,19 @@
+---
+title: "Freshwater fish under threat"
+description: |
+  We have heard a lot about the oceans being under threat. There is the warming climate, and runoffs, we witnessed a terrifying bleaching event at the Great Barrier Reef, an algea bloom off the cost of Florida, and a [Starfishes literally "dissolving"](https://www.jbarg.net/posts/2021-01-31-starfish-extinction-event/). But many rivers are also under threat, and [now WWF has summarized how bad things are for freshwater fishes](https://www.cbsnews.com/news/freshwater-fish-catastrophic-extinction-endangered-species-climate-change/). The answer: very.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+

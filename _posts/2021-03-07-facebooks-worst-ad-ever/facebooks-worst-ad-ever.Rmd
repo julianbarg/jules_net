@@ -1,0 +1,17 @@
+---
+title: "Facebook's worst ad ever"
+description: |
+  Not related to what I am usually interested in, but still. [Facebook's ad that wants to convince you to opt into tracking on iOS.](https://www.youtube.com/watch?v=eRABUy6G2GY) God. I don't know why it gives me such creepy vibes. The music. The visuals. The 1984-esque message. What a terrible ad.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
