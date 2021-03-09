@@ -25,6 +25,10 @@ navbar:
           href: phd_seminar_2021.html
     - text: "Wiki"
       href: http://wiki.jbarg.net
-    - text: "Cover letter"
-      href: about.html
+    - text: "About"
+      menu:
+        - text: "About me"
+          href: about.html
+        - text: "Academic CV"
+          href: cv.html
 output: distill::distill_article

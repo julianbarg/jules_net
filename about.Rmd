@@ -8,8 +8,4 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-```{r CV, layout="l-screen-inset shaded"}
-knitr::include_url("https://julianbarg.github.io/CV/CV.pdf", heigh = "4500px")
-```
-
 Logo: earth fire by emilegraphics from the Noun Project
