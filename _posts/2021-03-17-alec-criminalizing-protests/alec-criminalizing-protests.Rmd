@@ -1,0 +1,21 @@
+---
+title: "ALEC criminalizing protests"
+description: |
+  [It seems that ALEC still is not done with criminalizing environmental protests](https://www.huffingtonpost.ca/entry/fossil-fuel-protest_n_602c1ff6c5b6c95056f3f6af). Four new states might introduce the legislations that ALEC has shopped around, which would make it illegal to trespass on "critical infrastructure"--which of course includes pipelines. 
+  
+  That creates a problem because, well, you cannot see a pipeline that is burried underground. The article has a lovely example. Approach some workers and cross an invisible line between public land and a construction site--and you will be arrested.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-17-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+

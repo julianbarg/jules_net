@@ -1,0 +1,17 @@
+---
+title: "Fossil fuel subsidies"
+description: |
+  [Looks like we will hear a lot more about fossil fuel subsidies](https://www.huffingtonpost.ca/entry/katie-porter-big-oil-exec_n_6048243fc5b6cf72d0929289). From the "right side" of the issue.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-17-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

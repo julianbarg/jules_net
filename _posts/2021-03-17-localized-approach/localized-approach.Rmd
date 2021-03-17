@@ -1,0 +1,17 @@
+---
+title: "Localized approach"
+description: |
+  [Here an interesting vision of what sustainability can also look like](https://www.theguardian.com/environment/2021/mar/10/study-highlights-under-the-radar-uk-community-projects-green-benefits). The idea is to focus on local initiatives.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-17-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
