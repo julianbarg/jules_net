@@ -1,0 +1,17 @@
+---
+title: "'Privatized police force' harassing activists on behalf of Enbridge"
+description: |
+  [A water warrior claiming to be harassed by Minnesota police on behalf of Enbridge](https://heated.world/p/i-dont-feel-safe-here). Police officers trailing activists en route to protests for hours and billing Enbridge for the time. The original intention of the law that this is based on might have been to shift costs from the state to Embridge. The interesting question is whether Enbridge told the police to go all-out or whether police offices took the initiative and what we observe is a revenue-generating strategy by the police forces. My sense is that it did not require much communication for this situation to occur if Enbridge and the police are on the same page on this issue anyways. Another aspect: the first example in the text is a woman getting fined for failing to signal more than 100 feet before a turn. That police strategy we have all seen before: pull over a member of a group that you don't like--if you know the law well enough you will always be able to fine that individual for some obscure infraction. There are also lots of instances of use of excessive force of male police officers against female activists.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-18-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
