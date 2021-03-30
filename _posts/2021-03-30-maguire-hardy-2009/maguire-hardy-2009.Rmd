@@ -1,0 +1,19 @@
+---
+title: "Maguire & Hardy (2009"
+description: |
+  I took an in-depth look at Maguire & Hard (2009) today. Great read. See my critical summary here: http://wiki.jbarg.net/Maguire%20&%20Hardy%202009
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 03-30-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
