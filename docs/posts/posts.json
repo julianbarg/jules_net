@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-04-02-keystone-spill-without-media-coverage/",
+    "title": "Keystone spill without media coverage",
+    "description": "Today while looking at some PHMSA data, I came across a curious bit of information. Apparently there has been a spill at the Keystone Pipeline Lucas station in Beaumont, Jefferson county, Tx. I was not able to find any newsreport on this spill, so here some basic information. The spill was discovered on May 7, 2020 by am employee conducting a routine inspection--NOT by the fancy newfangled real-time monitoring system (SCADA) that was also up and running at the time. A total of 442 barrels was spilled, and some had run off the facility by the time the spill was discovered. The spill was caused by a corroded pipe. Fortunately, the station was shut down at the time of the incident, or a lot more crude oil might have leaked. For more information, see PHMSA report number 20200166.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2021-04-02",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-02T09:40:43-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-03-30-maguire-hardy-2009/",
     "title": "Maguire & Hardy (2009",
     "description": "I took an in-depth look at Maguire & Hard (2009) today. Great read. See my critical summary here: http://wiki.jbarg.net/Maguire%20&%20Hardy%202009",
