@@ -1,0 +1,17 @@
+---
+title: "Pollution from chemical weapons"
+description: |
+  [Interesting article in the Smithsonian Magazine on the US army's handling of chemical weapons during the cold war.](https://www.smithsonianmag.com/history/how-death-6000-sheep-spurred-american-debate-chemical-weapons-cold-war-180968717/) Reading this and looking at the map of US superfund sites, I can really imagine how that came to be.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 04-10-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
