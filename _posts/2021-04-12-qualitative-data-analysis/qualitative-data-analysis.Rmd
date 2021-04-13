@@ -1,0 +1,23 @@
+---
+title: "Qualitative data analysis"
+description: |
+  Today I have been looking at software for qualitative data analysis, and it is quite disappointing. The feature set that I would be hoping for of course is quite extensive, that is probably part of the reason. It should be (1) FOSS, (2) actively being developed, (3) available on Windows, macOS, Linux, (5) able to import text documents, PDFs, and ideally html files, (6) capable of importing highlights and notes from PDFs, (7) save its data in a convenient form, for instance as an SQL database. But it seems outside of Atlas Ti and NVivo there isn't much going on.
+  
+  RQDA is really janky, but at least it saves its data as an SQLite database. QDAP only works with text data. Cassandre's website looks... sketchy... Of course Atlas Ti uses SPSS under the hood, which only makes sense if you are being developed by the same software (just a guess, I don't actually know). And it cannot import websites, only if you have already saved them to PDF. And NVivo straight up doesn't have a Linux client (you could probably run it in wine, but that's not the pont) AND requires NVivo to be installed on your system for you to be able to launch its browser version. What a dumpster fire. 
+  
+  So the way I see it, you can do two things. Either organize your material yourself, but I think getting all the crossreferences into a discourse would not be feasible without taking way too much effort. Or you can think short term and run a project on Atlas Ti. I am sure they won't be at the top of the pack in ten years, so that's a pity. Won't be able to migrate your data out, either. I am now trying to organize as much as possible outside of software, before importing stuff as the last step. But the fact that you cannot even import the annotations that are already saved to a PDF document--so annoying.
+  
+  
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 04-12-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

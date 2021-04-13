@@ -1,0 +1,17 @@
+---
+title: "DDT is back, baby!"
+description: |
+  Silent Spring by Rachel Carson is a classic. DDT may be the most famous toxic pesticide out there. Where did DDT go after it was banned? [Turns out, straight into the ocean.](https://www.youtube.com/watch?v=aGWgg4rem5s) Hundreds of thousands of barrels. Great choice! 
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 04-13-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
