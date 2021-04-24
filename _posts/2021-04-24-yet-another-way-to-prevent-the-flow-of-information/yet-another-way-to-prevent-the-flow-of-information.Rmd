@@ -1,0 +1,17 @@
+---
+title: "Yet another way to prevent the flow of information..."
+description: |
+  My current work is very much about communication and the flow of information. And there are always surprises. Chose an interesting phenomenon *pats his own shoulder*. So the latest in unexpected ways of breaking the flow of information is this: [just sleep through the testimony](https://www.desmog.com/2015/08/06/keystone-xl-permit-hearing-concludes-after-nine-contentious-days-south-dakota/). Usually I look at the phenomenon on a fairly abstract level, but every now and then it is good to be reminded that it always comes down to people. Organizations don't communicate, people do. Sometimes, you can aggregate things. But some processes still happen at the individual level.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 04-24-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
