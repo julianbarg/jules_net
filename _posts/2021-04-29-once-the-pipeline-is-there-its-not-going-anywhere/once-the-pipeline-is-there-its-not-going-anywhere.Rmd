@@ -1,0 +1,19 @@
+---
+title: "Once the pipeline is there, it's not going anywhere"
+description: |
+  [So Biden allows the Dakota Access Pipeline to keep operatings, despite it having no Environmental Impact Statement](https://www.ogj.com/general-interest/article/14202049). I am not too surprised. Why should you still care? One of the most intriguing thing about studying pipelines is this: the construction of pipelines as our mode of shaping the world. In German there is a term for that: "Fakten schaffen"--"creating facts". Implying that while your counterpart still contemplates about what action to take--or even before that stage, you take action, do something, anything. The intent being that by just by acting first, you get to decide, you get to take your preferred action. A fitting example would be buying an expensive car before consulting your husband or wife. Nothing you can do about it now, the contract is already signed! 
+  
+  In 2017, the Trump administration waived the need for a full environmental review for the Dakota Access Pipeline. Energy Transfer Partners managed to build the pipeline within Trump's tenure. The story that follows is pretty convoluted, [a court ordered the pipeline to be shut down while the environmental review is completed](https://www.ogj.com/general-interest/article/14180097), [another court overturned that order before it went into effect](https://www.ogj.com/general-interest/government/article/14179644), and the Biden administration now confirmed that DAPL can keep operating. What I am getting at is that academia is speding a whole lot of time contemplating things while the world keeps moving. While we study the environmental effects on one ecosystem, two more have already fallen victim. I think there is a lot of merit to analyzing the world as a burst of decisions that flow from our social structure, rather than contemplating about the ins and outs of individual decisions. 
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 04-29-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
