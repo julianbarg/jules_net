@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-05-12-keystone-xl-documentary/",
+    "title": "Keystone XL documentary",
+    "description": "[Bloomberg just released this short documentary about Keystone XL on their Youtube channel.](https://www.youtube.com/watch?v=S6QvM5Heewo) Nicely summarizes some of its history, and interesting interviewees. [This is another documentary I just watched, about a well that has been spilling oil into the Gulf of Mexico since 2004.](https://www.youtube.com/watch?v=ztT45A501Tc) The company behind it displays an incredibly cynical attitude, good reminder why it is worth digging deeper on the oil & gas industry.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2021-05-12",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-05-12T08:32:09-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-05-05-michigan-pipeline-shutdown/",
     "title": "Michigan pipeline shutdown?",
     "description": "I don't like being wrong. Like so many of us, being right makes me feel smart. But in this case I would not mind being wrong: [Michigan wants to shutdown a poorly maintained pipeline connection across the Great Lakes to Ontario](https://www.theglobeandmail.com/politics/article-line-5-pipeline-a-ticking-time-bomb-must-be-shut-down-by-next-week/). As [I have mentiond before, I have my doubts about pipelines actually being shut down](https://www.jbarg.net/posts/2021-04-29-once-the-pipeline-is-there-its-not-going-anywhere/). And the shutdown of a pipeline--even if it is a \"ticking time bomb\"--would certainly be surprising from a state that [only last year experienced a dam break of a dam that was known to be dangerous for years](https://www.nbcnews.com/news/us-news/thousands-fled-their-lives-when-two-michigan-dams-collapsed-more-n1230841).",
