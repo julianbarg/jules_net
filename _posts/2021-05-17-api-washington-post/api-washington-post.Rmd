@@ -1,0 +1,20 @@
+---
+title: "API--Washington Post"
+description: |
+  Apparently, if you have enough money, you can outsource part of your website to a Washington Post domain now. I'm sure that helps. With SEO. And with shaping public opinion. The API managed to buy their way into a Washington Post series on "Tackling Climate Change". "Content From API. [Check out this post on how American's should fund the oil industry to develop all those "lower-carbon" technologies so we do not actually need to change anything to tacke climate change](https://www.washingtonpost.com/brand-studio/wp/2021/05/10/tackling-climate-change-woth-a-collaborative-approach/). Cause they have such a great track record on developing technology. They built like 10 wind turbines and a solar park somewhere, I'm sure. To use in an ad, and abandon the year after. I am not even exaggerating--[renewables made up for 0.8% of capital investments of oil firms in 2019, despite being a popular theme in ads of ExxonMobil, BP, and the likes](https://earthrights.org/blog/big-oil-dumps-billions-into-misleading-advertising-campaigns/).
+  
+  An interesting offshoot of that thouht is wheter technology isn't more valuable for the oil and gas industry in its current shape of being the perpetual future. Think about it: now that its still the technology of the future, the theme can be used to raise funds, and oil companies can point at it and say "oil and gas is fine!" That is a much more comfy situation compared to building carbon capture and storage sites and discovering that it is not that simple, or cheap, or reliable in keeping the carbon in. So if anything, the industry should try to stay in this state a little longer, where technology is still a thing of the future with potential, rather than a reality with flaws.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 05-17-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
