@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-05-23-insurance-for-oil-gas/",
+    "title": "Insurance for oil & gas",
+    "description": "[Oil sand companies in Alberta are struggling because activists are targeting their insurance providers](https://www.cbc.ca/news/business/bakx-oilsands-tmx-insurance-1.6030960). This is the Extinction Rebellion playbook. Oil & gas might seem mighty, but there are some bottlenecks, if you are reckless enough to target them. Network analysis 101. Sometimes those vulnerabilities are physical, and can be targeted through blockades. But in this case, the inability to obtain sufficient insurance coverage might threaten pipeline projects, specifically the Trans Mountain pipeline. And it seems activists needed relatively little manpower to achieve partial victories. If TMX can be defeated by activists, one could argue that a small number of self-appointed environmental leaders have done more for the climate than Trudeau? That would be a remarkable feat.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2021-05-23",
+    "categories": [],
+    "contents": "\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-05-23T09:51:43-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-05-17-api-washington-post/",
     "title": "API--Washington Post",
     "description": "Apparently, if you have enough money, you can outsource part of your website to a Washington Post domain now. I'm sure that helps. With SEO. And with shaping public opinion. The API managed to buy their way into a Washington Post series on \"Tackling Climate Change\". \"Content From API. [Check out this post on how American's should fund the oil industry to develop all those \"lower-carbon\" technologies so we do not actually need to change anything to tacke climate change](https://www.washingtonpost.com/brand-studio/wp/2021/05/10/tackling-climate-change-woth-a-collaborative-approach/). Cause they have such a great track record on developing technology. They built like 10 wind turbines and a solar park somewhere, I'm sure. To use in an ad, and abandon the year after. I am not even exaggerating--[renewables made up for 0.8% of capital investments of oil firms in 2019, despite being a popular theme in ads of ExxonMobil, BP, and the likes](https://earthrights.org/blog/big-oil-dumps-billions-into-misleading-advertising-campaigns/).\n\nAn interesting offshoot of that thouht is wheter technology isn't more valuable for the oil and gas industry in its current shape of being the perpetual future. Think about it: now that its still the technology of the future, the theme can be used to raise funds, and oil companies can point at it and say \"oil and gas is fine!\" That is a much more comfy situation compared to building carbon capture and storage sites and discovering that it is not that simple, or cheap, or reliable in keeping the carbon in. So if anything, the industry should try to stay in this state a little longer, where technology is still a thing of the future with potential, rather than a reality with flaws.",

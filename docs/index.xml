@@ -7,7 +7,15 @@
     <description>Julian Barg's website. See what I am up to. Also, exposition of my past work.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Mon, 17 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Insurance for oil &amp; gas</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-05-23-insurance-for-oil-gas</link>
+      <description>[Oil sand companies in Alberta are struggling because activists are targeting their insurance providers](https://www.cbc.ca/news/business/bakx-oilsands-tmx-insurance-1.6030960). This is the Extinction Rebellion playbook. Oil &amp; gas might seem mighty, but there are some bottlenecks, if you are reckless enough to target them. Network analysis 101. Sometimes those vulnerabilities are physical, and can be targeted through blockades. But in this case, the inability to obtain sufficient insurance coverage might threaten pipeline projects, specifically the Trans Mountain pipeline. And it seems activists needed relatively little manpower to achieve partial victories. If TMX can be defeated by activists, one could argue that a small number of self-appointed environmental leaders have done more for the climate than Trudeau? That would be a remarkable feat.</description>
+      <guid>https://www.jbarg.net/posts/2021-05-23-insurance-for-oil-gas</guid>
+      <pubDate>Sun, 23 May 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>API--Washington Post</title>
       <dc:creator>Julian Barg</dc:creator>
