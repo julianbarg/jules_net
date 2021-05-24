@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-05-24-carbon-offset-scam/",
+    "title": "Carbon offset (scam?)",
+    "description": "[Great piece by Bloomberg on the problems associated with carbon offset](https://www.youtube.com/watch?v=20xMbGkEIQI)--I think a lot of use have heard about this, and how the reality is a little questionable, so I am glad to finally hear a more detailed story on this. Seems like in particular The Nature Conservacy is glad to exaggerate their accomplishments a little bit in exchange for conservation work funding from big corporations--but really, \"we will not chop down this forest, and that's how the we reduce carbon emissions\"... not a good story. Meanwhile, the land has been owned by The Nature Conservacy all along. And of course that means their customers don't really need to change anything about how their businesses work, while claiming the big green zero--convenient. Of course the fact that the rules of carbon accounting allow for that in the first place is concerning. Looking at you, American Carbon Registry.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2021-05-24",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-05-24T09:00:18-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-05-23-insurance-for-oil-gas/",
     "title": "Insurance for oil & gas",
     "description": "[Oil sand companies in Alberta are struggling because activists are targeting their insurance providers](https://www.cbc.ca/news/business/bakx-oilsands-tmx-insurance-1.6030960). This is the Extinction Rebellion playbook. Oil & gas might seem mighty, but there are some bottlenecks, if you are reckless enough to target them. Network analysis 101. Sometimes those vulnerabilities are physical, and can be targeted through blockades. But in this case, the inability to obtain sufficient insurance coverage might threaten pipeline projects, specifically the Trans Mountain pipeline. And it seems activists needed relatively little manpower to achieve partial victories. If TMX can be defeated by activists, one could argue that a small number of self-appointed environmental leaders have done more for the climate than Trudeau? That would be a remarkable feat.",
