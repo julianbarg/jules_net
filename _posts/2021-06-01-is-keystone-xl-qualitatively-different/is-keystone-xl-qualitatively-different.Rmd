@@ -1,0 +1,17 @@
+---
+title: "Is Keystone XL qualitatively different?"
+description: |
+  [This is something I haven't considered before](https://www.eenews.net/stories/1059969867). Some farmers in Texas talking about their experience with Keystone XL, and contrasting that with other pipelines. TransCanada stands out, negatively. "Holland estimates that there are more than 50 pipelines crosing his property." First of all, wtf? He even lost track of the exact number? That guy must be living somewhere near a major terminal or sth I assume. Also, yes, that is where your food comes from (if you are American). To be fair, I have a couple of farmers in my family, and yes, people don't really know where their food comes from. It's mostly not great. And if people did know, they probably wouldn't like it. But I am getting distracted. What stood out to me was that out of all those pipeline operators, TransCanada is the one that will not allow the farmer to move heavy equipment over the line. Which is a problem if you are a farmer and the line runs 2 miles across your property. So maybe some of the challenges that TransCanada encountered do stem from the fact that they are lacking experience in the US and made some enemies with their behavior?
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 06-01-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

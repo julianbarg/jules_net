@@ -1,0 +1,17 @@
+---
+title: "Consumer Energy Alliance"
+description: |
+  I do have to admit that I am fascinated by those industry-sponsored store fronts for opinions. Just had a look at the Consumer Energy Alliance, and the number of times they state on their website that they are "the leading voice for sensible energy and environmental policies" is just hilarious. I assume that there is an internal rule to include that paragraph in every post--which, as we know, almost definitely makes it true. You just have to say it often enough. Anyways, their approach is very interesting--back some moderate positions and then throw your weight behind pipelines. They are expressing support for offshore wind, but also Line 5. So if we were to write the playbook--if you want to do astroturfing right, don't just create radical organizations. Sure, with those you can get the Trumpers. But maybe there is a chance to get some moderates, too, with moderate organizations?
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 06-01-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
