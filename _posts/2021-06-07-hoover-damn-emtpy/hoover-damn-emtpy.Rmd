@@ -1,0 +1,17 @@
+---
+title: "Hoover dam emtpy"
+description: |
+  That's an interesting one that I haven't had on the radar: [Hoover Dam is empty](https://www.usatoday.com/in-depth/news/nation/2021/06/06/hoover-dam-drought-water-levels-lake-mead/5291323001/). Climate change strikes again! Aparently, the reservoir has been in decline since about the turn of the century. Curious how they are going to make up for the decline in energy production--most likely fossil fuels though unfortunately.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 06-07-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
