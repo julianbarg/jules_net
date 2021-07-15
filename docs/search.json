@@ -6,14 +6,14 @@
       "description": "Julian Barg studies use of natural resources, in particular environmental emissions of and environmental pollution by organizations. He loves finding understudied quantitative data but will use whatever methods are the best to get an answer to the research question. His idea of fun includes R, Python, Linux, shiny dashboards, NLP, neural networks, Jupyter Notebooks, web scraping, and the tidyverse. Prior to joining Ivey Business School for a PhD in Sustainability, he moved from Germany to China to obtain a Master in Management Science at Peking University HSBC Business School. Living in different parts of the world and learning Chinese had a large impact on Julian that he does not often talk about. In his spare time, Julian does rock climbing and listens to a lot of music, ranging from classical music to experimental music, rock, metal, and every crossover between those.",
       "author": [],
       "contents": "\nLogo: earth fire by emilegraphics from the Noun Project\n\n\n\n",
-      "last_modified": "2021-07-12T09:59:49-04:00"
+      "last_modified": "2021-07-15T12:01:15-04:00"
     },
     {
       "path": "cv.html",
       "title": "Academic CV",
       "author": [],
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-07-12T09:59:49-04:00"
+      "last_modified": "2021-07-15T12:01:16-04:00"
     },
     {
       "path": "incident_dashboard.html",
@@ -27,14 +27,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-07-12T09:59:50-04:00"
+      "last_modified": "2021-07-15T12:01:16-04:00"
     },
     {
       "path": "index.html",
       "title": "Julian Barg's blog. Stuff I came across recently.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-07-12T09:59:50-04:00"
+      "last_modified": "2021-07-15T12:01:17-04:00"
     },
     {
       "path": "organic_vineyards.html",
@@ -48,7 +48,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-07-12T09:59:51-04:00"
+      "last_modified": "2021-07-15T12:01:17-04:00"
     },
     {
       "path": "phd_seminar_2021.html",
@@ -62,7 +62,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\nHow does learning relate to sustainability? One could argue that if an organization continually learns and improves processes and products, we (humanity) could expect it to eventually become sustainable. Or one could think of environmental pollution as a systemic problem and view individual (organizational) action as necessarily insufficient or even misleading. Quantitative data from the shows that the pipeline industry on aggregate reduces the number and volume of spill over time. This reduction is not equivalent to an elimination of concerning environmental pollution. The literature provides two diverging positions on this finding: (a) organizations engage in environmental management because they see the benefits of sustainable development. If enough companies were to jump on the bandwagon, their cumulative efforts could mitigate the environmental impacts of oil pipelines (or other industries). Alternatively, based on trajectories, (b) system-wide emissions are and will in the foreseeable future remain at a level that threatens vital ecosystems and resources such as essential aquifers. Without more encompassing change at a meta-organizational level, we cannot reduce our environmental emission and pollution to a level that ensures their conversation. The aggregated pipeline data offers a picture of significant aggregate improvements without an entire negation of potentially disastrous environmental impacts such as the Kalamazoo River oil spill. Any pipeline crossing an essential ecosystem or river can not be assumed to be safe. Depending on one’s inclination, this observation could be seen as aligning with either side (a) that organizational action can make a significant difference or (b) that a change of the overall system needs to be initiated. More importantly, the analysis has implications for specific ecosystems and pipelines, and suggests a mode of research that should be applied to other industries and ecosystems.\n\n\n\n",
-      "last_modified": "2021-07-12T09:59:51-04:00"
+      "last_modified": "2021-07-15T12:01:17-04:00"
     },
     {
       "path": "pipelines_dashboard.html",
@@ -76,13 +76,13 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-07-12T09:59:51-04:00"
+      "last_modified": "2021-07-15T12:01:18-04:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\njules_net\n\n\n",
-      "last_modified": "2021-07-12T09:59:51-04:00"
+      "last_modified": "2021-07-15T12:01:18-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

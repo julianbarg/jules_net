@@ -1,0 +1,26 @@
+---
+title: "Footnote 2021-07-15 on duality of structure"
+description: | 
+  (No description available)
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 07-15-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+Just read @Hirsch1997 with their helpful take on _new institutionalism_, _old institutionalism_, and the _structuralism_ of Giddens and Bourdieu. I guess this year marks half a century of unresolved conflict over structure and action.
+
+The takeaway for me: build the model of a structure, but show how this structure is realized through--and only through!--action. I will gladly do that, and I agree that this represents a pathway to integrate institutions and older models of politics and power.
+
+Is there a tautology though in the potential findings? An institution exists when it is enacted by actors through social action. It ceases to exist when it stops being enacted by actors. That observation seems not to be very profound. The statement becomes a little less tautological when one includes the observation that others acting _against_ the institution have a play in changing institutions. But that again just boils down to deterring others from enacting an institution?
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
