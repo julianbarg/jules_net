@@ -1,0 +1,30 @@
+---
+title: "Footnote 2021-07-24 on institutions and legitimacy"
+description: |
+  (No description available)
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 07-24-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Here is the connection between discourse and legitimacy in brief. In the literature, it is a two step process. Research on institutions drives inquiry into discourse [@Leibel2018]. And within that literature, legitimacy takes an important or central importance in many of the works. Conversely, discourse analysis is one of the three methods mainly used in research on legitimacy [@Suddaby2017]. What does legitimacy mean to those authors? Where legitimacy is used, it constitutes or "replaces" the institution. When legitimacy is achieved, the institution is intact. When legitimacy is lost, the institution ceases to exist. @Guerard2013 is the clearest about this: "Before a social movement reaches moral legitimacy, it is unlikely that frame transformation will be effective because actors may perceive the movement as marginal [...]" (p. 809).
+
+The lack of detail on the mechanism here is a shame. @Guerard2013 features an unusually rich description of the dyadic interaction (which they call dualistic) of two actors: the German car industry, and various environmental organizations in conjunction with other nonprofits. The article's use of the term "legitimacy" indicates that there are other relevant actors. Specifically, their findings indicates that there are one or two actors of importance. The government considers taking action, but decision makers get their cues from (perceived) public support. Legitimacy is of course a theoretical construct, and part of a model that aims to allow for a easier representation of the reality--which includes shaving off details. But @Guerard2013 also indicate that the government is a somewhat complex actor with its own networks and contingencies: one of the central claims that they make concerns the power that the car industry has over the government. This connection--the connection that constitutes power--is not further explicated on the basis of their qualitative data.
+
+The further developments in the empirical context after they publish their article highlights that it matters who "provides" an institution with legitimacy. The emission scandal after the end of their observation scandal, which hit Volkswagen the strongest, shows that legitimacy alone was not enough to enforce a new technology, and government oversight fell short of what it should be--probably because of the power relations that the authors raise without detailing them. The dyadic relationship between the car industry and the government--let alone the public--is at least as complex as that between the car industry and activists. Other examples of the construct legitimacy being used to abridge a context--albeit to a lesser extend--include the work of @Rao2003, @Zilber2007, and @Ansari2013, which otherwise is more or less faithful to the discourse taking place.
+
+In contrast, consider the _legitimacy-as-perception_ view raised by @Suddaby2017. Located at the center of the approach is the idea that legitimacy lies in the eye of the beholder, be it an individual or collectives. In that view, it matters who attributes legitimacy to an institution. The question of audiences is widely discussed. For instance, an individual might hold a negative view of an industry sector, but still take this industry for granted--in that case, the institution is still intact. Specifically, that occurs when the individual is aware that her view diverges from the majority opinion. @Vergne2012 elaborates this point by differentiating legitimacy and stigma.
+
+The concept of legitimacy as used by @Guerard2013 and others in the discourse literature embodies the tautology that is at the very heart of institutional theory. An institution exists if when something is institutionalized. When something is legitimized, then it becomes legitimate. To differentiate audiences is one first step toward clearing up the tautology. We can see the workings of the taken-for-grantedness when we understand who takes what for granted. Even better when that audience then becomes alive as an actor. The passive audience is a rare phenomenon: when an actor or institution acts on an audience--i.e., manipulates it [@Oliver1992]--there is bound to be a _reaction_.
+
+To show the workings of this process, we do not need the legitimacy concept. We can achieve the same by showing who the audience is, and how this audience interacts with the institution. Legitimacy then is a useful metaphor to summarize the process, but it should not be used as more than a metaphor for something that is explicated elsewhere, unless legitimacy is a sideshow to the research. The empirical research on discourse and institutions meanwhile suggests that the audience is much less of a passive participant than frequently implied. It matters who beliefs what (to be legitimacy) because the audience _does_ get involved. And even more than that, e.g., in contexts such as the American oil and gas industry, the line between audience, actor, and institution can at times be a very blurry one.
