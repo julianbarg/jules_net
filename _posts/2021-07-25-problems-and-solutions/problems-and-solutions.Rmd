@@ -1,0 +1,18 @@
+---
+title: "Problems and Solutions"
+description: |
+  AOM ONE is holding a plenary session under slogan "From Problems to Solutions". Here are my five cents.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 07-25-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+AOM ONE is holding a plenary session under slogan "From Problems to Solutions". I wanted to put down my thoughts on this. My first reaction is--based on where we are, I don't think that direction is one that we can take? I think we are squarely in a "solution" period, problematization is missing in action. I also see a parallel to _sustainable development_ vs. _ecocentrism_ and similar subsequent debates [@Gladwin1995; @Ergene2020]. One side jumps to the conclusion and presents a solution, implicitly assuming that a solution _must be_ feasible. The other side seeks a focus on the environmental problems, usually with much less focus on the problems. These particularly stood out to me because another colleague recently said to me "if somebody comes to me with a solution, I am going to reject that article. I want to focus on problems". 
+
+I think it is a hard pill for some to swallow that a solution might not exist. Not because we are missing the technology or know-how, but because of the social system behind the problem. Ironically, to frame the situation as hopeless and to focus on problems might be the only way to give a social impetus for change. The sustainable development crowd might be missing the mark when it inspires hope, because that festers compartmentalization and complacency. But the belief behind it seems to be rather than complex analysis, the belief that "if we frame the situation as hopeless, people are going to feel disparaged, they are not going to act". In my experience, the opposite is true. Those who seem the most cornered are the most avid fighters. Might just be an example of our model of the world at work, shaping our research. By the way, all this is not to say that we should orient ourselves back toward ecocentrism, I think we have moved past that.
+
