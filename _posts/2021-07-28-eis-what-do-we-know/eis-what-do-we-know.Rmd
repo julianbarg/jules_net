@@ -1,0 +1,29 @@
+---
+title: "EIS--what do we know?"
+description: |
+  [The oil & gas journal picked out an interesting bit from the Environmental Impact Statement (EIS) on the East Lateral Xpress pipeline](https://www.ogj.com/pipelines-transportation/pipelines/article/14206058/columbia-gulf-gets-louisiana-pipeline-draft-eis). The statement was drawn up by the Federal Energy Regulatory Commission (FERC). And with regard to climate impact, the findings are an astute "we don't know". I'm not sure why I am so surprised, I did know already that there is no reliable way of calculating that. Even @Erickson2014 encompasses a wide range of potential impacts. I guess it's probably just surprising to see it spelled out like that by FERC, and it sounds so resigned.
+
+  (Continue reading.)
+
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 07-28-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+  > To date, staff have not identified a methodology to attribute discrete, quantifiable, physical effects on the environment to the Project’s incremental contribution to GHGs. We have looked at atmospheric modeling used by the USEPA, National Aeronautics and Space Administration, the Intergovernmental Panel on Climate Change, and others, and we found that these models are not reasonable for Project-level analysis for a number of reasons. For example, these global models are not suited to determine the incremental impact of individual projects, due to both scale and overwhelming complexity. We also reviewed simpler models and mathematical techniques to determine global physical effects caused by GHG emissions, such as increases in global atmospheric carbon dioxide (CO2) concentrations, atmospheric forcing, or ocean CO2 absorption. We could not identify a reliable, less complex model for this task and thus staff could not determine specific localized or regional physical impacts from GHG emissions from the Project. Without the ability to determine discrete resource impacts, Commission staff are unable to assess the Project’s contribution to climate change through any objective analysis of physical impact attributable to the Project.
+  >
+  > (ibid. p. 11f)
+  
+  Almost everything I have looked at with regard to pipelines and oil spills screams "we don't know". And whenever there was a "known known", chances were it would be revised later. Maybe we should say "we don't know" more often. Of course the question is know--what does this imply for FERC's decision on the pipeline? Something tells me that the pipeline will be permitted anyways. Maybe we will hear something like "it's not the operator's fault we don't know--we shouldn't punish the operator"? 
+  
+  [EIS statement is available here](https://elibrary.ferc.gov/eLibrary/filelist?document_id=14966912).
