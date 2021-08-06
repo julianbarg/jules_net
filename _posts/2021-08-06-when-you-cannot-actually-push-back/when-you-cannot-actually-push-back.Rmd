@@ -1,0 +1,17 @@
+---
+title: "When you cannot actually push back"
+description: |
+  The fantastic Emily Atkin of Heated raised an interesting point regarding the premise of pushing back against the oil & gas industry. I thought it was just the oil & gas industry having the big money--and hence resources such as manpower--that you need to plaster every channel with your message. Turns out, it's more than that: [you may refused if you try to go through some of the same channels with your anti-fossil message](https://heated.world/p/we-arent-comfortable-running-that). That's just what happened to [polluters expsed](https://polluters.exposed/). Their campaign is very blunt--I assume it is assumed to have the feel of a political ad?--and some clips name and shame polluters directly. But then again, ads from the other side are very blunt, too. Doesn't surprise me that a gas station ad platform delivered the most blunt rejection--oil & gas ads are probably a considerable source of revenue for those guys.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 08-06-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
