@@ -1,0 +1,23 @@
+---
+title: "Discourse and microinteractions"
+description: |
+  (No description available)
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 08-11-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+Any paper discourse usually begins with Foucault. Or at least drops a reference to Foucault fairly early. Or starts by referencing a work that itself begins with Foucault. In other words, you cannot get around Foucault if you talk about discourse. And rightfully so. Foucault is the undisputed king of discourse. Nobody can draw you as deep into a far away *episteme* as he does. And nobody showcases the transitions between discourses--usually in the form of abrupt change or departure--as well as he does. The way he packs some three hundred centuries into some two hundred pages is impressive, all while doing justice to each included discourse. I can only begin to imagine the effort that went into his works, to select the discourses and materials to include--limiting the scope--seems like an insurmountable task: making an arch work while optimizing on episodes and materials.
+
+This is a long way of saying that Foucault has a specialty. And this specialty is baked into his legacy--discourse analysis as a *method*. If the scope of your work is similar to that of Foucault--spanning centuries--certainly his is the only way to go about it. But there are different ways to get at epistemology. Like Goffman, we can learn about epistemology by observing everyday life. Goffman's approach may not yield us the "big picture", but it still gives us a solid understanding of how frames--the counterpart to the *Foucauldian discourse*--operate in everyday life.
+
+The scope of the phenomenon *should* decide the method, just like the phenomenon should be selected based on the question. On a Foucauldian scale--spanning centuries--discourse *may* be the only *lasting* explanatory factor. Where our work covers less ground, the noise becomes louder--and starts to dominate. *Microinteractions* affect or determine the sequence of events--and these are largely absent from Foucault's work (@Collins1990 via @Power2011). In other words, to understand how discourse drives the contemporary lived experience, e.g., of an institution, a discourse analysis needs to be conjoined with an analysis of events at a more micro scale. Foucault may have structuralist tendencies--as he alludes to himself [@Foucault1970a]--but that should not preclude the analysis of institutional actions when talking about events of a smaller time scale.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
