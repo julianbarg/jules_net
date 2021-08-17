@@ -1,0 +1,21 @@
+---
+title: "Discourse and control"
+description: |
+  (No description available)
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 08-16-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+The currently dominating Maguire and Hardy school of discourse has a strong focus on the "officially sanctioned" version of discourse--conferences, dockets, and official comments. They have made invaluable contributions to the literature. There are now established methods for discourse analysis. The theory of institutional processes has advanced significantly since their early contributions [@Hardy1999]. We now understand that institutions limit what actors can say in a discourse [@Maguire2013]--conversely, it could be said that exactly this limitation constitutes the institution [@Steinberg1999]. Their contributions have illuminated the "wiggle room" that exists with regard to what can be said by whom, and how it allows for institutional entrepreneurship [@Hardy2010] or deinstitutionalization [@Maguire2009].
+
+And yet when we inverse the central question, we are none the wiser: what cannot be said by whom, and why? Taken-for-grantedness is not _exclusively_ a passive process--it is often actively enforced--albeit in a subtle manner [@Steele2021]. Where we rely on the _official version_ of discourse, we miss out on this facets: the processes that keep unsanctioned statements out of the official discourse; state-sanctioned actions to suppress statements; and efforts to shape the official discourse before it has even begun.
+
+The following are some examples for illustration. (1) In an official meeting of the Nebraska Natural Resource Committee between the legislature, TransCanada, and the Sierra Club, the participants celebrate the latest decision to reroute Keystone XL and conduct a state-funded Environmental Impact Assessment. Senator Mark Christensen presses for Ken Winston of the Sierra Club to abide by the new status quo and cease resistance against the new route, since the demands of the Sierra Club were met [@NRC2011]. (2) A public hearing on Keystone XL in Nebraska. A majority of participants seems concerned about the issue of pipeline safety. All questions concerning pipeline safety are rejected, since it is a matter for a national agency (PHSMA). (3) Following the President's decision to revoke the permit for Keystone XL, TransCanada files a claim with the NAFTA arbitration in the amount of $15 billion. (4) Although indigenous groups make for some of the most persistent opponents of Keystone XL, their voice is rarely heard in the official discourse. Many of their claims revolve around treaty rights--the relevant authority is the national government. (5) Ahead of planned protests in Montana, governmental agencies create a "joint terrorism task force". A police department vows to stop the protesters "by any means".
+
+The last example might seem far removed from the current debate on discourse and institutions--yet it is ironically the closest to Foucault's original work [@Foucault1977]. The control of the body is one of the central motives of his works--it is what constitutes the power in discourse. Discourse without the power to enforce is not discourse--it is just words that will probably vanish. The literature on discourse needs to consider what cannot be said by whom and why.

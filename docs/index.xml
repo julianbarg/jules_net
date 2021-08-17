@@ -7,7 +7,15 @@
     <description>Julian Barg's website. See what I am up to. Also, exposition of my past work.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Wed, 11 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Discourse and control</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2021-08-16-discourse-and-control</link>
+      <description>(No description available)</description>
+      <guid>https://www.jbarg.net/posts/2021-08-16-discourse-and-control</guid>
+      <pubDate>Mon, 16 Aug 2021 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Discourse and microinteractions</title>
       <dc:creator>Julian Barg</dc:creator>
