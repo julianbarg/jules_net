@@ -86,642 +86,41 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>Julian Barg: Pipelines dashboard</title>
+  <title>Using Taguette--some notes</title>
 
-  <meta property="description" itemprop="description" content="Visualize pipeline operator attributes and safety performance."/>
+  <meta property="description" itemprop="description" content="I used Taguette for analysing one set of data--here are some ways forward for the project"/>
 
 
   <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2021-10-13"/>
-  <meta property="article:created" itemprop="dateCreated" content="2021-10-13"/>
+  <meta property="article:published" itemprop="datePublished" content="2021-10-12"/>
+  <meta property="article:created" itemprop="dateCreated" content="2021-10-12"/>
   <meta name="article:author" content="Julian Barg"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Julian Barg: Pipelines dashboard"/>
+  <meta property="og:title" content="Using Taguette--some notes"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Visualize pipeline operator attributes and safety performance."/>
+  <meta property="og:description" content="I used Taguette for analysing one set of data--here are some ways forward for the project"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Julian Barg"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Julian Barg: Pipelines dashboard"/>
-  <meta property="twitter:description" content="Visualize pipeline operator attributes and safety performance."/>
+  <meta property="twitter:title" content="Using Taguette--some notes"/>
+  <meta property="twitter:description" content="I used Taguette for analysing one set of data--here are some ways forward for the project"/>
 
   <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=Interactive notebooks: Sharing the code;citation_publication_date=2014;citation_volume=515;citation_doi=10.1038/515151a;citation_issn=0028-0836;citation_author=Helen Shen"/>
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output"]}},"value":[{"type":"character","attributes":{},"value":["Pipelines dashboard"]},{"type":"character","attributes":{},"value":["Visualize pipeline operator attributes and safety performance.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Julian Barg"]},{"type":"character","attributes":{},"value":["https://jbarg.net"]}]}]},{"type":"character","attributes":{},"value":["2021-10-13"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","output","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["Using Taguette--some notes"]},{"type":"character","attributes":{},"value":["I used Taguette for analysing one set of data--here are some ways forward for the project\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Julian Barg"]},{"type":"character","attributes":{},"value":["https://jbarg.net"]}]}]},{"type":"character","attributes":{},"value":["10-12-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["../../library.bib"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["using-taguette-some-notes_files/anchor-4.2.2/anchor.min.js","using-taguette-some-notes_files/bowser-1.9.3/bowser.min.js","using-taguette-some-notes_files/distill-2.2.21/template.v2.js","using-taguette-some-notes_files/header-attrs-2.7/header-attrs.js","using-taguette-some-notes_files/jquery-1.11.3/jquery.min.js","using-taguette-some-notes_files/popper-2.6.0/popper.min.js","using-taguette-some-notes_files/tippy-6.2.7/tippy-bundle.umd.min.js","using-taguette-some-notes_files/tippy-6.2.7/tippy-light-border.css","using-taguette-some-notes_files/tippy-6.2.7/tippy.css","using-taguette-some-notes_files/tippy-6.2.7/tippy.umd.min.js","using-taguette-some-notes_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
   <!--radix_placeholder_navigation_in_header-->
-  <meta name="distill:offset" content=""/>
-
-  <script type="application/javascript">
-
-    window.headroom_prevent_pin = false;
-
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-
-      // initialize headroom for banner
-      var header = $('header').get(0);
-      var headerHeight = header.offsetHeight;
-      var headroom = new Headroom(header, {
-        tolerance: 5,
-        onPin : function() {
-          if (window.headroom_prevent_pin) {
-            window.headroom_prevent_pin = false;
-            headroom.unpin();
-          }
-        }
-      });
-      headroom.init();
-      if(window.location.hash)
-        headroom.unpin();
-      $(header).addClass('headroom--transition');
-
-      // offset scroll location for banner on hash change
-      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
-      window.addEventListener("hashchange", function(event) {
-        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
-      });
-
-      // responsive menu
-      $('.distill-site-header').each(function(i, val) {
-        var topnav = $(this);
-        var toggle = topnav.find('.nav-toggle');
-        toggle.on('click', function() {
-          topnav.toggleClass('responsive');
-        });
-      });
-
-      // nav dropdowns
-      $('.nav-dropbtn').click(function(e) {
-        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
-        $(this).parent().siblings('.nav-dropdown')
-           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $("body").click(function(e){
-        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
-      });
-      $(".nav-dropdown").click(function(e){
-        e.stopPropagation();
-      });
-    });
-  </script>
-
-  <style type="text/css">
-
-  /* Theme (user-documented overrideables for nav appearance) */
-
-  .distill-site-nav {
-    color: rgba(255, 255, 255, 0.8);
-    background-color: #0F2E3D;
-    font-size: 15px;
-    font-weight: 300;
-  }
-
-  .distill-site-nav a {
-    color: inherit;
-    text-decoration: none;
-  }
-
-  .distill-site-nav a:hover {
-    color: white;
-  }
-
-  @media print {
-    .distill-site-nav {
-      display: none;
-    }
-  }
-
-  .distill-site-header {
-
-  }
-
-  .distill-site-footer {
-
-  }
-
-
-  /* Site Header */
-
-  .distill-site-header {
-    width: 100%;
-    box-sizing: border-box;
-    z-index: 3;
-  }
-
-  .distill-site-header .nav-left {
-    display: inline-block;
-    margin-left: 8px;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header .nav-left {
-      margin-left: 0;
-    }
-  }
-
-
-  .distill-site-header .nav-right {
-    float: right;
-    margin-right: 8px;
-  }
-
-  .distill-site-header a,
-  .distill-site-header .title {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 10px 14px 10px;
-  }
-
-  .distill-site-header .title {
-    font-size: 18px;
-    min-width: 150px;
-  }
-
-  .distill-site-header .logo {
-    padding: 0;
-  }
-
-  .distill-site-header .logo img {
-    display: none;
-    max-height: 20px;
-    width: auto;
-    margin-bottom: -4px;
-  }
-
-  .distill-site-header .nav-image img {
-    max-height: 18px;
-    width: auto;
-    display: inline-block;
-    margin-bottom: -3px;
-  }
-
-
-
-  @media screen and (min-width: 1000px) {
-    .distill-site-header .logo img {
-      display: inline-block;
-    }
-    .distill-site-header .nav-left {
-      margin-left: 20px;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 20px;
-    }
-    .distill-site-header .title {
-      padding-left: 12px;
-    }
-  }
-
-
-  .distill-site-header .nav-toggle {
-    display: none;
-  }
-
-  .nav-dropdown {
-    display: inline-block;
-    position: relative;
-  }
-
-  .nav-dropdown .nav-dropbtn {
-    border: none;
-    outline: none;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 16px 10px;
-    background-color: transparent;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
-    margin: 0;
-    margin-top: 1px;
-    z-index: 2;
-  }
-
-  .nav-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 200px;
-    border: 1px solid rgba(0,0,0,0.15);
-    border-radius: 4px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    margin-top: 2px;
-    white-space: nowrap;
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-
-  .nav-dropdown-content hr {
-    margin-top: 4px;
-    margin-bottom: 4px;
-    border: none;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  }
-
-  .nav-dropdown-active {
-    display: block;
-  }
-
-  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
-    color: black;
-    padding: 6px 24px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .nav-dropdown-content .nav-dropdown-header {
-    display: block;
-    padding: 5px 24px;
-    padding-bottom: 0;
-    text-transform: uppercase;
-    font-size: 14px;
-    color: #999999;
-    white-space: nowrap;
-  }
-
-  .nav-dropdown:hover .nav-dropbtn {
-    color: white;
-  }
-
-  .nav-dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-  .nav-right .nav-dropdown-content {
-    margin-left: -45%;
-    right: 0;
-  }
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
-    .distill-site-header a.nav-toggle {
-      float: right;
-      display: block;
-    }
-    .distill-site-header .title {
-      margin-left: 0;
-    }
-    .distill-site-header .nav-right {
-      margin-right: 0;
-    }
-    .distill-site-header {
-      overflow: hidden;
-    }
-    .nav-right .nav-dropdown-content {
-      margin-left: 0;
-    }
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-header.responsive {position: relative; min-height: 500px; }
-    .distill-site-header.responsive a.nav-toggle {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .distill-site-header.responsive a,
-    .distill-site-header.responsive .nav-dropdown {
-      display: block;
-      text-align: left;
-    }
-    .distill-site-header.responsive .nav-left,
-    .distill-site-header.responsive .nav-right {
-      width: 100%;
-    }
-    .distill-site-header.responsive .nav-dropdown {float: none;}
-    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
-    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
-      display: block;
-      width: 100%;
-      text-align: left;
-    }
-  }
-
-  /* Site Footer */
-
-  .distill-site-footer {
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    z-index: 3;
-    margin-top: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-
-  /* Headroom */
-
-  d-title {
-    padding-top: 6rem;
-  }
-
-  @media print {
-    d-title {
-      padding-top: 4rem;
-    }
-  }
-
-  .headroom {
-    z-index: 1000;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .headroom--transition {
-    transition: all .4s ease-in-out;
-  }
-
-  .headroom--unpinned {
-    top: -100px;
-  }
-
-  .headroom--pinned {
-    top: 0;
-  }
-
-  /* adjust viewport for navbar height */
-  /* helps vertically center bootstrap (non-distill) content */
-  .min-vh-100 {
-    min-height: calc(100vh - 100px) !important;
-  }
-
-  </style>
-
-  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
-  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
-  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
-  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
-  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
-  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
-
-  <script type="application/javascript">
-
-  function getMeta(metaName) {
-    var metas = document.getElementsByTagName('meta');
-    for (let i = 0; i < metas.length; i++) {
-      if (metas[i].getAttribute('name') === metaName) {
-        return metas[i].getAttribute('content');
-      }
-    }
-    return '';
-  }
-
-  function offsetURL(url) {
-    var offset = getMeta('distill:offset');
-    return offset ? offset + '/' + url : url;
-  }
-
-  function createFuseIndex() {
-
-    // create fuse index
-    var options = {
-      keys: [
-        { name: 'title', weight: 20 },
-        { name: 'categories', weight: 15 },
-        { name: 'description', weight: 10 },
-        { name: 'contents', weight: 5 },
-      ],
-      ignoreLocation: true,
-      threshold: 0
-    };
-    var fuse = new window.Fuse([], options);
-
-    // fetch the main search.json
-    return fetch(offsetURL('search.json'))
-      .then(function(response) {
-        if (response.status == 200) {
-          return response.json().then(function(json) {
-            // index main articles
-            json.articles.forEach(function(article) {
-              fuse.add(article);
-            });
-            // download collections and index their articles
-            return Promise.all(json.collections.map(function(collection) {
-              return fetch(offsetURL(collection)).then(function(response) {
-                if (response.status === 200) {
-                  return response.json().then(function(articles) {
-                    articles.forEach(function(article) {
-                      fuse.add(article);
-                    });
-                  })
-                } else {
-                  return Promise.reject(
-                    new Error('Unexpected status from search index request: ' +
-                              response.status)
-                  );
-                }
-              });
-            })).then(function() {
-              return fuse;
-            });
-          });
-
-        } else {
-          return Promise.reject(
-            new Error('Unexpected status from search index request: ' +
-                        response.status)
-          );
-        }
-      });
-  }
-
-  window.document.addEventListener("DOMContentLoaded", function (event) {
-
-    // get search element (bail if we don't have one)
-    var searchEl = window.document.getElementById('distill-search');
-    if (!searchEl)
-      return;
-
-    createFuseIndex()
-      .then(function(fuse) {
-
-        // make search box visible
-        searchEl.classList.remove('hidden');
-
-        // initialize autocomplete
-        var options = {
-          autoselect: true,
-          hint: false,
-          minLength: 2,
-        };
-        window.autocomplete(searchEl, options, [{
-          source: function(query, callback) {
-            const searchOptions = {
-              isCaseSensitive: false,
-              shouldSort: true,
-              minMatchCharLength: 2,
-              limit: 10,
-            };
-            var results = fuse.search(query, searchOptions);
-            callback(results
-              .map(function(result) { return result.item; })
-            );
-          },
-          templates: {
-            suggestion: function(suggestion) {
-              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
-                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
-                : '';
-              var html = `
-                <div class="search-item">
-                  <h3>${suggestion.title}</h3>
-                  <div class="search-item-description">
-                    ${suggestion.description || ''}
-                  </div>
-                  <div class="search-item-preview">
-                    ${img}
-                  </div>
-                </div>
-              `;
-              return html;
-            }
-          }
-        }]).on('autocomplete:selected', function(event, suggestion) {
-          window.location.href = offsetURL(suggestion.path);
-        });
-        // remove inline display style on autocompleter (we want to
-        // manage responsive display via css)
-        $('.algolia-autocomplete').css("display", "");
-      })
-      .catch(function(error) {
-        console.log(error);
-      });
-
-  });
-
-  </script>
-
-  <style type="text/css">
-
-  .nav-search {
-    font-size: x-small;
-  }
-
-  /* Algolioa Autocomplete */
-
-  .algolia-autocomplete {
-    display: inline-block;
-    margin-left: 10px;
-    vertical-align: sub;
-    background-color: white;
-    color: black;
-    padding: 6px;
-    padding-top: 8px;
-    padding-bottom: 0;
-    border-radius: 6px;
-    border: 1px #0F2E3D solid;
-    width: 180px;
-  }
-
-
-  @media screen and (max-width: 768px) {
-    .distill-site-nav .algolia-autocomplete {
-      display: none;
-      visibility: hidden;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete {
-      display: inline-block;
-      visibility: visible;
-    }
-    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
-      margin-left: 0;
-      width: 400px;
-      max-height: 400px;
-    }
-  }
-
-  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
-    width: 90%;
-    outline: none;
-    border: none;
-  }
-
-  .algolia-autocomplete .aa-hint {
-    color: #999;
-  }
-  .algolia-autocomplete .aa-dropdown-menu {
-    width: 550px;
-    max-height: 70vh;
-    overflow-x: visible;
-    overflow-y: scroll;
-    padding: 5px;
-    margin-top: 3px;
-    margin-left: -150px;
-    background-color: #fff;
-    border-radius: 5px;
-    border: 1px solid #999;
-    border-top: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
-    cursor: pointer;
-    padding: 5px 4px;
-    border-bottom: 1px solid #eee;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
-    border-bottom: none;
-    margin-bottom: 2px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
-    overflow: hidden;
-    font-size: 0.8em;
-    line-height: 1.4em;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
-    font-size: 1rem;
-    margin-block-start: 0;
-    margin-block-end: 5px;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
-    display: inline-block;
-    overflow: hidden;
-    height: 2.8em;
-    width: 80%;
-    margin-right: 4%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
-    display: inline-block;
-    width: 15%;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
-    height: 3em;
-    width: auto;
-    display: none;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
-    display: initial;
-  }
-
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
-    background-color: #eee;
-  }
-  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
-    font-weight: bold;
-    font-style: normal;
-  }
-
-  </style>
-
-
   <!--/radix_placeholder_navigation_in_header-->
   <!--radix_placeholder_distill-->
 
@@ -2037,23 +1436,17 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
-  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
-  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
-  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
-  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
-  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
-  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
-  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <script src="using-taguette-some-notes_files/header-attrs-2.7/header-attrs.js"></script>
+  <script src="using-taguette-some-notes_files/jquery-1.11.3/jquery.min.js"></script>
+  <script src="using-taguette-some-notes_files/popper-2.6.0/popper.min.js"></script>
+  <link href="using-taguette-some-notes_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="using-taguette-some-notes_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="using-taguette-some-notes_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="using-taguette-some-notes_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="using-taguette-some-notes_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="using-taguette-some-notes_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="using-taguette-some-notes_files/distill-2.2.21/template.v2.js"></script>
   <!--radix_placeholder_site_in_header-->
-  <script type="text/javascript" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-3H0NSS66Y2"></script>
-  <script type="text/javascript" cookie-consent="tracking">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-3H0NSS66Y2');
-  </script>
   <!--/radix_placeholder_site_in_header-->
 
 
@@ -2064,83 +1457,73 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Pipelines dashboard","description":"Visualize pipeline operator attributes and safety performance.","authors":[{"author":"Julian Barg","authorURL":"https://jbarg.net","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-10-13T00:00:00.000-04:00","citationText":"Barg, 2021"}
+{"title":"Using Taguette--some notes","description":"I used Taguette for analysing one set of data--here are some ways forward for the project","authors":[{"author":"Julian Barg","authorURL":"https://jbarg.net","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-10-12T00:00:00.000-04:00","citationText":"Barg, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
 <!--radix_placeholder_navigation_before_body-->
-<header class="header header--fixed" role="banner">
-<nav class="distill-site-nav distill-site-header">
-<div class="nav-left">
-<a class="logo">
-<img src="images/earth_fire.png" alt="Logo"/>
-</a>
-<a href="index.html" class="title">Julian Barg</a>
-<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
-</div>
-<div class="nav-right">
-<a href="index.html">Blog</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Dashboards
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="incident_dashboard.html">Pipeline spills</a>
-<a href="pipelines_dashboard.html">Pipeline operators</a>
-<a href="organic_vineyards.html">Organic vineyards</a>
-</div>
-</div>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-Presentations
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="phd_seminar_2021.html">PhD Seminar 2021</a>
-</div>
-</div>
-<a href="http://wiki.jbarg.net">Wiki</a>
-<div class="nav-dropdown">
-<button class="nav-dropbtn">
-About
- 
-<span class="down-arrow">&#x25BE;</span>
-</button>
-<div class="nav-dropdown-content">
-<a href="about.html">About me</a>
-<a href="cv.html">Academic CV</a>
-</div>
-</div>
-<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
-</div>
-</nav>
-</header>
 <!--/radix_placeholder_navigation_before_body-->
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Pipelines dashboard</h1>
+<h1>Using Taguette–some notes</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Visualize pipeline operator attributes and safety performance.</p></p>
+<p><p>I used Taguette for analysing one set of data–here are some ways forward for the project</p></p>
 </div>
 
 <div class="d-byline">
   Julian Barg <a href="https://jbarg.net" class="uri">https://jbarg.net</a> 
   
-<br/>2021-10-13
+<br/>10-12-2021
 </div>
 
 <div class="d-article">
-<div class="layout-chunk" data-layout="l-screen-inset shaded">
-<iframe src="https://julianbarg.shinyapps.io/pipelines_dashboard/?showcase=0" width="624" height="800px">
-</iframe>
-</div>
+<p>About two weeks ago, atlas ti web (“cloud”) fatally crashed while I was using it. Frankly, atlas ti is an unstable piece of crap and I want my money back, so I jumpted on the opportunity and got serious with taguette, with a good line as to why I am using an unestablished software for my research. I kept notes on the experience with the intention of filing a few tickets on things that would benefit the user experience, but they got so extensive that I decided to take down my thoughts in this document, too.</p>
+<p>Based on performance alone, taguette is off to a very good start. My experience with atlas ti desktop, nvivo, and maxqda is limited, but I have heard my fair share of complaints from colleagues. I tried them all, briefly, and I was not impressed–Dedoose in particular was a disaster. Then again, some of it comes down to the fact that I am a linux user, and I am just not serviced by these companies–sure, I could run a virtual machine, and I did use wine to test some of them. On the other hand, I assume the experience is not much better when you use them natively. The UI, the user experience, it’s clunky.</p>
+<p>Where is taguette’s potential niche? I don’t see taguette gaining native support for PDFs any time soon–which I thought would be the killer feature for atlas ti web–so I think taguette should play into it’s strength, which is <strong>responsiveness</strong>. Seeing as all data requests in taguette are handled through SQL, I think maintaining taguette responsive shouldn’t be too much of an issue–not that SQL requests cannot be messed up by bad coders, so I am assuming some level of competence here.</p>
+<p>What should taguette be striving toward? I think the reason why QDA softwares have not caught on more widely–why should only qualitative researchers be using the software, and why only once they reach the data analysis stage?–is that the user experience is not great. I am reminded me of how clunky Mendeley felt when I did anything that it was not intended for (and what it is intended for is really only, <em>only</em> the word plugin). In comparison, once I had set up Zotero, settled on Okular, and had all the plugins set up–it is a piece of software I actually like having open all the time on my second screen just to grab the papers I need. I am not talking about Zotero’s UI, what I hope taguette could do is give you fast, convenient access to your qualitative data <em>and just allow you to focus on your analysis</em>.</p>
+<p>To some degree, that kind of user experience for scientific research is about getting out of your way and giving you freedoms. The approach of making your data relatively accessible through an easy to find SQL file–that is also interoperable with other FOSS QDA software–is just right for that purpose. An obvious role model with a similar approach to separating software, UI, and data is jupyter, and I suppose taguette has already learned a thing or two from that project anyways. In my opinion, taguette could never learn enough from jupyter lab–that’s a software I always enjoyed starting up and looking at my data in.</p>
+<p>I don’t want to get too much into it, but there is probably a further argument to be made about learning from the jupyter project’s goal of easy iteration, sharing, and collaboration <span class="citation" data-cites="Shen2014">(<a href="#ref-Shen2014" role="doc-biblioref">Shen 2014</a>)</span>. Maybe a long-term aspiration could be to assist both the qualitative work itself, to also give users the best means possible to share their results, and to allow collaborators and the audience to retrace if not reproduce the results. I am not quite sure what that would look like. Part of it is the option to output codes and coded document in easily accessible data formats–taguette already has plenty of these options. Another element is probably to enable the slicing and dicing of the qualitative data and codes. A third element would be collaborative coding and checking for intercoder reliability. Taguette is already partway there for that last one–just like I can host jupyter lab for my organization on a server, I can also imagine hosting taguette and giving my collaborators access to that–in fact, I am thinking about adding that to my server right now, it would be a nice supplement to my wiki, which I often use to share notes and early drafts. I have learned R, Python, bash and some SQL over the last four years–it does not seem to unreasonable for me to learn some Java, too, and help make some of that happen eventually.</p>
+<p>Below is the list of observation that I created from my notes. Roughly in order of priority. It is an entirely unfiltered list, so there are some pretty miniscule things on there, and some stuff may be inaccurate where I did not double check? The fact that it’s quite a long list does not mean that taguette is inherently flawed–I did really enjoy using it.</p>
+<ol type="1">
+<li>Display the document name above the document.</li>
+<li>Provide an option to search all documents in a project or globally.</li>
+<li>Provide a dedicated scrollbar for the documents in the project (left sidebar) or a different mechanic–I noticed that when wanting to scroll through the documents in a project, I would need to scroll to the bottom of the document first. At first I thought scrolling was broken when I was in a very long document, before I tried using ctrl+end. Makes for an awkward experience with long document+long list of documents–I have to jump to the end of the document first and then scroll up rather than just scrolling down to the document I am looking for. The obvious alternative would be for scrolling to move both content+sidebar together at first until the end of the sidebar is reached. Another one is the current solution for smaller screens–placing the sidebar above the content.</li>
+<li>Document overview page for all the documents in a project–this view could offer features for filtering documents to find exactly what you are looking for, e.g., filter by name.</li>
+<li>Also related to point 3, but admittedly a lot of work: make the two elements–Document list and document contents–independent. When clicking on a document on the list, really only the document contents should be refreshed. That would allow for the users to quickly go through a couple of documents to find what they are looking for. Let’s say I have three documents and I am not sure which one contains the section of interest: currently, the way to find out is to scroll down, click, look at the document, scroll down the document list, click and check again, and repeat one more time.</li>
+<li>Vary colors of highlights–this becomes important when the user tags two successive paragraphs. I think there are a lot of ways for going about this. Either, taguette could progress through some pleasant color palette, back and forth? Or (random?) contrast colors could be used? Or the palette could be linked to the tags. It should be consistent when repeatedly opening a document though.</li>
+<li>In the highlights rider, provide an option to add tags to an existing highlight with tags, e.g., when showing all highlights for one tag. This and te following couple of suggestions are related to the work step of refining and consolidating existing texts in inductive studies.</li>
+<li>Provide an option to combine tags for filtering in the highlight rider.</li>
+<li>Provide an option to merge two tags into one.</li>
+<li>When clicking on the name of a document in the highlight rider, go to that specific highlight in the document after loading the page.</li>
+<li>Automatically jump to the name field when clicking on “Create a tag” in the Highlight window.</li>
+<li>Automatically open the Highlight window when highlighting a section of text–seriously, what else am I going to do?! Joke aside, there would still need to be an option for copying the text, but that is 1 time out of 100 times I highlight a section of text.</li>
+<li>The prior change would render this redundant, but when highlighting a section, the “new highlight” pop-up/button should really appear near the mouse pointer, not at the end of the highlighted section. Scrolling up while highlighting a section sometimes means that the “new highlight” button is out of view at the end.</li>
+<li>Search for tag by name when creating or changing a highlight (rather or in addition than the current checkbox approach)–this could speed up the workflow of tagging significantly. Highlight a section, the window pops up, user starts typing, ideally there would be some kind of autocompletion, meaning I only need to press enter after a few letters and can then start typing the next tag.</li>
+<li>When I create a new tag from the Highlight window, it should automatically be selected (the box ticked).</li>
+<li>Allow for more than one column in Highlight window–not having to scroll through the tags always allows me to have muscle memory pop in as I remember the position of tags. Especially appreciated when using the same tags very often.</li>
+<li>When adding a document, it should probably be opened.</li>
+<li>Drag-and-drop documents in addition to the “Add a document” button.</li>
+<li>Show tags on hovering over the highlight without needing to click on it.</li>
+<li>When the highlighted section ends at the very right of the screen, the highlight button sometimes is partially off the screen. Up to 50% of the button might be covered by the end of the screen–obviously not a serious issue, but still something I noticed</li>
+<li>Provide an option to create a copy of a project with all highlights removed (e.g., to recode or to allow multiple researchers to code a project separately).</li>
+<li>Provide an option to export a project.</li>
+<li>Dark mode.</li>
+<li>An option to sort tags in the highlights rider by recently used–I find when I create a new tag, I tend to forget it after five minutes, and only after I have used it a couple of times do I remember the tag. Would be great to be able to look up the tag I just created, or the tags I used most recently, as opposed to being swarmed by tags i haven’t used in ages.</li>
+<li>Allow for longer file names–my naming system is context-date-time-title(the last one being optional) sometimes when adding a title I go over length. This one is at the very bottom because it’s important</li>
+<li>Sometimes, when opening a document from the highlight rider, the document itself will not open–although the other documents do–and the user has to reopen or reload the page</li>
+<li>This one is really purely a QoL and probably not worth the work, but it would be great for taguette to remember the last position the user was in when closing a document, and for it to return to that section when the document is opened again</li>
+<li>Now, I admit this is just straight up sci-fi. But I dream of a day when taguette uses integration with a pdf reader to handle tagging pdf documents. Zotero does that well–but the task is much easier for Zotero since it is intended for opening documents externally. What I have in mind is something like the old version of Okular which used to save annotations in a separate .xml file.</li>
+<li>I know I am going wildly off-topic now, but I wish taguette stole shamelessly from jupyter labs and that it may become a mashup of all the best features of the established QDA softwares (with none of the performance issues).</li>
+</ol>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-Shen2014" class="csl-entry" role="doc-biblioentry">
+Shen, Helen. 2014. <span>“Interactive Notebooks: Sharing the Code.”</span> <em>Nature</em> 515 (7525): 151–52. <a href="https://doi.org/10.1038/515151a">https://doi.org/10.1038/515151a</a>.
+</div>
+</div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2152,7 +1535,10 @@ About
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
 <!--radix_placeholder_appendices-->
-<div class="appendix-bottom"></div>
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+</div>
 <!--/radix_placeholder_appendices-->
 <!--radix_placeholder_navigation_after_body-->
 <!--/radix_placeholder_navigation_after_body-->

@@ -1,0 +1,23 @@
+---
+title: "Sampling discourse"
+description: |
+  A short description of the post.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 09-04-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+The sample selection for a discourse analysis is challenging. On the one hand, one wants to select texts that are meaningful, i.e., make an impact. Nobody wants to study hundreds of texts that are completely irrelevant to the world we live in. On the other hand, what texts are made to bear on the world is already determined by a process of social selection that can be studied by itself. Discourse does not discuss that which is already taken for granted. This taken-for-grantedness renders possible an almost effortless social experience, because most facets of our social world can be skipped over in each utterance [@Berger1966; @Steele2021]. On the other hand, taken-for-grantedness in language is also the process by which the existing social structure is reproduced [@Bourdieu1977b].
+
+By cases based on what matters in the world, we also sample based on an outcome, a dependent variable.
+
+If we want to break out of this shortcoming, we have to consider change our sampling strategy.
+
+If we want to see the institution at work in discourse, we have to paradoxically also figure out what is not being said, and why.
+
+Grab a forum, see participants, what is said, go to before and see what is not said.
