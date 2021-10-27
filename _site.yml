@@ -22,7 +22,7 @@ navbar:
     - text: "Publications"
       menu:
         - text: Zbaracki et al (2021)
-          href: publications\zbaracki_et_al_-2021-.html
+          href: zbaracki_et_al_-2021-.html
     - text: "Presentations"
       menu:
         - text: PhD Seminar 2021
