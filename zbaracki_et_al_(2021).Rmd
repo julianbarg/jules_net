@@ -11,5 +11,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r CV, layout="l-screen-inset shaded"}
-knitr::include_url("https://julianbarg.github.io/public_documents/Zbaracki%20et%20al%20(2021).pdf", heigh = "9000px")
+knitr::include_url("https://julianbarg.github.io/public_documents/Zbaracki%20et%20al%20(2021).pdf", heigh = "11000px")
 ```
