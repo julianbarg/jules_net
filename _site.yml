@@ -27,6 +27,8 @@ navbar:
       menu:
         - text: PhD Seminar 2021
           href: phd_seminar_2021.html
+    - text: "Document archive"
+      href: archive.html
     - text: "Wiki"
       href: http://wiki.jbarg.net
     - text: "About"

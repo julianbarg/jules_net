@@ -1,0 +1,43 @@
+---
+title: "Document archive"
+description: |
+  A new article created using the Distill format.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: "`r Sys.Date()`"
+output: distill::distill_article
+bibliography: library.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+A list of documents I archived in case they disappear, or because I *will* forget where to find them. Also, makes it easier to search and find them.
+
+## 2021
+
+### November
+
+* Whistleblower report on ALEC (American Legislative Exchange Council) by the IRA including ALEC strategy documents and many documents on Exxon and it's relationship with ALEC.
+  * https://drive.google.com/uc?format=pdf&id=1tJZIN0P0VwiMtIeyT_9xRvZVOeTvYTyc
+* Leaked Stratfor strategy document for Suncor that details their strategy for handling environmental groups. Identifies four categories: idealists, radicals, realists, and opportunists. For example, Greenpeace is identified as radical, Sierra club as idealist, NWF & WWF as realist. Suggests different alternatives in terms of strategic responses, such as stalling and strategic silence, but also rapid negotiations or structured dialogue.
+  * https://drive.google.com//uc?format=pdf&id=1Ng6g2m2k0dO8qSV8XCtO_rM-BUDElTDs
+* Tigerswan intelligence briefing for Energy Transfer Partners on anti-DAPL protest at Standing Rock, dated 2016-10-20. Includes personal details, such as the phone number and photo of one protester that successfully gathered intel on ETP in Iowa.
+  * https://drive.google.com/uc?format=pdf&id=1Add0HDQM8UCFA2rLdiKQWPIRN5i80iy9
+  * Source: https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-defeat-pipeline-insurgencies/
+  * Other documents: https://www.documentcloud.org/app?q=%2Bproject%3Atigerswan-33327
+* ALEC email on the Oil Sands Academy in Alberta. The academy hosted many US lawmakers and was its sponsors include Shell, TransCanada, and the 
+Canadian Association of Petroleum Producers.
+  * https://drive.google.com/uc?format=pdf&id=1SfDYuplH2HMFcpVdFMESUUFay2jU_3Mp
+* Friends of the earth FOIA documents including emails between TransCanada and State Department
+  * https://drive.google.com/uc?format=pdf&id=1vefLnyuY_zmvTQNvKjKnocspVm_38W2V
+  * Original lot: https://www.dropbox.com/sh/eepxidnpb7sfvne/AAAiRLyqmOOUqQFkM5lpZCUWa/Aug%205%202011
+  * More information: https://foe.org/blog/2014-02-keystone-documents/
+  * Story 1--State Department potential bias: https://foe.org/blog/new-keystone-xl-documents-raise-fresh-concerns-about-state-department/
+  * Story 2: https://foe.org/blog/2011-10-documents-reveal-smoking-gun-regarding-state-departm/
+* US Energy Information Administration data on pipelines, operators and locations
+  * https://drive.google.com/uc?export=download&id=1GeAeATGNbNa7nJHaMGuj0tW5LzNZo4_G
+  * https://drive.google.com/uc?export=download&id=1SIJw_vzdSzbSMgyOiBiXF7gmv4ELfCB5
+  * Source: https://www.eia.gov/maps/layer_info-m.php
