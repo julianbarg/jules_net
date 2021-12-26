@@ -1,0 +1,32 @@
+---
+title: "RCMP and oil and gas industry"
+description: |
+  How valuable is the RCMP's Community-Industry Response Group to the Canadian oil and gas industry?
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 12-26-2021
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Today I heard of the RCMP's Community-Industry Response Group (CIRG): https://bc-cb.rcmp-grc.gc.ca/ViewPage.action?siteNodeId=23&languageId=1&contentId=66492. Well, I probably heard of it before, but it came up again in relation to the recent RCMP crackdown on the Gidimt'en checkpoint on Wet'suwet'en territory where a journalist was placed in custody four three days. I thought that was a good reason to review the situation.
+
+I was very surprised by the response of the police: within a few days of erection of the checkpoints, they flew in a large group of RCMP officers who arrested *everybody* indiscriminately. This was during a historic flooding of British Columbia and of course the pandemic. Kind of an all hands on deck situation. Of course the operation also took place in the Northern part of BC where infrastructure is sparse and logistics can present a challenge. The existence of CIRG explains this. CIRG can mobilize officers to "[address] energy incidents and related public order, national security and crime issues". In other words, cracking down on energy protesters and coordination with TC Energy is part of their job. CIRG would also be in charge of collecting intel on indigenous protesters and monitoring relevant developments.
+
+There guys are without a valuable resource to the energy industry. Imagine having your own dedicated office at the police! These would also be the guys who employed "lethal overwatch"--which may or may not be a euphemism for snipers--when they cleared the Gidimt'en checkpoint in 2019. I am sure they achieved the psychological effect they were hoping for. See also here for an interview with the arrested journalists: https://breachmedia.ca/an-inconvenient-image-arrested-journalists-reflect-on-rcmp-assault-on-wetsuweten/
+
+It may be relevant to compare these events to the Battle at Standing Rock between indigenous protesters and Energy Transfer Partners, who employed both the police and private security forces. If TC Energy did not have CIRG at their disposal, they would probably need to retain a private security company both to monitor the situation on a continuous basis and to be sure that personnel can be a deployed on short notice. TC Energy probably still retains one, but the scope of that contract is likely smaller, translating to direct savings.
+
+The possible next step could be direct cash transfers from TC Energy to the police. That is a system that eventually emerged in Minnesota: https://theintercept.com/2021/02/10/police-minnesota-enbridge-pipeline-ppe/ . Originally, for cash-strapped police departments to offset the cost that arose from protecting work on Line 3. The downside is that that system seems to incentivize police departments to accrue as many billable hours as possible. And being harassed by the police is significantly more unpleasant than to be harassed by a private security force. 
+
+I think there were three factors that allowed for Energy Transfer Partners to prevail in the battle against indigenous protesters: (1) the use of a scrupulous paramilitary private security firm that employed veterans from Iraq. (2) Coordination with the police, giving the combined force much more punch. (3) The decisive use of force. In particular, many protesters described the psychological effect that the use of dogs had on them. TC Energy seems to need much less to keep the upper hand in the Wet'suwet'en territory, but they can always escalate things if they need to. There is no significant private security to speak of because CIRG has the situation under control. 
+
+What will happen next? The indigenous protesters seem determined to keep the checkpoint going, despite the arrests that already happened. To ensure the successful construction of the pipeline, the RCMP would have to pretty much permanently arrest the group until the pipeline is complete. Which they might now be willing to do, because of the backlash they may face for that. Or TC Energy might need to increase their own security forces.

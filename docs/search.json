@@ -6,7 +6,7 @@
       "description": "None",
       "author": [],
       "contents": "\n\n\n\n\nJulian Barg is a PhD candidate in Business Sustainability at Ivey Business School and recipient of the Chisholm Graduate Scholarship in Sustainability. His reserach is concerned with the rhetoric and reality of sustainability, with a focus on environmental pollution. Julian has extensive experience in data science, including web scraping, natural language processing, and the creation of dashboards. His doctoral dissertation centers on the Keystone XL discourse, and the accompanying downfall of the pipeline and fossil fuel industries. He most recently coauthored “Truth, Beauty, and Justice in Models of Social Action,” published in Research in the Sociology of Organizations (Zbaracki et al. 2021).\n\nLogo: earth fire by emilegraphics from the Noun Project\n\n\n\nZbaracki, Mark J., Lee Watkiss, Cameron McAlpine, and Julian Barg. 2021. “Truth, Beauty, and Justice in Models of Social Action.” In Research in the Sociology of Organizations, edited by Christine M. Beckman, 159–77. Bingley: Emerald Publishing Limited. https://doi.org/10.1108/S0733-558X20210000076007.\n\n\n\n\n",
-      "last_modified": "2021-11-15T10:30:27-05:00"
+      "last_modified": "2021-12-26T17:01:43-05:00"
     },
     {
       "path": "archive.html",
@@ -20,14 +20,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\nA list of documents I archived in case they disappear, or because I will forget where to find them. Also, makes it easier to search and find them.\n2021\nNovember\nWhistleblower report on ALEC (American Legislative Exchange Council) by the IRA including ALEC strategy documents and many documents on Exxon and it’s relationship with ALEC.\nhttps://drive.google.com/uc?format=pdf&id=1tJZIN0P0VwiMtIeyT_9xRvZVOeTvYTyc\n\nLeaked Stratfor strategy document for Suncor that details their strategy for handling environmental groups. Identifies four categories: idealists, radicals, realists, and opportunists. For example, Greenpeace is identified as radical, Sierra club as idealist, NWF & WWF as realist. Suggests different alternatives in terms of strategic responses, such as stalling and strategic silence, but also rapid negotiations or structured dialogue.\nhttps://drive.google.com//uc?format=pdf&id=1Ng6g2m2k0dO8qSV8XCtO_rM-BUDElTDs\n\nTigerswan intelligence briefing for Energy Transfer Partners on anti-DAPL protest at Standing Rock, dated 2016-10-20. Includes personal details, such as the phone number and photo of one protester that successfully gathered intel on ETP in Iowa.\nhttps://drive.google.com/uc?format=pdf&id=1Add0HDQM8UCFA2rLdiKQWPIRN5i80iy9\nSource: https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-defeat-pipeline-insurgencies/\nOther documents: https://www.documentcloud.org/app?q=%2Bproject%3Atigerswan-33327\n\nALEC email on the Oil Sands Academy in Alberta. The academy hosted many US lawmakers and was its sponsors include Shell, TransCanada, and the Canadian Association of Petroleum Producers.\nhttps://drive.google.com/uc?format=pdf&id=1SfDYuplH2HMFcpVdFMESUUFay2jU_3Mp\n\nFriends of the earth FOIA documents including emails between TransCanada and State Department\nhttps://drive.google.com/uc?format=pdf&id=1vefLnyuY_zmvTQNvKjKnocspVm_38W2V\nOriginal lot: https://www.dropbox.com/sh/eepxidnpb7sfvne/AAAiRLyqmOOUqQFkM5lpZCUWa/Aug%205%202011\nMore information: https://foe.org/blog/2014-02-keystone-documents/\nStory 1–State Department potential bias: https://foe.org/blog/new-keystone-xl-documents-raise-fresh-concerns-about-state-department/\nStory 2: https://foe.org/blog/2011-10-documents-reveal-smoking-gun-regarding-state-departm/\n\nUS Energy Information Administration data on pipelines, operators and locations\nhttps://drive.google.com/uc?export=download&id=1GeAeATGNbNa7nJHaMGuj0tW5LzNZo4_G\nhttps://drive.google.com/uc?export=download&id=1SIJw_vzdSzbSMgyOiBiXF7gmv4ELfCB5\nSource: https://www.eia.gov/maps/layer_info-m.php\n\n",
-      "last_modified": "2021-11-15T10:30:31-05:00"
+      "last_modified": "2021-12-26T17:01:49-05:00"
     },
     {
       "path": "cv.html",
       "title": "Academic CV",
       "author": [],
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-11-15T10:30:31-05:00"
+      "last_modified": "2021-12-26T17:01:50-05:00"
     },
     {
       "path": "incident_dashboard.html",
@@ -41,14 +41,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-11-15T10:30:32-05:00"
+      "last_modified": "2021-12-26T17:01:50-05:00"
     },
     {
       "path": "index.html",
       "title": "Julian Barg's blog. Stuff I came across recently.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-11-15T10:30:33-05:00"
+      "last_modified": "2021-12-26T17:01:51-05:00"
     },
     {
       "path": "organic_vineyards.html",
@@ -62,7 +62,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-11-15T10:30:33-05:00"
+      "last_modified": "2021-12-26T17:01:52-05:00"
     },
     {
       "path": "phd_seminar_2021.html",
@@ -76,7 +76,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\nHow does learning relate to sustainability? One could argue that if an organization continually learns and improves processes and products, we (humanity) could expect it to eventually become sustainable. Or one could think of environmental pollution as a systemic problem and view individual (organizational) action as necessarily insufficient or even misleading. Quantitative data from the shows that the pipeline industry on aggregate reduces the number and volume of spill over time. This reduction is not equivalent to an elimination of concerning environmental pollution. The literature provides two diverging positions on this finding: (a) organizations engage in environmental management because they see the benefits of sustainable development. If enough companies were to jump on the bandwagon, their cumulative efforts could mitigate the environmental impacts of oil pipelines (or other industries). Alternatively, based on trajectories, (b) system-wide emissions are and will in the foreseeable future remain at a level that threatens vital ecosystems and resources such as essential aquifers. Without more encompassing change at a meta-organizational level, we cannot reduce our environmental emission and pollution to a level that ensures their conversation. The aggregated pipeline data offers a picture of significant aggregate improvements without an entire negation of potentially disastrous environmental impacts such as the Kalamazoo River oil spill. Any pipeline crossing an essential ecosystem or river can not be assumed to be safe. Depending on one’s inclination, this observation could be seen as aligning with either side (a) that organizational action can make a significant difference or (b) that a change of the overall system needs to be initiated. More importantly, the analysis has implications for specific ecosystems and pipelines, and suggests a mode of research that should be applied to other industries and ecosystems.\n\n\n\n",
-      "last_modified": "2021-11-15T10:30:33-05:00"
+      "last_modified": "2021-12-26T17:01:52-05:00"
     },
     {
       "path": "pipelines_dashboard.html",
@@ -90,13 +90,13 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2021-11-15T10:30:34-05:00"
+      "last_modified": "2021-12-26T17:01:53-05:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\njules_net\n\n\n",
-      "last_modified": "2021-11-15T10:30:34-05:00"
+      "last_modified": "2021-12-26T17:01:53-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
