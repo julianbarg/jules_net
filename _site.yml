@@ -13,6 +13,8 @@ navbar:
       href: index.html
     - text: "Dashboards"
       menu:
+        - text: Greenwashing literature
+          href: greenwashing_dashboard.html
         - text: Pipeline spills
           href: incident_dashboard.html
         - text: Pipeline operators
