@@ -18,5 +18,5 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```{r dashboard, layout="l-screen-inset shaded"}
 knitr::include_app("https://julianbarg.shinyapps.io/incident_dashboard/", 
-                   height = "800px")
+                   height = "2000px")
 ```

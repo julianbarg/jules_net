@@ -17,5 +17,5 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ```{r dashboard, layout="l-screen-inset shaded"}
-knitr::include_app("https://julianbarg.shinyapps.io/greenwash_dashboard/", height = "800px")
+knitr::include_app("https://julianbarg.shinyapps.io/greenwash_dashboard/", height = "2000px")
 ```
