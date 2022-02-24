@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2022-02-24-war-in-ukraine-energy-diplomacy/",
+    "title": "War in Ukraine--energy diplomacy",
+    "description": "The conflict between Russia and the EU is also a show case for energy diplomacy. A lot of attention is on one specific pipeline project--Nord Stream 2. Business decisions regarding energy are intimately intertwined with other interests.",
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": "https://jbarg.net"
+      }
+    ],
+    "date": "2022-02-24",
+    "categories": [],
+    "contents": "\nSome time ago, I looked into the environmental impact statement of a few pipelines, including Keystone XL. In hindsight, it seems a bit silly to start there. Fossil fuel projects are not analyzed in isolation, they have to be viewed in their political and historical context.\nThere has been a lot of talks about European imports of fossil fuels from Russia, as if the decision to import those fossil fuels had been blatantly stupid. These import decisions though have not been made in a market situation where “demands are met”. The fact that local pollution from natural gas are lower than those from other sources is also only a convenient side effect.\nOne important piece to those specific trade relations between Europe and Russia is the “Ostpolitik” of the Social Democratic Party of Germany. Their “Ostpolitik” included the deliberate dialogue and creation of ties with the Eastern Block–which included the import of natural gas from the Soviet Union.\nThe US’ official energy policy goal is “energy independence”. Subsidized American fracking at a loss are be the counterpart to European imports from Russia.\nTo think that we draw on specific sources of fossil fuel because it is cheap or greener than others is at least an incomplete assumption. The historical context is more complex than that. And looking at the historical context is also a great starting point for identifying the power relations that one is up against when seeking to reform the energy business. To just point to environmental benefits is also incomplete and in many cases insufficient for making a change.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2022-02-24T12:50:06-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2022-02-06-consequence-jail-time/",
     "title": "Consequence--jail time",
     "description": "https://www.bloomberg.com/news/articles/2022-01-28/china-jails-almost-50-steel-executives-for-faking-emissions-data . Would have loved to see this story discussed more widely. 50 steel executives jailed for faking emissions data. It was somewhat of an open secret in China that firms would fake their emissions data. What are you going to do if not reaching your goal is not an option? As a response, China implemented a mandate that data would be send live from the source (sensors at the smoke stacks from what I understand) to the regulator. Now, even if a company wanted to fake their data, there is a high chance that there would be some discontinuities in the data when they change over from one data source (sensors) to another--a computer generating random data. The Institute of Public and Environmental Affairs, a Beijing-based NGO, has some of the data, which is very cool.\n\nSo now some inconsistencies were found and people went to jail. Now I am wondering: who should go to jail for corporate environmental crimes? Environmental fines are often seen as the cost of doing business. I think it is fair to say that jail time for environmental crimes is rare, especially in countries like the US where corporations are more and more becomming persons, and executives have less and less personal responsibilities. Before I start discussing punishment on the body through imprisonment rather than on the organization, I should probably revisit Foucault's Discipline and Punish. But I think this warrants a debate. Serial polluters--people, not organizations--are a pest and I will hold onto that fragment of hope that they can be removed from industries.",

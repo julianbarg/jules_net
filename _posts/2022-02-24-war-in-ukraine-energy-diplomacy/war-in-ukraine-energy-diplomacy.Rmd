@@ -1,0 +1,27 @@
+---
+title: "War in Ukraine--energy diplomacy"
+description: |
+  The conflict between Russia and the EU is also a show case for energy diplomacy. A lot of attention is on one specific pipeline project--Nord Stream 2. Business decisions regarding energy are intimately intertwined with other interests.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 2022-02-24
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Some time ago, I looked into the environmental impact statement of a few pipelines, including Keystone XL. In hindsight, it seems a bit silly to start there. Fossil fuel projects are not analyzed in isolation, they *have* to be viewed in their political and historical context.
+
+There has been a lot of talks about European imports of fossil fuels from Russia, as if the decision to import those fossil fuels had been blatantly stupid. These import decisions though have not been made in a market situation where "demands are met". The fact that local pollution from natural gas are lower than those from other sources is also only a convenient side effect.
+
+One important piece to *those specific trade relations* between Europe and Russia is the "Ostpolitik" of the Social Democratic Party of Germany. Their "Ostpolitik" included the deliberate dialogue and creation of ties with the Eastern Block--which included the import of natural gas from the Soviet Union. 
+
+The US' official energy policy goal is "energy independence". Subsidized American fracking at a loss are be the counterpart to European imports from Russia.
+
+To think that we draw on specific sources of fossil fuel because it is cheap or greener than others is at least an incomplete assumption. The historical context is more complex than that. And looking at the historical context is also a great starting point for identifying the power relations that one is up against when seeking to reform the energy business. To just point to environmental benefits is also incomplete and in many cases insufficient for making a change.
