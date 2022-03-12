@@ -1,7 +1,8 @@
 ---
 title: "Document archive"
 description: |
-  A new article created using the Distill format.
+  A list of documents I archived in case they disappear, or because I *will* forget where to find them. Also, makes it easier to search and find them.
+
 author:
   - name: Julian Barg
     url: https://jbarg.net
@@ -14,7 +15,12 @@ bibliography: library.bib
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-A list of documents I archived in case they disappear, or because I *will* forget where to find them. Also, makes it easier to search and find them.
+## 2022
+
+* 2013-01-03 KXL Draft EIS
+  * https://2012-keystonepipeline-xl.state.gov/draftseis/index.htm
+  * https://drive.google.com/uc?format=pdf&id=1SwSXEct5uQlHdwbcOGJQiCUHVh-SfKDZ
+  
 
 ## 2021
 
@@ -23,7 +29,7 @@ A list of documents I archived in case they disappear, or because I *will* forge
 * Whistleblower report on ALEC (American Legislative Exchange Council) by the IRA including ALEC strategy documents and many documents on Exxon and it's relationship with ALEC.
   * https://drive.google.com/uc?format=pdf&id=1tJZIN0P0VwiMtIeyT_9xRvZVOeTvYTyc
 * Leaked Stratfor strategy document for Suncor that details their strategy for handling environmental groups. Identifies four categories: idealists, radicals, realists, and opportunists. For example, Greenpeace is identified as radical, Sierra club as idealist, NWF & WWF as realist. Suggests different alternatives in terms of strategic responses, such as stalling and strategic silence, but also rapid negotiations or structured dialogue.
-  * https://drive.google.com//uc?format=pdf&id=1Ng6g2m2k0dO8qSV8XCtO_rM-BUDElTDs
+  * 
 * Tigerswan intelligence briefing for Energy Transfer Partners on anti-DAPL protest at Standing Rock, dated 2016-10-20. Includes personal details, such as the phone number and photo of one protester that successfully gathered intel on ETP in Iowa.
   * https://drive.google.com/uc?format=pdf&id=1Add0HDQM8UCFA2rLdiKQWPIRN5i80iy9
   * Source: https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-defeat-pipeline-insurgencies/
