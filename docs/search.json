@@ -6,7 +6,7 @@
       "description": "None",
       "author": [],
       "contents": "\n\n\n\n\nJulian Barg is a PhD candidate in Business Sustainability at Ivey\nBusiness School and recipient of the Chisholm Graduate Scholarship in\nSustainability. His reserach is concerned with the rhetoric and reality\nof sustainability, with a focus on environmental pollution. Julian has\nextensive experience in data science, including web scraping, natural\nlanguage processing, and the creation of dashboards. His doctoral\ndissertation centers on the Keystone XL discourse, and the accompanying\ndownfall of the pipeline and fossil fuel industries. He most recently\ncoauthored “Truth, Beauty, and Justice in Models of Social Action”,\npublished in Research in the Sociology of Organizations (Zbaracki et al. 2021).\n\nLogo: earth fire by emilegraphics from the Noun Project\n\n\n\nZbaracki, Mark J., Lee Watkiss, Cameron McAlpine, and Julian Barg. 2021.\n“Truth, Beauty, and Justice in\nModels of Social Action.” In\nResearch in the Sociology of\nOrganizations, edited by Christine M. Beckman, 159–77.\nBingley: Emerald Publishing Limited. https://doi.org/10.1108/S0733-558X20210000076007.\n\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:24-05:00"
+      "last_modified": "2022-05-02T12:39:06-04:00"
     },
     {
       "path": "archive.html",
@@ -19,15 +19,15 @@
         }
       ],
       "date": "`r Sys.Date()`",
-      "contents": "\n2022\n2013-01-03 KXL Draft EIS\nhttps://2012-keystonepipeline-xl.state.gov/draftseis/index.htm\nhttps://drive.google.com/uc?format=pdf&id=1SwSXEct5uQlHdwbcOGJQiCUHVh-SfKDZ\n\n2021\nNovember\nWhistleblower report on ALEC (American Legislative Exchange Council)\nby the IRA including ALEC strategy documents and many documents on Exxon\nand it’s relationship with ALEC.\nhttps://drive.google.com/uc?format=pdf&id=1tJZIN0P0VwiMtIeyT_9xRvZVOeTvYTyc\n\nLeaked Stratfor strategy document for Suncor that details their\nstrategy for handling environmental groups. Identifies four categories:\nidealists, radicals, realists, and opportunists. For example, Greenpeace\nis identified as radical, Sierra club as idealist, NWF & WWF as\nrealist. Suggests different alternatives in terms of strategic\nresponses, such as stalling and strategic silence, but also rapid\nnegotiations or structured dialogue.\n\n\nTigerswan intelligence briefing for Energy Transfer Partners on\nanti-DAPL protest at Standing Rock, dated 2016-10-20. Includes personal\ndetails, such as the phone number and photo of one protester that\nsuccessfully gathered intel on ETP in Iowa.\nhttps://drive.google.com/uc?format=pdf&id=1Add0HDQM8UCFA2rLdiKQWPIRN5i80iy9\nSource: https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-defeat-pipeline-insurgencies/\nOther documents: https://www.documentcloud.org/app?q=%2Bproject%3Atigerswan-33327\n\nALEC email on the Oil Sands Academy in Alberta. The academy hosted\nmany US lawmakers and was its sponsors include Shell, TransCanada, and\nthe Canadian Association of Petroleum Producers.\nhttps://drive.google.com/uc?format=pdf&id=1SfDYuplH2HMFcpVdFMESUUFay2jU_3Mp\n\nFriends of the earth FOIA documents including emails between\nTransCanada and State Department\nhttps://drive.google.com/uc?format=pdf&id=1vefLnyuY_zmvTQNvKjKnocspVm_38W2V\nOriginal lot: https://www.dropbox.com/sh/eepxidnpb7sfvne/AAAiRLyqmOOUqQFkM5lpZCUWa/Aug%205%202011\nMore information: https://foe.org/blog/2014-02-keystone-documents/\nStory 1–State Department potential bias: https://foe.org/blog/new-keystone-xl-documents-raise-fresh-concerns-about-state-department/\nStory 2: https://foe.org/blog/2011-10-documents-reveal-smoking-gun-regarding-state-departm/\n\nUS Energy Information Administration data on pipelines, operators\nand locations\nhttps://drive.google.com/uc?export=download&id=1GeAeATGNbNa7nJHaMGuj0tW5LzNZo4_G\nhttps://drive.google.com/uc?export=download&id=1SIJw_vzdSzbSMgyOiBiXF7gmv4ELfCB5\nSource: https://www.eia.gov/maps/layer_info-m.php\n\n",
-      "last_modified": "2022-03-12T13:35:34-05:00"
+      "contents": "\n2022\nKXL Final EIS (2011)\nhttps://2012-keystonepipeline-xl.state.gov/archive/dos_docs/feis/index.htm\nhttps://drive.google.com/uc?format=pdf&id=1Y9aflCOQpJd0hETzAx8JABE-qGeCEHnh\n\n2013-01-03 KXL Draft EIS\nhttps://2012-keystonepipeline-xl.state.gov/draftseis/index.htm\nhttps://drive.google.com/uc?format=pdf&id=1SwSXEct5uQlHdwbcOGJQiCUHVh-SfKDZ\n\n2021\nNovember\nWhistleblower report on ALEC (American Legislative Exchange Council)\nby the IRA including ALEC strategy documents and many documents on Exxon\nand it’s relationship with ALEC.\nhttps://drive.google.com/uc?format=pdf&id=1tJZIN0P0VwiMtIeyT_9xRvZVOeTvYTyc\n\nLeaked Stratfor strategy document for Suncor that details their\nstrategy for handling environmental groups. Identifies four categories:\nidealists, radicals, realists, and opportunists. For example, Greenpeace\nis identified as radical, Sierra club as idealist, NWF & WWF as\nrealist. Suggests different alternatives in terms of strategic\nresponses, such as stalling and strategic silence, but also rapid\nnegotiations or structured dialogue.\n\n\nTigerswan intelligence briefing for Energy Transfer Partners on\nanti-DAPL protest at Standing Rock, dated 2016-10-20. Includes personal\ndetails, such as the phone number and photo of one protester that\nsuccessfully gathered intel on ETP in Iowa.\nhttps://drive.google.com/uc?format=pdf&id=1Add0HDQM8UCFA2rLdiKQWPIRN5i80iy9\nSource: https://theintercept.com/2017/05/27/leaked-documents-reveal-security-firms-counterterrorism-tactics-at-standing-rock-to-defeat-pipeline-insurgencies/\nOther documents: https://www.documentcloud.org/app?q=%2Bproject%3Atigerswan-33327\n\nALEC email on the Oil Sands Academy in Alberta. The academy hosted\nmany US lawmakers and was its sponsors include Shell, TransCanada, and\nthe Canadian Association of Petroleum Producers.\nhttps://drive.google.com/uc?format=pdf&id=1SfDYuplH2HMFcpVdFMESUUFay2jU_3Mp\n\nFriends of the earth FOIA documents including emails between\nTransCanada and State Department\nhttps://drive.google.com/uc?format=pdf&id=1vefLnyuY_zmvTQNvKjKnocspVm_38W2V\nOriginal lot: https://www.dropbox.com/sh/eepxidnpb7sfvne/AAAiRLyqmOOUqQFkM5lpZCUWa/Aug%205%202011\nMore information: https://foe.org/blog/2014-02-keystone-documents/\nStory 1–State Department potential bias: https://foe.org/blog/new-keystone-xl-documents-raise-fresh-concerns-about-state-department/\nStory 2: https://foe.org/blog/2011-10-documents-reveal-smoking-gun-regarding-state-departm/\n\nUS Energy Information Administration data on pipelines, operators\nand locations\nhttps://drive.google.com/uc?export=download&id=1GeAeATGNbNa7nJHaMGuj0tW5LzNZo4_G\nhttps://drive.google.com/uc?export=download&id=1SIJw_vzdSzbSMgyOiBiXF7gmv4ELfCB5\nSource: https://www.eia.gov/maps/layer_info-m.php\n\n",
+      "last_modified": "2022-05-02T12:39:15-04:00"
     },
     {
       "path": "cv.html",
       "title": "Academic CV",
       "author": [],
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:35-05:00"
+      "last_modified": "2022-05-02T12:39:16-04:00"
     },
     {
       "path": "greenwashing_dashboard.html",
@@ -41,7 +41,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:36-05:00"
+      "last_modified": "2022-05-02T12:39:17-04:00"
     },
     {
       "path": "incident_dashboard.html",
@@ -55,14 +55,14 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:36-05:00"
+      "last_modified": "2022-05-02T12:39:18-04:00"
     },
     {
       "path": "index.html",
       "title": "Julian Barg's blog. Stuff I came across recently.\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:38-05:00"
+      "last_modified": "2022-05-02T12:39:19-04:00"
     },
     {
       "path": "organic_vineyards.html",
@@ -76,7 +76,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:38-05:00"
+      "last_modified": "2022-05-02T12:39:20-04:00"
     },
     {
       "path": "phd_seminar_2021.html",
@@ -90,7 +90,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\nHow does learning relate to sustainability? One could argue that if\nan organization continually learns and improves processes and products,\nwe (humanity) could expect it to eventually become sustainable. Or one\ncould think of environmental pollution as a systemic problem and view\nindividual (organizational) action as necessarily insufficient or even\nmisleading. Quantitative data from the shows that the pipeline industry\non aggregate reduces the number and volume of spill over time. This\nreduction is not equivalent to an elimination of concerning\nenvironmental pollution. The literature provides two diverging positions\non this finding: (a) organizations engage in environmental management\nbecause they see the benefits of sustainable development. If enough\ncompanies were to jump on the bandwagon, their cumulative efforts could\nmitigate the environmental impacts of oil pipelines (or other\nindustries). Alternatively, based on trajectories, (b) system-wide\nemissions are and will in the foreseeable future remain at a level that\nthreatens vital ecosystems and resources such as essential aquifers.\nWithout more encompassing change at a meta-organizational level, we\ncannot reduce our environmental emission and pollution to a level that\nensures their conversation. The aggregated pipeline data offers a\npicture of significant aggregate improvements without an entire negation\nof potentially disastrous environmental impacts such as the Kalamazoo\nRiver oil spill. Any pipeline crossing an essential ecosystem or river\ncan not be assumed to be safe. Depending on one’s inclination, this\nobservation could be seen as aligning with either side (a) that\norganizational action can make a significant difference or (b) that a\nchange of the overall system needs to be initiated. More importantly,\nthe analysis has implications for specific ecosystems and pipelines, and\nsuggests a mode of research that should be applied to other industries\nand ecosystems.\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:39-05:00"
+      "last_modified": "2022-05-02T12:39:21-04:00"
     },
     {
       "path": "pipelines_dashboard.html",
@@ -104,13 +104,13 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n\n\n\n\n",
-      "last_modified": "2022-03-12T13:35:40-05:00"
+      "last_modified": "2022-05-02T12:39:22-04:00"
     },
     {
       "path": "README.html",
       "author": [],
       "contents": "\njules_net\n\n\n",
-      "last_modified": "2022-03-12T13:35:40-05:00"
+      "last_modified": "2022-05-02T12:39:22-04:00"
     }
   ],
   "collections": ["posts/posts.json"]
