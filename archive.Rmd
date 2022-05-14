@@ -17,6 +17,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## 2022
 
+* KXL Environmental Report November 2008
+  * Source: https://2012-keystonepipeline-xl.state.gov/archive/proj_docs/env/index.htm
+  * https://drive.google.com/uc?format=pdf&id=1OHQYok2pPoMUPSMKl5xW30ygYDJDfhW3
 * KXL Draft EIS (2010)
   * Source: https://2012-keystonepipeline-xl.state.gov/archive/dos_docs/deis/index.htm
   * https://drive.google.com/uc?format=pdf&id=1ooepDULXdt5sOAYiKPm6fhY6-tso3NTT
