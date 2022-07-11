@@ -3,10 +3,10 @@
     {
       "path": "about.html",
       "title": "Julian Barg",
-      "description": "None",
+      "description": "julian@jbarg.net",
       "author": [],
       "contents": "\n\n\n\n\nJulian Barg is a PhD candidate in Business Sustainability at Ivey\nBusiness School and recipient of the Chisholm Graduate Scholarship in\nSustainability. His reserach is concerned with the rhetoric and reality\nof sustainability, with a focus on environmental pollution. Julian has\nextensive experience in data science, including web scraping, natural\nlanguage processing, and the creation of dashboards. His doctoral\ndissertation centers on the Keystone XL discourse, and the accompanying\ndownfall of the pipeline and fossil fuel industries. He most recently\ncoauthored “Truth, Beauty, and Justice in Models of Social Action”,\npublished in Research in the Sociology of Organizations (Zbaracki et al. 2021).\n\nLogo: earth fire by emilegraphics from the Noun Project\n\n\n\nZbaracki, Mark J., Lee Watkiss, Cameron McAlpine, and Julian Barg. 2021.\n“Truth, Beauty, and Justice in\nModels of Social Action.” In\nResearch in the Sociology of\nOrganizations, edited by Christine M. Beckman, 159–77.\nBingley: Emerald Publishing Limited. https://doi.org/10.1108/S0733-558X20210000076007.\n\n\n\n\n",
-      "last_modified": "2022-05-02T12:39:06-04:00"
+      "last_modified": "2022-07-11T10:25:51-04:00"
     },
     {
       "path": "archive.html",
@@ -110,7 +110,7 @@
       "path": "README.html",
       "author": [],
       "contents": "\njules_net\n\n\n",
-      "last_modified": "2022-06-14T14:22:58-04:00"
+      "last_modified": "2022-07-11T10:25:51-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

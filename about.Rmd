@@ -1,6 +1,6 @@
 ---
 title: "Julian Barg"
-description: None
+description: julian@jbarg.net
 bibliography: library.bib
 ---
 
