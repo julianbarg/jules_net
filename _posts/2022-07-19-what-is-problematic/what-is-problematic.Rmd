@@ -1,0 +1,40 @@
+---
+title: "What is problematic?"
+description: |
+  I read an article about the Macdonald-Laurier Institute, and want to put into words what is problematic. Here is the article: https://www.theguardian.com/environment/2022/jul/18/conservative-us-network-undermined-indigenous-energy-rights-in-canada. What is problematic about astroturfing and industry shills or troll? How do we even know who is a troll? Is everybody with ties to the industry a troll? Is "collateral damage" when talking about industry trolls acceptable? 
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 2022-07-19
+output:
+  distill::distill_article:
+    self_contained: false
+bibliography: ../../library.bib
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+MLI states its goal as making "poor quality public policy in Ottawa unacceptable". Its news section shows no clear line, but a clear conservative bias. [According to their own report](https://web.archive.org/web/20190331220550/https:/www.atlasnetwork.org/assets/uploads/misc/MLI_Aboriginal_Canada_Case_Study_Final.pdf) the Macdonald-Laurier Institute (MLI) recruits indigenous people to "create free-market change". Its network acts as "a shield against opponents [to] allow Canada's Indigenous population to benefit from
+mining and energy development". One header in particular caught my attention: the "lack of indigenous data available". At least within universities, data collection would take place only after extensive consultation with indigenous groups as data is essential to power and control and can easily be abused. But of course MLI has indigenous memebers within its ranks, so the situation is not quite black and white. The bottom line is--is MLI problematic because the organization is an industry allie, or is it problematic because it supports values that I disagree with?
+
+So what is problematic about MLI according to the report? I will go through the issues raised in the article one by one and discuss how these talking points could inform research.
+
+1. Hayden King of the Yellowhead Institute calls the campaign "a contemporary expression of the type of imperialism that Indigenous peoples have been dealing with here for many, many years".
+  * While I would agree with Hayden King, I do not think that deferring to an authority in an area is a particularly good route for research.
+2. MLI has ties to Atlas Network and refers to Atlas Network for questions. Atlas Network has numerous problematic ties, for instance to the Cato Institute. Atlas Network has also received at least \$1m from ExxonMobil and over \$700,000 from the Koch Family Foundations.
+  * Do not get me wrong. I think it is highly problematic how much industry money is foating around [see also @Barley2010]. It is obvious to me and you who are in the know that these ties are problematic. But most people are not in the know, so the goals of all these organizations need to be individually established. In the case of MLI, we are talking about "second order ties", so are the goals of the problematic organizations present here, too? Or maybe any ties to industry money are problematic? One possible coures of events is that MLI was looking for funds--like any think tank or NGO--and Atlas Network was happy to fund MLI as their goals were aligned. That is not the same as MLI receiving marching orders from Atlas Network. So again, the story is getting more complicated.
+3. MLI and Atlas Network have been pushing back against the implementation of the United Nations Declaration of the Rights of Indigenous Peoples (UNDRIP).
+  * Again, not cool. But this is an issue of action or content, not context. We would again be deferring to an authority, in this case the UN, to establish that MLI is not a legitimate organization. Does being against a policy render an organization inherently problematic? As somebody who is interested in social movements, I do not hope so.
+4. MLI board members have problematic ties to industries and lobbying firms.
+  * This is a promising starting point. The article does not list the ties, but this point suggests a potential course of action. What policies do MLI members promote during the day and what is it they do at night? Researching specific actions and statements made by individuals could yield interesting insights.
+5. Atlas painted their collaboration with MLI on UNDRIP as a success and also mentions first nations organizations such as the First Nations Major Projects Coalition as supporters. A spokesperson of the First Nations Major Projects Coalition disputes this.
+  * Misleading statements such as these are highly problematic. Industry organizations are quick to list first nations organizations as their supporters where e.g., only a consultation took place. These kinds of misleading statements always require a lot of ancillary research from researchers.
+6. The rest of the article mostly talks about UNDRIP and its importance for indigenous communities in Canada.
+  * Great insights here. Of course this is again content or action rather than context. So it looks like we cannot dodge the great debates on policies, even when we face off against potential industry shills or trolls.
+
+Two important notes here regarding money and goals. There is very limited data regarding the flow of money from and to organizations such as the Atlas Network--these kinds of information leak once a decade maybe. By the time we receive these information, the damage has already been done. Considering the size of the network, the specific sums mentioned here are also not very impressive. Not even two million dollars, and that money was flowing to Atlas Network which is then maybe offering grants or prize money after paying its own employees. How does MLI pay the salaries for its dozens of fellows? The foundation has its own money for that. On the other hand, what if these \$2 million are just the tip of the iceberg, and we were to learn ten years from now that Atlas Network had maybe \$50 million in funding? And what if we learned more about MLI's goals from leaked internal emails ten years from now?
+
+Industry money floating around is a problem, especially since environmental grassroots do not have access to the same kind of resources. The question is how to convince an audience *today* that this is a problem? The most promising way is hard work focusing on specific issues. For me, learning about the ties between MLI and Atlas Network is helpful, but it is only a starting point, not an end point. We still need to do the legwork of looking into people and issues. And there is no way around focusing on culture, too. Oil and gas are part of Canadian culture, especially in Alberta. Unsurprisingly, industry shills and trolls can have indigenous people among their midst, too. In the end, we cannot escape the culture war. It is not self evident who is good and who is evil. There are contextual factors, but we still need to look at contents and actions (even if industry shills and trolls may not).
