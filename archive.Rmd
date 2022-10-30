@@ -22,7 +22,7 @@ knitr::opts_chunk$set(echo = FALSE)
   * https://drive.google.com/uc?format=pdf&id=1Gbxxn8NGrZrL1B5PddMAbFVD05kAi6gH
 * KXL Environmental Report November 2008
   * Source: https://2012-keystonepipeline-xl.state.gov/archive/proj_docs/env/index.htm
-  * https://drive.google.com/uc?format=pdf&id=1OHQYok2pPoMUPSMKl5xW30ygYDJDfhW3
+  * https://drive.google.com/uc?format=pdf&id=1iPEWDfBg0fxTXuJGU0otGtal_vTL-yQ3
 * KXL Draft EIS (2010)
   * Source: https://2012-keystonepipeline-xl.state.gov/archive/dos_docs/deis/index.htm
   * https://drive.google.com/uc?format=pdf&id=1ooepDULXdt5sOAYiKPm6fhY6-tso3NTT
@@ -30,8 +30,20 @@ knitr::opts_chunk$set(echo = FALSE)
   * Source: https://2012-keystonepipeline-xl.state.gov/archive/dos_docs/feis/index.htm
   * https://drive.google.com/uc?format=pdf&id=1Y9aflCOQpJd0hETzAx8JABE-qGeCEHnh
 * 2013-01-03 KXL Draft EIS
-  * https://2012-keystonepipeline-xl.state.gov/draftseis/index.htm
+  * Source: https://2012-keystonepipeline-xl.state.gov/draftseis/index.htm
   * https://drive.google.com/uc?format=pdf&id=1SwSXEct5uQlHdwbcOGJQiCUHVh-SfKDZ
+* 2014-01-01 KXL Final Supplemental EIS
+  * Source: https://2012-keystonepipeline-xl.state.gov/finalseis/index.htm
+  * https://drive.google.com/uc?format=pdf&id=1gioIRBMQ01UZI98nrN6ZwINQS1j8R--i
+* 2018-07-26 Draft Environmental Assessment
+  * Source: https://2017-2021.state.gov/releases-keystone-xl-pipeline/index.html
+  * https://drive.google.com/uc?format=pdf&id=1qVZnT7twpeKqy29OhrZu_VfsNLVhGRqh
+* 2019-10-01 KXL Draft Supplemental EIS
+  * Source: https://2017-2021.state.gov/releases-keystone-xl-pipeline/index.html
+  * https://drive.google.com/uc?format=pdf&id=1qVZnT7twpeKqy29OhrZu_VfsNLVhGRqh
+* 2019-12-01 KXL Final Supplemental EIS
+  * Source: https://2017-2021.state.gov/releases-keystone-xl-pipeline/index.html
+  * https://drive.google.com/uc?format=pdf&id=1tfAtTAqMHGH8JAqNxRL-K4LuAVKBj-Qn
 * Nebraska Legislature exhibits 2011-02-09
   * https://drive.google.com/uc?format=pdf&id=1x4GmdoSC362UyV6Hi27fkJnBLOtG93OW
 
