@@ -1,0 +1,24 @@
+---
+title: "Energy Trends 2023-03-29"
+description: |
+  **Energy Trends**
+author:
+  - name: Julian Barg 
+    url: https://jbarg.net
+    affiliation: Ivey Business School
+    affiliation_url: https://www.ivey.uwo.ca/phd/students/julian-barg/  
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r dashboard, layout="l-screen-inset shaded"}
+knitr::include_url(
+  "https://julianbarg.github.io/public_documents/presentations/energy_trends_2023-03-29.pdf", 
+  height = "800px")
+```
+
+Presentation for industry folks with focus on business implications.

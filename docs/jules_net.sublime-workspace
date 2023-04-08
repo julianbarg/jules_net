@@ -1,0 +1,707 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"R",
+				"Shurabi"
+			],
+			[
+				"label",
+				"labelangle"
+			],
+			[
+				"dist",
+				"mindist"
+			],
+			[
+				"inter",
+				"intermediary_3"
+			],
+			[
+				"supplier",
+				"supplier_3"
+			],
+			[
+				"message",
+				"message_3"
+			],
+			[
+				"sh",
+				"sh_4"
+			],
+			[
+				"cons",
+				"consumer_1"
+			],
+			[
+				"res",
+				"response_2"
+			],
+			[
+				"int",
+				"intermediary_3"
+			],
+			[
+				"mess",
+				"message_3"
+			],
+			[
+				"suppl",
+				"suppliers_3_message"
+			],
+			[
+				"sup",
+				"suppliers_message"
+			],
+			[
+				"suppli",
+				"supplier_2"
+			],
+			[
+				"firm",
+				"firm_3"
+			],
+			[
+				"sh_",
+				"all_sh_3"
+			],
+			[
+				"Jour",
+				"Journal-Star"
+			],
+			[
+				"Jo",
+				"Journal-Star"
+			],
+			[
+				"delet",
+				"deleted_line"
+			],
+			[
+				"Journa",
+				"Journal-Star"
+			],
+			[
+				"Earth",
+				"EARTHWORKS"
+			],
+			[
+				"enri",
+				"enviros_2010-05-01"
+			],
+			[
+				"E",
+				"EARTHWORKS"
+			],
+			[
+				"N",
+				"new_file"
+			],
+			[
+				"Pr",
+				"PROJECT_DIRECTORY"
+			],
+			[
+				"PROJ",
+				"PROJECT_DIRECTORY"
+			],
+			[
+				"PR",
+				"PROJECT"
+			],
+			[
+				"in",
+				"\\input{file}                                      \tlatex-document"
+			],
+			[
+				"newco",
+				"\\renewcommand{cmd}[args]{def}                     \tlatex-document"
+			],
+			[
+				"doub",
+				"\\cleardoublepage                                  \tlatex-document"
+			],
+			[
+				"documen",
+				"\\documentclass{style}                             \tlatex-document"
+			],
+			[
+				"citeauthor",
+				"\\citeauthor{key}                                  \tbiblatex"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sendcode",
+				"SendCode: Choose Program"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"lsp",
+				"LSP: Toggle Diagnostics Panel"
+			],
+			[
+				"lsp-r",
+				"Preferences: LSP-R Settings"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"high",
+				"Highlighter: Toggle Highlighter"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packagere",
+				"PackageResourceViewer: Edit Package Resource"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color scheme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"csv |",
+				"Set Syntax: Rainbow CSV | Simple"
+			],
+			[
+				"rainbow",
+				"Set Syntax: Rainbow CSV | Simple"
+			],
+			[
+				"csv ",
+				"Rainbow CSV: CSVLint"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"csv",
+				"Set Syntax: Rainbow CSV | Simple"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ju",
+				"CSV: Justify columns"
+			],
+			[
+				"sendco",
+				"Preferences: SendCode Settings"
+			],
+			[
+				"sendcod",
+				"Preferences: SendCode Settings"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"autos",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"auto",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"previe",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"enable",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"save",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"autor",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"pri",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"sav",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"enabl",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"ena",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"browser",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"enab",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"markdownli",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"aut",
+				"Toggle AutoSave: current file only"
+			],
+			[
+				"bibtex",
+				"CiteBibTeX: Extract citations in current file"
+			],
+			[
+				"liev",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"live",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"error",
+				"SublimeLinter: Goto Error"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"LiveReload: Enable/disable plugins",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"LaTeXTools: Check System",
+				"LaTeXTools: Check system"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 395.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/julian/docs/2023/job_market/other/columbia.md",
+		"/home/julian/docs/2023/job_market/research_statement.md",
+		"/home/julian/docs/2023/job_market/other/melbourne.md",
+		"/home/julian/docs/2023/job_market/other/erasmus.md",
+		"/home/julian/docs/2023/kxl_methods/quotes.md",
+		"/home/julian/docs/2023/egos_2023.md",
+		"/home/julian/docs/2023/kxl_methods/archive/2023-04-05_simple_structure.md",
+		"/home/julian/docs/2023/kxl_methods/conversation/2023-04-06.md",
+		"/home/julian/docs/2023/other/habermas_aufgabe.md",
+		"/home/julian/docs/2023/kxl_methods/notes/2023-04-06_mark.md",
+		"/home/julian/docs/2023/kxl_methods/2023-04-05_simple_structure.md",
+		"/home/julian/docs/2023/kxl_methods/archive/2023-04-04_structure_simple.md",
+		"/home/julian/docs/2023/kxl_methods/archive/2023-04-04_structure.md",
+		"/home/julian/docs/2023/kxl_methods/notes/2023-04-04_JB.md",
+		"/home/julian/docs/2023/job_market/other/imperial.md",
+		"/home/julian/docs/2023/meetings/mark_2023-03-31.md",
+		"/home/julian/docs/2023/kxl_methods/structure.md",
+		"/home/julian/docs/2023/kxl_methods/notes/mark_2023-04-04.md",
+		"/home/julian/docs/2023/kxl_methods/archive/structure_2023-04-01.md",
+		"/home/julian/docs/2023/kxl_methods/archive/structure_simple.md",
+		"/home/julian/docs/2023/job_market/other/mannheim.md",
+		"/home/julian/docs/2023/kxl_methods/1_intro.md",
+		"/home/julian/docs/2023/job_market/references.md",
+		"/home/julian/docs/2023/kxl/manuscript/1_introduction.md",
+		"/home/julian/.bashrc",
+		"/home/julian/juto/pdf_sharpener.sh",
+		"/home/julian/docs/2023/kxl_methods/archive/99_appendix.md",
+		"/home/julian/docs/book.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-2_inductive.md",
+		"/home/julian/docs/2023/job_market/other/vienna.md",
+		"/home/julian/docs/2023/pun_energy/slides.md",
+		"/home/julian/docs/2023/job_market/uic/cover_letter.md",
+		"/home/julian/docs/2023/kxl/manuscript/2-1_four_new.md",
+		"/home/julian/docs/2023/ideas/kxl_methods.md",
+		"/home/julian/docs/2023/job_market/melbourne/cover_letter.md",
+		"/home/julian/docs/2023/pun_energy/resources/eu_dependence.jpeg",
+		"/home/julian/docs/2023/ideas/cc_io.md",
+		"/home/julian/docs/2023/net_zero/slides.md",
+		"/home/julian/Downloads/ArialNarrow-Regular.ttf",
+		"/home/julian/docs/2023/gw/promote.md",
+		"/home/julian/docs/2023/kxl/manuscript/4_data_methods.md",
+		"/home/julian/docs/2023/kxl/manuscript/test.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-3_quant.md",
+		"/home/julian/bibliography.bib",
+		"/home/julian/docs/2023/gw/model/model.gv",
+		"/home/julian/docs/notes.md",
+		"/home/julian/docs/2023/kxl/manuscript/test.sh",
+		"/home/julian/Desktop/stefano.md",
+		"/home/julian/docs/2023/kxl/manuscript/2-2_micro.md",
+		"/home/julian/docs/2023/job_market/erb_talk/resources/remark_2.png",
+		"/home/julian/docs/2023/net_zero/teaching_plan.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-1_discourses.md",
+		"/home/julian/docs/2023/kxl/manuscript/3_background.md",
+		"/home/julian/Documents/thesaurus/thesaurus.py",
+		"/home/julian/bin/d",
+		"/home/julian/bin/t",
+		"/home/julian/bin/the",
+		"/home/julian/docs/2023/power_course/2023-03-08.md",
+		"/home/julian/docs/2023/kxl/carbon_data.Rscript",
+		"/home/julian/Downloads/GCB2022v27_MtCO2_flat_metadata.json",
+		"/home/julian/Downloads/essd-14-4811-2022.xml",
+		"/home/julian/docs/2023/mark/mar_3.md",
+		"/home/julian/docs/2023/mark/feb_11.md",
+		"/home/julian/docs/2023/mark/feb_18.md",
+		"/home/julian/docs/2023/mark/feb_25.md",
+		"/home/julian/docs/2023/mark/Mar_3.md",
+		"/home/julian/docs/2023/gw_session/slides.md",
+		"/home/julian/juto/check.sh",
+		"/home/julian/docs/2023/kxl/manuscript/archive/2-1_lit_outside.md",
+		"/home/julian/docs/2023/kxl/manuscript/2-1_lit_outside.md",
+		"/home/julian/docs/2023/job_market/erb_talk/slides.md",
+		"/home/julian/docs/2023/gw/notes/citation_network.md",
+		"/home/julian/docs/2023/job_market/erb_talk/outline.md",
+		"/home/julian/docs/2023/power_course/2023-03-01.md",
+		"/home/julian/Downloads/1click.cmd",
+		"/home/julian/docs/2023/power_course/2023-02-27.md",
+		"/home/julian/docs/2023/gw/manuscript/sections/3-2_gw.md",
+		"/home/julian/docs/2023/power_course/2023-02-22.md",
+		"/home/julian/docs/2023/job_market/columbia/statement.md",
+		"/home/julian/docs/2023/job_market/uic/diversity_statement.md",
+		"/home/julian/Documents/CV/cv.md",
+		"/home/julian/docs/2023/job_market/columbia",
+		"/home/julian/docs/2023/job_market/erb_talk/steer.png",
+		"/home/julian/.bashr",
+		"/home/julian/docs/2023/power_course/2023-02-13.md",
+		"/home/julian/docs/2023/power_course/2023-02-17.md",
+		"/home/julian/docs/2023/job_market/knit.sh",
+		"/home/julian/docs/2023/power_course/2023-02-08.md",
+		"/home/julian/docs/2023/power_course/2023-02-15.md",
+		"/home/julian/.config/sublime-text/Packages/Thesaurus/Thesaurus.sublime-settings",
+		"/home/julian/.config/sublime-text/Packages/User/Thesaurus.sublime-settings",
+		"/home/julian/docs/2023/kxl/manuscript/99_appendix.md",
+		"/home/julian/docs/2023/power_course/2023-02-10.md",
+		"/home/julian/docs/2023/mark/2023-02-15.md",
+		"/home/julian/Downloads/table25.csv",
+		"/home/julian/juto/list.sh",
+		"/home/julian/docs/keywords.md",
+		"/home/julian/docs/2023/aom_review/bass_milosevic.md",
+		"/home/julian/docs/2023/mark/2023-02-10.md",
+		"/home/julian/docs/2023/kxl/manuscript/6_conclusion.md",
+		"/home/julian/juto/mandoc.sh",
+		"/home/julian/docs/2023/job_market/lyon_letter.md",
+		"/home/julian/docs/2023/kxl/2023-01-31_structure.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-6_model.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-4_outliers_new.md",
+		"/home/julian/docs/2023/kxl/manuscript/archive/5-4_outliers_new.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-4_outliers.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-7_robustness.md",
+		"/home/julian/juto/latest.sh",
+		"/home/julian/juto/bash.sh",
+		"/home/julian/docs/2023/kxl/manuscript/5-5_outliers_new.md",
+		"/home/julian/docs/2023/kxl/manuscript/5-1_topics.md",
+		"/home/julian/docs/2023/power_course/2023-02-06.md",
+		"/home/julian/docs/2023/kxl/manuscript/conclusion.md",
+		"/home/julian/docs/2023/gw/model/compile.sh",
+		"/home/julian/docs/2023/kxl/manuscript/compile.sh",
+		"/home/julian/docs/2023/correspondence/2023-01-31_donor.md",
+		"/home/julian/docs/2023/kxl/manuscript/2-3_not_used.md",
+		"/home/julian/docs/2023/kxl/manuscript/2-3_lit_field.md",
+		"/home/julian/bashrc",
+		"/home/julian/synonym/synonym",
+		"/home/julian/docs/2023/kxl/manuscript/2-2_lit_field.md",
+		"/home/julian/docs/2023/gw/manuscript/sections/1_introduction.md",
+		"/home/julian/out/donor.md",
+		"/home/julian/out/structure.md",
+		"/home/julian/docs/2023/job_market/teaching_statement.md",
+		"/home/julian/docs/docs.sublime-project",
+		"/home/julian/docs/2023/kxl/three_sentences.md"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 236.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 54.0
+	},
+	"input":
+	{
+		"height": 80.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "jules_net.sublime-project",
+	"replace":
+	{
+		"height": 102.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ne_le",
+				"data/arenas/ne_legislature_2011-11-08.md"
+			],
+			[
+				"dos_2011-08",
+				"data/actors/sos_2011-08-27.md"
+			],
+			[
+				"tc_2007",
+				"data/actors/tc_2007-08-24_letter.md"
+			],
+			[
+				"congress",
+				"data/arenas/congress_2011-03-31.md"
+			],
+			[
+				"2010-12-01",
+				"data/arenas/ne_legislature_2010-12-01.md"
+			],
+			[
+				"2010-11-24",
+				"data/actors/enviros_2010-11-24_ad.md"
+			],
+			[
+				"2010-11-18",
+				"data/actors/sierra_2010-11-18_2.md"
+			],
+			[
+				"2010-09",
+				"data/actors/bn_2010-09-29.md"
+			],
+			[
+				"",
+				"preprocessing/eis.sh"
+			],
+			[
+				"11-03-",
+				"data/actors/winston_2011-03-24.md"
+			],
+			[
+				"3-15",
+				"data/actors/dos_2011-03-15.md"
+			],
+			[
+				"2011-11",
+				"data/actors/njei_2011-11-03.md"
+			],
+			[
+				"2011-01",
+				"data/actors/bn_2011-01-05_rally.md"
+			],
+			[
+				"06 uu",
+				"data/arenas/uu_06.md"
+			],
+			[
+				"uu_05",
+				"data/arenas/uu_05.md"
+			],
+			[
+				"keystone",
+				"blurbs/2021/research_summary/sections/keystone_xl.tex"
+			],
+			[
+				"liter",
+				"blurbs/2021/research_summary/sections/literature.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 309.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 364.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
