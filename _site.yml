@@ -21,6 +21,8 @@ navbar:
           href: pipelines_dashboard.html
         - text: Organic vineyards
           href: organic_vineyards.html
+        - text: Interaction visualizer
+          href: interact.Rmd
     - text: "Publications"
       menu:
         - text: Zbaracki et al (2021)
