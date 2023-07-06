@@ -29,6 +29,8 @@ navbar:
           href: zbaracki_et_al_-2021-.html
     - text: "Presentations"
       menu:
+        - text: EGOS 2023
+          href: egos_2023.html
         - text: Energy Trends 2023
           href: energy_2023.html
         - text: Net Zero 2023
