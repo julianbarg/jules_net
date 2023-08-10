@@ -1,0 +1,24 @@
+---
+title: "Greenwashing Aug. 2023"
+description: |
+  **Presentation on greenwashing as held at AOM 2023**
+author:
+  - name: Julian Barg 
+    url: https://jbarg.net
+    affiliation: Ivey Business School
+    affiliation_url: https://www.ivey.uwo.ca/phd/students/julian-barg/  
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r dashboard, layout="l-screen-inset shaded"}
+knitr::include_url(
+  "https://julianbarg.github.io/public_documents/presentations/gw_2023.pdf", 
+  height = "800px")
+```
+
+Presentation with some focus on ESG.
