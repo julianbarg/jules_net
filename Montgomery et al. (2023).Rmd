@@ -1,0 +1,13 @@
+---
+title: "Montgomery et al. (2021) No End in Sight? A Greenwash Review and Research Agenda"
+---
+
+Montgomery, A. W., Lyon, T. P., & Barg, J. (2023). No End in Sight? A Greenwash Review and Research Agenda. *Organization & Environment*, 36. https://doi.org/10.1177/10860266231168905
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r article, layout="l-screen-inset shaded"}
+knitr::include_url("https://journals.sagepub.com/doi/pdf/10.1177/10860266231168905", heigh = "11000px")
+```
