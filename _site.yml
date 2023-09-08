@@ -26,7 +26,7 @@ navbar:
     - text: "Publications"
       menu:
         - text: Montgomery et al. (2021) No End in Sight? A Greenwash Review and Research Agenda
-          href: Montgomery-et-al.--2023-.html
+          href: https://journals.sagepub.com/doi/10.1177/10860266231168905
         - text: Zbaracki et al (2021)
           href: zbaracki_et_al_-2021-.html
     - text: "Presentations"
