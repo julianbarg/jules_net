@@ -1,3 +1,13 @@
+---
+title: "Crazy winter"
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 2024-01-04
+output:
+  distill::distill_article:
+    self_contained: false
+---
 After a hot summer, we are getting no relief this winter. My friends in Canada are telling me that it's not much of a winter up there even. A goose even decided that it's warm enough to hatch goslings, in a place I have visited a couple of times up there. Meanwhile, the Northern half of Europe, where I am from, is seeing record flooding and snow.
 
 If climate change and climate action are on your mind, I recommend you keep these dramatic developments front of mind. Too many emitters try to stall for time. I appreciate every initiative, but... be impatient! Push! Pay attention to timelines! When I see a  project that targets 2030, it's time to ask: what sources of emissions can we turn off next year, even if it would be painful?
