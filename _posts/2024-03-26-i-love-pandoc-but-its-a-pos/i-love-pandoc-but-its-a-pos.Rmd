@@ -1,0 +1,100 @@
+---
+title: "I love pandoc, but it's a POS"
+description: |
+  A short description of the post.
+author:
+  - name: Julian Barg
+    url: https://jbarg.net
+date: 2024-03-26
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+I've learned my lesson. This time around I am writing a blog post about all the 
+idiosyncrasies. As the title says, it's a POS and I am surprised that more than 
+10 people were able to configure it successfully and use its many amazing 
+filters. It's truly a bag of cats.
+
+## Install methods are abound, but they are not made equal
+
+This is not pandoc-specific to be fair. 
+
+### Via package manager
+
+Most packages from package managers are at least a year behind. Even debian
+testing is offering up a version that is 10 months old. To be fair, I could 
+build a more recent version and contribute that to the repository. Maybe I will?
+
+### Via .deb from the project github
+
+The .deb is recent, it seems like a solid choice. But the last time I tested it,
+I could not get it to play nice with pandoc-crossref because of the way it was
+built. Not that that's the maintainers fault. There is just so many ways to 
+build it. Mostly because there are so many different versions of latex that 
+could be used. Like, lualatex, xelatex, pdflatex etc.
+
+### Via cabal
+
+And then you can built it yourself. It is written in Haskell, you can obtain the
+package via cabal. I forget how slow it is, every time. It runs on a single 
+core. Apparently you can use the flag `-j` to run it in parallel. Well, I am not
+going to reinstall it just to test that.
+
+Every. Single. Time. I install it via `sudo cabal install pandoc`, try to run it,
+and then realize that it cannot be found. You also need pandoc-cli to actually 
+use it. But it symlinks to ~/.cabal/bin. Which is not in your path. Not a big 
+deal. But so annoying. And it's not like you get any helpfull error messages.
+The bin cannot be found. Technically true, but then where did pandoc-cli go?
+I thought I just installed it.
+
+## Filters are inconsistent
+
+There are filters for pandoc. They are amazing. They can do anything. I like the
+list-table filter to create tables in yaml syntax that are easy to edit and have
+meaningful diffs. You can even adjust col width etc. However, there are two 
+ways to call them and the outcome is not the same. The docs often us `--filter`
+but there is also `--lua-filter`. What's the difference? I am not quite sure, 
+and the error messages you receive when you use the wrong one are not helpful.
+Some lua filters work with `--filter`, for instance the fantastic 
+`include-files.lua`, which is equivalent to `\include` or `\input` in latex. 
+The `list-table.lua` filter isn't so kind. I am not sure the creator anticipated
+that I would accidentally (?) call it via `--filter` because instead of 
+receiving a meaningful error, I received a version error. Making matters worse, 
+sometimes I would receive a permission error, which could be addressed with 
+`chmod +x` -- but then the filter still would not work.
+
+## Arguments are inconsistent
+
+Arguments can be provided to filters in a variety of ways. Some access command 
+line arguments. Others want metadata, which can be added at the top of the 
+markdown file as a yaml header. But you can also set defaults and store those in
+the user directory. Finally, pandoc-crossref (if memory serves me well) wants
+input arguments to be stored in a separate input yaml file. It could access some
+arguments when they were stored in the metadata. But not all of them. The 
+flexibility is great, but it makes for an awful debugging experience.
+
+## Lua is obscure
+
+If you need to, you can edit any lua filter to your liking. They are not too 
+long, so you will usually be able to find the relevant rows. However... pandoc
+with lua relies heavily on classes and... I have no idea where to find the 
+relevant classes. Sure, you can google them. But there are code blocks, fenced
+blocks, and maybe a third one? I could never figure out in which order they are
+processed and what I needed to return. (You can include code blocks in fenced
+blocks but not the other way around? So if you have a package that uses code
+blocks, just change the filter to turn them into fences if you want to do 
+something with them?) Making matters worse, there are multiple
+equivalent ways of inserting images/figures, and I could never figure out where
+to look up the relevant objects to determine what I need. And neither could 
+many contributors, because what I have seen across packages seemed inconsistent, 
+and I did not fare well when trying to mix and match.
+
+## To be continued...
+
+There is so much more I am forgetting.

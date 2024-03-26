@@ -7,7 +7,15 @@
     <description>Julian Barg's website. See what I am up to. Also, exposition of my past work.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Thu, 04 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>I love pandoc, but it's a POS</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2024-03-26-i-love-pandoc-but-its-a-pos</link>
+      <description>A short description of the post.</description>
+      <guid>https://www.jbarg.net/posts/2024-03-26-i-love-pandoc-but-its-a-pos</guid>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Crazy winter</title>
       <dc:creator>Julian Barg</dc:creator>

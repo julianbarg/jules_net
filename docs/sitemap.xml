@@ -2,79 +2,83 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://www.jbarg.net/about.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/archive.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/cv.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/egos_2023.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/energy_2023.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/greenwash_assessor.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/greenwashing_dashboard.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/gw_2023.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/incident_dashboard.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/interact.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/kxl_2022.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/net_zero_2023.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/new_article.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/organic_vineyards.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/phd_seminar_2021.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/pipelines_dashboard.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/public_lecture.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/README.html</loc>
-    <lastmod>2024-01-04T15:28:01-05:00</lastmod>
+    <lastmod>2024-03-26T14:26:40-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://www.jbarg.net/posts/2024-03-26-i-love-pandoc-but-its-a-pos/</loc>
+    <lastmod>2024-03-26T15:11:36-04:00</lastmod>
   </url>
   <url>
     <loc>https://www.jbarg.net/posts/2024-01-04-crazy-winter/</loc>
