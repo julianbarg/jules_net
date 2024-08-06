@@ -7,7 +7,16 @@
     <description>Julian Barg's website. See what I am up to. Also, exposition of my past work.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 26 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>How (the heck) does ggalluvial work?</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2024-08-05-how-the-heck-does-ggalluvial-work</link>
+      <description>How (the heck) does ggalluvial work?</description>
+      <guid>https://www.jbarg.net/posts/2024-08-05-how-the-heck-does-ggalluvial-work</guid>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <media:content url="https://www.jbarg.net/posts/2024-08-05-how-the-heck-does-ggalluvial-work/how-the-heck-does-ggalluvial-work_files/figure-html5/unnamed-chunk-1-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>I love pandoc, but it's a POS</title>
       <dc:creator>Julian Barg</dc:creator>

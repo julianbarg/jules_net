@@ -1,0 +1,175 @@
+---
+title: "How (the heck) does ggalluvial work?"
+draft: false
+author: Julian Barg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+We have this unfortunate problem that we want to create a sankey diagram, but
+most of the existing packages are not feature complete enough. ggsankey is a 
+popular solution, however, the sankey diagrams it produces leave much of the 
+space unused when working with a large dataset and there are no customization
+options to change this. Then, there is the networkD3, which is actually just an
+R wrapper for the D3.js JavaScript library. Again, it inserts a lot of white 
+whitespace and there are only some basic customization options. 
+
+Fortunately, I came across ggalluvial, which makes much better use of space. 
+Technically, that is because it makes different assumptions about the data. 
+An alluvial plot tracks changes of attributes across subjects over time, whereas
+a sankey diagram is designed to track track quantities. Because of this 
+underlying assumption that there is a change of state between a and b, not a 
+flow from a to b, we retain more control. For example, we can to some degree
+control attributes such as color even after we have already gone from a to b,
+for subsections of the cohort in b. The underlying data structure of a sankey
+diagram does not typically track observations across different stages, so there
+is no means of controlling attributes such as color once the train has left the
+station.
+
+However, the inner workings are still a mystery to me, so let's run some tests
+to see how this whole thing works.
+
+```{r library, echo = F}
+library(tidyverse)
+library(ggalluvial)
+```
+
+## Basic example
+
+As you can see, the number of variables we need is quite high. x and y are 
+quite straightforward. 
+
+* `x` is simply a ordinal variable which denotes the
+axes. 
+* `stratum` then denotes that value of the observations on that 
+particular axis. 
+* `alluvium` allows for tracking observations across the 
+axes.
+* `y` allows us to set a count.
+
+```{r }
+alluvial <- tribble(
+  ~x, ~stratum, ~alluvium, ~y, ~label, ~fill, ~flow,
+  "first", "high", 1, 35, "high", "red", "yellow",
+  "second", "high", 1, 35, "high", "red", "yellow",
+  "first", "low", 2, 5, "low", "blue", "pink",
+  "second", "low", 2, 10, "low", "blue", "pink"
+)
+
+alluvial %>%
+  ggplot(aes(x = x, stratum = stratum, alluvium = alluvium, fill = fill, y = y)) +
+    geom_flow() +
+    geom_stratum() +
+    geom_text(aes(label = label), stat = "stratum")
+```
+
+The geoms do not respect the colors we selected for fill, so we have to go in
+and fix that manually with `scale_fill_manual`. Still, this allow us to set
+the color for flows and strata manually and independently.
+
+### Reordering flows
+
+One awkward attribute of this data structure is that the factor order of the 
+factor variable `stratum` controls the order of variables across axes, so 
+management of the factor levels is important and awkward.
+
+```{r order}
+alluvial %>%
+  mutate(stratum = factor(stratum, c("low", "high"))) %>%
+  ggplot(aes(x = x, stratum = stratum, alluvium = alluvium, fill = fill, y = y)) +
+    geom_flow(aes(fill = flow), color = "black") +
+    geom_stratum() +
+    geom_text(aes(label = label), stat = "stratum")
+```
+
+### Joining observations
+
+We can merge different observations and then have them split off again. 
+Importantly, this impairs our ability to set colors. Notice how `medium` is 
+colored in in red, even though there should be blue in there, too. So the much
+better option is to use `stratum` directly to control fill.
+
+```{r }
+alluvial_merge <- tribble(
+  ~x, ~stratum, ~alluvium, ~y, ~label, ~fill, ~flow,
+  "first", "high", 1, 35, "high", "red", "yellow",
+  "second", "medium", 1, 35, "medium", "red", "yellow",
+  "third", "high", 1, 35, "high", "red", "yellow",
+  "first", "low", 2, 10, "low", "blue", "pink",
+  "second", "medium", 2, 10, "medium", "red", "pink",
+  "third", "low", 2, 10, "low", "blue", "pink"
+)
+alluvial_merge %>%
+  mutate(stratum = factor(stratum, c("low", "high"))) %>%
+  ggplot(aes(x = x, stratum = stratum, alluvium = alluvium, fill = fill, y = y)) +
+    geom_flow(aes(fill = flow), color = "black") +
+    geom_stratum() +
+    geom_text(aes(label = label), stat = "stratum") +
+    scale_fill_manual(values = c("blue" = "blue", "red" = "red", 
+                                 "pink" = "pink", "yellow" = "yellow"))
+```
+
+Joined observations are treated as the same object if they share start and end
+point after joining. 
+
+```{r distinct}
+alluvial_distinct <- tribble(
+  ~x, ~stratum, ~alluvium, ~attribute,
+  "first", "high", 1, "long", 
+  "second", "medium", 1, "long",
+  "third", "medium", 1, "long",
+  "first", "low", 2, "short", 
+  "second", "medium", 2, "short",
+  "third", "medium", 2, "short"
+)
+
+alluvial_distinct %>%
+  ggplot(aes(x = x, stratum = stratum, alluvium = alluvium, fill = stratum)) +
+    geom_flow(color = "black") +
+    geom_stratum() +
+    geom_text(aes(label = stratum), stat = "stratum")
+```
+
+That is a problem when we want to show in `geom_flow` any variable other than
+the variables to the left and the right. We can use the `fill` argument to do 
+so, but we will need to use the `after_stat` function to make sure it's 
+colored in correctly.
+
+```{r sep}
+alluvial_distinct %>%
+  ggplot(aes(x = x, stratum = stratum, alluvium = alluvium, fill = attribute)) +
+    geom_flow(color = "black") +
+    geom_stratum(aes(fill = after_stat(stratum))) +
+    geom_text(aes(label = stratum), stat = "stratum")
+```
+
+### Reordering
+
+We need to figure out what determines the order of the inflow and outflow into 
+the same stratum. Can we manipulate this somehow without changing the stratum?
+
+```{r stratum}
+stratum_control <- tribble(
+  ~x, ~stratum, ~alluvium, ~attribute, ~label, ~trick,
+  "first", "high", 1, "high", "high", "high",
+  "second", "wide", 1, "high", "wide", "wide-low", 
+  "third", "wide", 1, "high", "wide", "wide-low", 
+  "first", "low", 2, "low", "low", "wide",
+  "second", "wide", 2, "low", "wide", "wide",
+  "third", "wide", 2, "low", "wide", "wide", 
+)
+
+stratum_control %>%
+  mutate(stratum = factor(stratum, c("low", "medium", "high"))) %>%
+  mutate(attribute = factor(attribute, c("low", "medium", "high"))) %>%
+  mutate(trick = factor(trick, c("wide-low", "wide"))) %>%
+  ggplot(aes(x = x, stratum = stratum, alluvium = alluvium, fill = attribute, 
+             label = label)) +
+    geom_flow(aes(stratum = trick), color = "black") +
+    geom_stratum(aes(fill = after_stat(label))) +
+    geom_text(stat = "stratum")
+```
+
+Fabulous, with this trick we can control flows independently from 
+the axes.
