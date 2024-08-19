@@ -31,6 +31,8 @@ navbar:
           href: zbaracki_et_al_-2021-.html
     - text: "Presentations"
       menu:
+        - text: ACS 2024
+          href: acs_2024.html
         - text: Public lecture 2023
           href: public_lecture.html
         - text: Greenwash 2023
