@@ -7,7 +7,15 @@
     <description>Julian Barg's website. See what I am up to. Also, exposition of my past work.
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Tue, 06 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>OpenAI's disjointed documentation</title>
+      <dc:creator>Julian Barg</dc:creator>
+      <link>https://www.jbarg.net/posts/2024-09-04-openais-disjointed-documentation</link>
+      <description>OpenAI's disjointed documentation</description>
+      <guid>https://www.jbarg.net/posts/2024-09-04-openais-disjointed-documentation</guid>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>How (the heck) does ggalluvial work?</title>
       <dc:creator>Julian Barg</dc:creator>

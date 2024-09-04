@@ -1,0 +1,18 @@
+---
+title: "OpenAI's disjointed documentation"
+draft: false
+author: Julian Barg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+I have been using OpenAI a lot over the last couple of weeks, and one issue that keeps tripping me up is their disjointed and incomplete documentation. 
+
+The documentation for their new *vision* API is ok, although it beats me why with the new beta I have to call `completions.parse` to accomplish what I want to do: https://platform.openai.com/docs/guides/vision . An example for using a base64 encoded image in bash/curl would be welcome.
+
+The documentation for setting a seed is the worst: https://platform.openai.com/docs/advanced-usage/reproducible-outputs . The title is "Reproducible outputs," so it's not even the first result when we search for seed. Then you follow the link and get a tiny text snippet with not much information. There is finely one code example that you only find with ctrl+f. But it's python only, and it is not clear whether it is available for bash/curl, too. I could never get it to work. There is one more example here that is way longer than it needs to be: https://cookbook.openai.com/examples/reproducible_outputs_with_the_seed_parameter .
+
+And then there is Structured Outputs, which is a new feature. Understandably the documentation is not as "good" as it is for the other features. First, there is a blog post announcing the feature: https://openai.com/index/introducing-structured-outputs-in-the-api/ . The blog post is not intended to be a tutorial, but it does contain some basic examples. That tutorial would be here: https://platform.openai.com/docs/guides/structured-outputs/introduction . It is fine, but it is again not clear to me whether there are any limitations when using bash/curl. The tutorial also recommends the use of BaseModel to create a schema with ease. But there seem to be a lot of features one can only achieve by creating a custom JSON schema. It is appreciated for quick trial and error though. And finally, there is this cookbook entry, which does not seem to add anything: https://cookbook.openai.com/examples/structured_outputs_intro . So the time might have been better spend on creating a more detailed documentation on what features of JSON schemas are and are not (yet?) supported. I would certainly want to know.
+
+And this is not even touching on the quality of their error messages, which, at least for curl, usually amounts to "Computer says 'No!'"

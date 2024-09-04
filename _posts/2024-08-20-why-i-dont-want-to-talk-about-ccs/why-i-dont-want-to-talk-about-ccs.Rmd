@@ -1,0 +1,64 @@
+---
+title: "Why I am reluctant to talk about Carbon Capture and Storage"
+draft: true
+author: Julian Barg
+affiliation: Climate Accountability Lab, University of Miami
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+Carbon Capture and Storage (CCS) is a complicated technology with a blemished
+history, that too often gets reduced to a simple technical premise.
+Allow me to invoke Patrick Starfish: "we should take the carbon dioxide and
+push it somewhere else." 
+
+1. It has a forty-year history. Projects never really went anywhere. Historical
+documents from the 90s read just like documents from last year.
+2. The trend of storage capacity over the last couple of years is linear.
+3. Even MIT got duped -- CC&ST center.
+4. The capacity of all projects that capture carbon from air is minuscule. The
+difficult part is to extract carbon dioxide from air, which is over 99.9% not 
+carbon dioxide.
+5. Why do we need to reinvent trees?
+6. CCS seemingly makes more sense when the input is pure or high-concentration 
+carbon, i.e., emissions from fossil fuel power plants. Except fossil fuel 
+already cannot compete with renewables. When you sequester the emissions it is 
+even less competitive.
+7. Actors behind the technology -- fossil fuel companies -- have a tarnished 
+history themselves with regard to other technologies, e.g., algae fuels or
+biofuel.
+8. We don't know to what degree university research behind the technology is 
+pushed forward by industry funding. In a meta analysis, we would not to 
+correct for this bias first and foremost, and, unlike medical sciences, we have
+no mechanisms for this as of yet.
+9. CCS is now being pushed by IPCC because of the rules around what enters into
+the IPCC report, and concerns have been pushed aside. If we make a case against
+CCS now, our research may not make the cutoff before the next IPCC report.
+
+The second order function of CCS: papers and commentators analyze projects 
+according to its storage capacity. The real impact of CCS is on behavior. It 
+encourages fossil fuel proliferation. Folks view the technology in terms of its 
+direct impacts on carbon and carbon emissions. We need to view the social 
+impacts, the delay on substantive climate action.
+
+CCS is an example of *new denialism*. The proponents do not argue that climate 
+change is not real or human-caused. But the mere presence of an unproven 
+technology that could *theoretically* allow for negative emissions allows fossil
+fuel companies to extract more profits for its investors at the moment (which
+is public companies' maxim).
+
+
+<!-- Or maybe I am getting this all wrong. Maybe  -->
+
+<!-- yielding -->
+
+<!-- It often gets reduced to a  -->
+
+
+
+
+
+
+
+
