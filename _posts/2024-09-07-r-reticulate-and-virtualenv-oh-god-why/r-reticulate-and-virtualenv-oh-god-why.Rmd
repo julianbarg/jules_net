@@ -1,0 +1,59 @@
+---
+title: "R reticulate and virtualenv: oh god why?"
+draft: false
+author: Julian Barg
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Over the years, I have definitely learned not to ask too many questions---some, 
+but not too many---and go with what works. The problem with not asking 
+questions, or accepting that there is no good answer, is that you have to 
+remember your workarounds. 
+
+Sometimes, it is easier to go with the original bash or python implementation
+of a tool, which Rstudio graciously accommodates. R reticulate calls a python 
+virtualenv for you, which is fairly easy to work with. To make sure I could do
+the same things when calling python directly and when going through reticulate,
+I usually open the virtualenv directly.
+
+The python environment of R reticulate is definitely... heterodox... I could 
+make API keys available through the virtualenvirons activate file, and those
+would be available both when calling python directly and when using reticulate. 
+However, reticulate does not play nicely with regards to PYTHONPATH. The
+PYTHONPATH variable defines where python looks for packages, so important when
+you try to write a function in one project that you want to be available in
+another package. For example because the function exceeds the scope of your 
+project, so you separate it out. Usually, you would just append your new path
+to the PYTHONPATH with a simple bash one-liner in the activate file: 
+`export PYTHONPATH="${PYTHONPATH}:new_path"`. I don't know why I have to use a 
+relative path there, but I'm not asking questions... That's a whole other mess.
+
+For some reason, reticulate takes it upon itself to manage PYTHONPATH for you.
+The relative path is not relative to your home directory, but relative to your
+project. The workaround? Modify the PYTHONPATH in your .Rprofile file. That is
+a file that gets loaded at the startup of any R project. I use it to hold keys
+and set global options like `options(tidyverse.quiet = TRUE)`. Would have never
+occured to me to manage stuff that is relevant to python there. Google certainly
+was of no help for figuring this out. But ChatGPT somehow knew.
+
+So there you have it. The solution is to set 
+`Sys.setenv(PYTHONPATH = "/your/absolute/path")` in .Rprofile. I'm not going to
+ask any more questions.
+
+
+
+
+
+
+
+
+
+
+

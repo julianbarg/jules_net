@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2024-09-07-r-reticulate-and-virtualenv-oh-god-why/",
+    "title": "R reticulate and virtualenv: oh god why?",
+    "description": {},
+    "author": [
+      {
+        "name": "Julian Barg",
+        "url": {}
+      }
+    ],
+    "date": "2024-09-07",
+    "categories": [],
+    "contents": "\nOver the years, I have definitely learned not to ask too many questions—some,\nbut not too many—and go with what works. The problem with not asking\nquestions, or accepting that there is no good answer, is that you have to\nremember your workarounds.\nSometimes, it is easier to go with the original bash or python implementation\nof a tool, which Rstudio graciously accommodates. R reticulate calls a python\nvirtualenv for you, which is fairly easy to work with. To make sure I could do\nthe same things when calling python directly and when going through reticulate,\nI usually open the virtualenv directly.\nThe python environment of R reticulate is definitely… heterodox… I could\nmake API keys available through the virtualenvirons activate file, and those\nwould be available both when calling python directly and when using reticulate.\nHowever, reticulate does not play nicely with regards to PYTHONPATH. The\nPYTHONPATH variable defines where python looks for packages, so important when\nyou try to write a function in one project that you want to be available in\nanother package. For example because the function exceeds the scope of your\nproject, so you separate it out. Usually, you would just append your new path\nto the PYTHONPATH with a simple bash one-liner in the activate file:\nexport PYTHONPATH=\"${PYTHONPATH}:new_path\". I don’t know why I have to use a\nrelative path there, but I’m not asking questions… That’s a whole other mess.\nFor some reason, reticulate takes it upon itself to manage PYTHONPATH for you.\nThe relative path is not relative to your home directory, but relative to your\nproject. The workaround? Modify the PYTHONPATH in your .Rprofile file. That is\na file that gets loaded at the startup of any R project. I use it to hold keys\nand set global options like options(tidyverse.quiet = TRUE). Would have never\noccured to me to manage stuff that is relevant to python there. Google certainly\nwas of no help for figuring this out. But ChatGPT somehow knew.\nSo there you have it. The solution is to set\nSys.setenv(PYTHONPATH = \"/your/absolute/path\") in .Rprofile. I’m not going to\nask any more questions.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2024-09-07T08:04:21-04:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2024-09-04-openais-disjointed-documentation/",
     "title": "OpenAI's disjointed documentation",
     "description": {},
