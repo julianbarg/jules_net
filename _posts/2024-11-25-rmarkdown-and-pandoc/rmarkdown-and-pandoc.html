@@ -1582,7 +1582,13 @@ pass on to pandoc:</p>
 </blockquote>
 <p>Then, after running <code>rmarkdown::render</code>, I obtain a file called file.knit.md
 where the same sentence looks like this: “We aggregated 549 of these 549
-corporations into 31 industries.” Simple, and quite nifty.</p>
+corporations into 31 industries.” Simple, and quite nifty. I suppose an
+even easier approach would be to save all relevant variables to a csv file with
+three columns. One with a simple variable name, one with a description, and
+one with the actual value. Although the result of the current approach is also
+nice. In one file, I can see not just the variables name but also
+how exactly I generated the variable, and if I want to
+I can jump in with Rstudio and look at all variables, too.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
