@@ -1,0 +1,53 @@
+---
+title: "Rmarkdown and Pandoc"
+description: |
+  More of a reminder to myself -- how to get rmarkdown to play nicely.
+author: Julian Barg
+date: 2024-11-25
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+For papers that contain a lot of simple statistics, such as counts, keeping 
+track of all numbers when the underlying data changes and not flipping any 
+digits is a major pain. I knew Rmarkdown could tackle this issue and would still
+allow me to convert to docx etc. I have already been using its underlying 
+technology, pandoc, to generate references and so forth, so I figured I would
+give it a shot. The experience is quite good, though I found the process 
+a bit confusing. Since I had already written a pandoc markdown document, I just
+wanted to insert the appropriate numbers, that is it. Rmarkdown is a somewhat 
+opinionated software though and the team expects you to do everything in 
+Rmarkdown. There is one command though that allows you to generate the 
+intermediate .md document that is passed on to pandoc: 
+
+> `rmarkdown::render("file.Rmd", run_pandoc = F)`
+
+Strangely enough, the argument `output_format = "md_document"` does not do
+exactly this. Instead, it escapes square brackets etc., so it does not produce
+a document we can feed into pandoc. I also could not figure out how to provide
+a pandoc default file. Usually, I run `pandoc -d article` to do all conversions,
+but I could not figure out how to get Rmarkdown how to pass on that argument.
+At the end of the day, I don't need it I suppose. The workflow is as minimal as
+possible. I decided to do this. Before the main text, I inserted one cell to 
+read my data and one to generate variables. This is an example of how to 
+generate variables without including the cell in the .md file we generate to 
+pass on to pandoc:
+
+> \`\`\`\{r count, include = F\}
+> `n_obs <- length(unique(corp$funder))`
+> 
+> `...`
+> 
+> \`\`\`
+
+That allows me to write sentences like this:
+
+> We aggregated \``r` `n_not_ff_candidates`\` of these \``r` `n_obs`\` corporations into \``r` `industries`\` industries.
+
+Then, after running `rmarkdown::render`, I obtain a file called file.knit.md 
+where the same sentence looks like this: "We aggregated 549 of these 549 
+corporations into 31 industries." Simple, and quite nifty.
+
+
+
