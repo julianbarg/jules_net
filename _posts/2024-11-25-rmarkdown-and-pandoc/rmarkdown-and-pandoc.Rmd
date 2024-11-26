@@ -55,6 +55,14 @@ nice. In one file, I can see not just the variables name but also
 how exactly I generated the variable, and if I want to 
 I can jump in with Rstudio and look at all variables, too.
 
+Also, this inside an R code cell ensures that number formatting includes a 
+thousands separator:
+
+> knit_hooks$set(inline = function(x) {
+>  format(x, big.mark=",")
+> })
+
+
 
 
 

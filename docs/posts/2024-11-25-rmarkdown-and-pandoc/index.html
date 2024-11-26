@@ -2282,6 +2282,13 @@ one with the actual value. Although the result of the current approach is also
 nice. In one file, I can see not just the variables name but also
 how exactly I generated the variable, and if I want to
 I can jump in with Rstudio and look at all variables, too.</p>
+<p>Also, this inside an R code cell ensures that number formatting includes a
+thousands separator:</p>
+<blockquote>
+<p>knit_hooks$set(inline = function(x) {
+format(x, big.mark=“,”)
+})</p>
+</blockquote>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
